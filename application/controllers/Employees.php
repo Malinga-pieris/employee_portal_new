@@ -13,4 +13,14 @@ class Employees extends CI_Controller {
 		$this->load->view('header');
 		$this->load->view('documents');
 	}
+	public function atten()
+	{
+		$this->load->view('header');
+		$this->load->view('atten');
+	}
+	public function admin_atten()
+	{
+		$this->load->view('header');
+		$this->load->view('admin_atten');
+	}
 }

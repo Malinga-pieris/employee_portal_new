@@ -4,7 +4,7 @@
 
 <head>
 	<base href="../" />
-	<title>All Employees - Employee Portal</title>
+	<title>Assets Details - Employee Portal</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="The most advanced Bootstrap 5 Admin Theme with 40 unique prebuilt layouts on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel versions. Grab your copy now and get life-time updates for free." />
 	<meta name="keywords" content="metronic, bootstrap, bootstrap 5, angular, VueJs, React, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel starter kits, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
@@ -70,13 +70,13 @@
 									<!--begin::Page title-->
 									<div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
 										<!--begin::Title-->
-										<h1 class="page-heading d-flex text-dark fw-bold fs-1 flex-column justify-content-center my-0">All Employees</h1>
+										<h1 class="page-heading d-flex text-dark fw-bold fs-1 flex-column justify-content-center my-0">Assets Details</h1>
 										<!--end::Title-->
 										<!--begin::Breadcrumb-->
 										<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
 											<!--begin::Item-->
 											<li class="breadcrumb-item text-muted">
-												<a href="../../demo1/dist/index.html" class="text-muted text-hover-primary">Employees</a>
+												<a href="../../demo1/dist/index.html" class="text-muted text-hover-primary">Assets</a>
 											</li>
 											<!--end::Item-->
 											<!--begin::Item-->
@@ -85,7 +85,7 @@
 											</li>
 											<!--end::Item-->
 											<!--begin::Item-->
-											<li class="breadcrumb-item text-muted">All Employees</li>
+											<li class="breadcrumb-item text-muted">Assets Details</li>
 											<!--end::Item-->
 										</ul>
 										<!--end::Breadcrumb-->

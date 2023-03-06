@@ -4,7 +4,7 @@
 
 <head>
 	<base href="../" />
-	<title>All Employees - Employee Portal</title>
+	<title>Onboarding - Employee Portal</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="The most advanced Bootstrap 5 Admin Theme with 40 unique prebuilt layouts on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel versions. Grab your copy now and get life-time updates for free." />
 	<meta name="keywords" content="metronic, bootstrap, bootstrap 5, angular, VueJs, React, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel starter kits, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
@@ -58,45 +58,45 @@
 		<!--begin::Page-->
 		<div class="app-page flex-column flex-column-fluid" id="kt_app_page">
 			<!--begin::Wrapper-->
-			<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">	
+			<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
 				<!--begin::Main-->
 				<div class="app-main flex-column flex-row-fluid" id="kt_app_main">
-						<!--begin::Content wrapper-->
-						<div class="d-flex flex-column flex-column-fluid">
-							<!--begin::Toolbar-->
-							<div id="kt_app_toolbar" class="app-toolbar py-3 py-lg-6">
-								<!--begin::Toolbar container-->
-								<div id="kt_app_toolbar_container" class="app-container container-xxl d-flex flex-stack">
-									<!--begin::Page title-->
-									<div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
-										<!--begin::Title-->
-										<h1 class="page-heading d-flex text-dark fw-bold fs-1 flex-column justify-content-center my-0">All Employees</h1>
-										<!--end::Title-->
-										<!--begin::Breadcrumb-->
-										<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
-											<!--begin::Item-->
-											<li class="breadcrumb-item text-muted">
-												<a href="../../demo1/dist/index.html" class="text-muted text-hover-primary">Employees</a>
-											</li>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<li class="breadcrumb-item">
-												<span class="bullet bg-gray-400 w-5px h-2px"></span>
-											</li>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<li class="breadcrumb-item text-muted">All Employees</li>
-											<!--end::Item-->
-										</ul>
-										<!--end::Breadcrumb-->
-									</div>
-									<!--end::Page title-->
-									<!--begin::Actions-->
-									<div class="d-flex align-items-center gap-2 gap-lg-3">
-										<!--begin::Filter menu-->
-										<div class="m-0">
-											<!--begin::Menu toggle-->
-											<a href="#" class="btn btn-sm btn-flex bg-body btn-color-gray-700 btn-active-color-primary fw-bold" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+					<!--begin::Content wrapper-->
+					<div class="d-flex flex-column flex-column-fluid">
+						<!--begin::Toolbar-->
+						<div id="kt_app_toolbar" class="app-toolbar py-3 py-lg-6">
+							<!--begin::Toolbar container-->
+							<div id="kt_app_toolbar_container" class="app-container container-xxl d-flex flex-stack">
+								<!--begin::Page title-->
+								<div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
+									<!--begin::Title-->
+									<h1 class="page-heading d-flex text-dark fw-bold fs-1 flex-column justify-content-center my-0">Onboarding</h1>
+									<!--end::Title-->
+									<!--begin::Breadcrumb-->
+									<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
+										<!--begin::Item-->
+										<li class="breadcrumb-item text-muted">
+											<a href="../../demo1/dist/index.html" class="text-muted text-hover-primary">Jobs</a>
+										</li>
+										<!--end::Item-->
+										<!--begin::Item-->
+										<li class="breadcrumb-item">
+											<span class="bullet bg-gray-400 w-5px h-2px"></span>
+										</li>
+										<!--end::Item-->
+										<!--begin::Item-->
+										<li class="breadcrumb-item text-muted">Onboarding</li>
+										<!--end::Item-->
+									</ul>
+									<!--end::Breadcrumb-->
+								</div>
+								<!--end::Page title-->
+								<!--begin::Actions-->
+								<div class="d-flex align-items-center gap-2 gap-lg-3">
+									<!--begin::Filter menu-->
+									<div class="m-0">
+										<!--begin::Menu toggle-->
+										<a href="#" class="btn btn-sm btn-flex bg-body btn-color-gray-700 btn-active-color-primary fw-bold" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
 											<!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
 											<span class="svg-icon svg-icon-6 svg-icon-muted me-1">
 												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,979 +104,654 @@
 												</svg>
 											</span>
 											<!--end::Svg Icon-->Filter</a>
-											<!--end::Menu toggle-->
-											<!--begin::Menu 1-->
-											<div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true" id="kt_menu_63de6bef13965">
-												<!--begin::Header-->
-												<div class="px-7 py-5">
-													<div class="fs-5 text-dark fw-bold">Filter Options</div>
-												</div>
-												<!--end::Header-->
-												<!--begin::Menu separator-->
-												<div class="separator border-gray-200"></div>
-												<!--end::Menu separator-->
-												<!--begin::Form-->
-												<div class="px-7 py-5">
-													<!--begin::Input group-->
-													<div class="mb-10">
-														<!--begin::Label-->
-														<label class="form-label fw-semibold">Status:</label>
-														<!--end::Label-->
-														<!--begin::Input-->
-														<div>
-															<select class="form-select form-select-solid select2-hidden-accessible" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_63de6bef13965" data-allow-clear="true" data-select2-id="select2-data-7-aoli" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-																<option data-select2-id="select2-data-9-o463"></option>
-																<option value="1">Approved</option>
-																<option value="2">Pending</option>
-																<option value="2">In Process</option>
-																<option value="2">Rejected</option>
-															</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-8-d1gz" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-fxcn-container" aria-controls="select2-fxcn-container"><span class="select2-selection__rendered" id="select2-fxcn-container" role="textbox" aria-readonly="true" title="Select option"><span class="select2-selection__placeholder">Select option</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-														</div>
-														<!--end::Input-->
+										<!--end::Menu toggle-->
+										<!--begin::Menu 1-->
+										<div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true" id="kt_menu_63de6bef13965">
+											<!--begin::Header-->
+											<div class="px-7 py-5">
+												<div class="fs-5 text-dark fw-bold">Filter Options</div>
+											</div>
+											<!--end::Header-->
+											<!--begin::Menu separator-->
+											<div class="separator border-gray-200"></div>
+											<!--end::Menu separator-->
+											<!--begin::Form-->
+											<div class="px-7 py-5">
+												<!--begin::Input group-->
+												<div class="mb-10">
+													<!--begin::Label-->
+													<label class="form-label fw-semibold">Status:</label>
+													<!--end::Label-->
+													<!--begin::Input-->
+													<div>
+														<select class="form-select form-select-solid select2-hidden-accessible" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_63de6bef13965" data-allow-clear="true" data-select2-id="select2-data-7-aoli" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+															<option data-select2-id="select2-data-9-o463"></option>
+															<option value="1">Approved</option>
+															<option value="2">Pending</option>
+															<option value="2">In Process</option>
+															<option value="2">Rejected</option>
+														</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-8-d1gz" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-fxcn-container" aria-controls="select2-fxcn-container"><span class="select2-selection__rendered" id="select2-fxcn-container" role="textbox" aria-readonly="true" title="Select option"><span class="select2-selection__placeholder">Select option</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
 													</div>
-													<!--end::Input group-->
-													<!--begin::Input group-->
-													<div class="mb-10">
-														<!--begin::Label-->
-														<label class="form-label fw-semibold">Member Type:</label>
-														<!--end::Label-->
+													<!--end::Input-->
+												</div>
+												<!--end::Input group-->
+												<!--begin::Input group-->
+												<div class="mb-10">
+													<!--begin::Label-->
+													<label class="form-label fw-semibold">Member Type:</label>
+													<!--end::Label-->
+													<!--begin::Options-->
+													<div class="d-flex">
 														<!--begin::Options-->
-														<div class="d-flex">
-															<!--begin::Options-->
-															<label class="form-check form-check-sm form-check-custom form-check-solid me-5">
-																<input class="form-check-input" type="checkbox" value="1">
-																<span class="form-check-label">Author</span>
-															</label>
-															<!--end::Options-->
-															<!--begin::Options-->
-															<label class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="2" checked="checked">
-																<span class="form-check-label">Customer</span>
-															</label>
-															<!--end::Options-->
-														</div>
+														<label class="form-check form-check-sm form-check-custom form-check-solid me-5">
+															<input class="form-check-input" type="checkbox" value="1">
+															<span class="form-check-label">Author</span>
+														</label>
+														<!--end::Options-->
+														<!--begin::Options-->
+														<label class="form-check form-check-sm form-check-custom form-check-solid">
+															<input class="form-check-input" type="checkbox" value="2" checked="checked">
+															<span class="form-check-label">Customer</span>
+														</label>
 														<!--end::Options-->
 													</div>
-													<!--end::Input group-->
-													<!--begin::Input group-->
-													<div class="mb-10">
-														<!--begin::Label-->
-														<label class="form-label fw-semibold">Notifications:</label>
-														<!--end::Label-->
-														<!--begin::Switch-->
-														<div class="form-check form-switch form-switch-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="" name="notifications" checked="checked">
-															<label class="form-check-label">Enabled</label>
-														</div>
-														<!--end::Switch-->
-													</div>
-													<!--end::Input group-->
-													<!--begin::Actions-->
-													<div class="d-flex justify-content-end">
-														<button type="reset" class="btn btn-sm btn-light btn-active-light-primary me-2" data-kt-menu-dismiss="true">Reset</button>
-														<button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Apply</button>
-													</div>
-													<!--end::Actions-->
+													<!--end::Options-->
 												</div>
-												<!--end::Form-->
+												<!--end::Input group-->
+												<!--begin::Input group-->
+												<div class="mb-10">
+													<!--begin::Label-->
+													<label class="form-label fw-semibold">Notifications:</label>
+													<!--end::Label-->
+													<!--begin::Switch-->
+													<div class="form-check form-switch form-switch-sm form-check-custom form-check-solid">
+														<input class="form-check-input" type="checkbox" value="" name="notifications" checked="checked">
+														<label class="form-check-label">Enabled</label>
+													</div>
+													<!--end::Switch-->
+												</div>
+												<!--end::Input group-->
+												<!--begin::Actions-->
+												<div class="d-flex justify-content-end">
+													<button type="reset" class="btn btn-sm btn-light btn-active-light-primary me-2" data-kt-menu-dismiss="true">Reset</button>
+													<button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Apply</button>
+												</div>
+												<!--end::Actions-->
 											</div>
-											<!--end::Menu 1-->
+											<!--end::Form-->
 										</div>
-										<!--end::Filter menu-->
-										<!--begin::Secondary button-->
-										<!--end::Secondary button-->
-										<!--begin::Primary button-->
-										<a href="#" class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Create</a>
-										<!--end::Primary button-->
+										<!--end::Menu 1-->
 									</div>
-									<!--end::Actions-->
+									<!--end::Filter menu-->
+									<!--begin::Secondary button-->
+									<!--end::Secondary button-->
+									<!--begin::Primary button-->
+									<a href="#" class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Create</a>
+									<!--end::Primary button-->
 								</div>
-								<!--end::Toolbar container-->
+								<!--end::Actions-->
 							</div>
-							<!--end::Toolbar-->
-							<!--begin::Content-->
-							<div id="kt_app_content" class="app-content flex-column-fluid">
-								<!--begin::Content container-->
-								<div id="kt_app_content_container" class="app-container container-xxl">
-									<!--begin::Card-->
-									<div class="card">
+							<!--end::Toolbar container-->
+						</div>
+						<!--end::Toolbar-->
+						<!--begin::Content-->
+						<div id="kt_app_content" class="app-content flex-column-fluid">
+							<!--begin::Content container-->
+							<div id="kt_app_content_container" class="app-container container-xxl">
+								<!--begin::Card-->
+								<div class="col-xl-12">
+									<!--begin::Timeline Widget 4-->
+									<div class="card h-md-100">
 										<!--begin::Card header-->
-										<div class="card-header border-0 pt-6">
+										<div class="card-header position-relative py-0 border-bottom-1">
 											<!--begin::Card title-->
-											<div class="card-title">
-												<!--begin::Search-->
-												<div class="d-flex align-items-center position-relative my-1">
-													<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
-													<span class="svg-icon svg-icon-1 position-absolute ms-6">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor"></rect>
-															<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor"></path>
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-													<input type="text" data-kt-customer-table-filter="search" class="form-control form-control-solid w-250px ps-15" placeholder="Search Employees">
-												</div>
-												<!--end::Search-->
-											</div>
-											<!--begin::Card title-->
-											<!--begin::Card toolbar-->
-											<div class="card-toolbar">
-												<!--begin::Toolbar-->
-												<div class="d-flex justify-content-end" data-kt-customer-table-toolbar="base">
-													<!--begin::Filter-->
-													<div class="w-150px me-3">
-														<!--begin::Select2-->
-														<select class="form-select form-select-solid select2-hidden-accessible" data-control="select2" data-hide-search="true" data-placeholder="Status" data-kt-ecommerce-order-filter="status" data-select2-id="select2-data-10-tvf3" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-															<option data-select2-id="select2-data-12-flr1"></option>
-															<option value="all">All</option>
-															<option value="active">Active</option>
-															<option value="locked">Locked</option>
-														</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-11-dje6" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-ip8p-container" aria-controls="select2-ip8p-container"><span class="select2-selection__rendered" id="select2-ip8p-container" role="textbox" aria-readonly="true" title="Status"><span class="select2-selection__placeholder">Status</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-														<!--end::Select2-->
-													</div>
-													<!--end::Filter-->
-													<!--begin::Export-->
-													<button type="button" class="btn btn-light-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_customers_export_modal">
-													<!--begin::Svg Icon | path: icons/duotune/arrows/arr078.svg-->
-													<span class="svg-icon svg-icon-2">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.3" x="12.75" y="4.25" width="12" height="2" rx="1" transform="rotate(90 12.75 4.25)" fill="currentColor"></rect>
-															<path d="M12.0573 6.11875L13.5203 7.87435C13.9121 8.34457 14.6232 8.37683 15.056 7.94401C15.4457 7.5543 15.4641 6.92836 15.0979 6.51643L12.4974 3.59084C12.0996 3.14332 11.4004 3.14332 11.0026 3.59084L8.40206 6.51643C8.0359 6.92836 8.0543 7.5543 8.44401 7.94401C8.87683 8.37683 9.58785 8.34458 9.9797 7.87435L11.4427 6.11875C11.6026 5.92684 11.8974 5.92684 12.0573 6.11875Z" fill="currentColor"></path>
-															<path opacity="0.3" d="M18.75 8.25H17.75C17.1977 8.25 16.75 8.69772 16.75 9.25C16.75 9.80228 17.1977 10.25 17.75 10.25C18.3023 10.25 18.75 10.6977 18.75 11.25V18.25C18.75 18.8023 18.3023 19.25 17.75 19.25H5.75C5.19772 19.25 4.75 18.8023 4.75 18.25V11.25C4.75 10.6977 5.19771 10.25 5.75 10.25C6.30229 10.25 6.75 9.80228 6.75 9.25C6.75 8.69772 6.30229 8.25 5.75 8.25H4.75C3.64543 8.25 2.75 9.14543 2.75 10.25V19.25C2.75 20.3546 3.64543 21.25 4.75 21.25H18.75C19.8546 21.25 20.75 20.3546 20.75 19.25V10.25C20.75 9.14543 19.8546 8.25 18.75 8.25Z" fill="currentColor"></path>
-														</svg>
-													</span>
-													<!--end::Svg Icon-->Export</button>
-													<!--end::Export-->
-													<!--begin::Add customer-->
-													<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_customer">Add Employee</button>
-													<!--end::Add customer-->
-												</div>
-												<!--end::Toolbar-->
-												<!--begin::Group actions-->
-												<div class="d-flex justify-content-end align-items-center d-none" data-kt-customer-table-toolbar="selected">
-													<div class="fw-bold me-5">
-													<span class="me-2" data-kt-customer-table-select="selected_count"></span>Selected</div>
-													<button type="button" class="btn btn-danger" data-kt-customer-table-select="delete_selected">Delete Selected</button>
-												</div>
-												<!--end::Group actions-->
-											</div>
-											<!--end::Card toolbar-->
+											<h3 class="card-title text-gray-800 fw-bold"></h3>
+											<!--end::Card title-->
+
+											<!--begin::Tabs-->
+											<ul class="nav nav-stretch nav-pills nav-pills-custom d-flex mt-4" role="tablist">
+												<!--begin::Nav item-->
+												<li class="nav-item p-0 ms-0" role="presentation">
+													<a class="nav-link btn btn-color-gray-400 flex-center px-3" data-kt-timeline-widget-4="tab" data-bs-toggle="tab" href="#kt_timeline_widget_4_tab_basic" aria-selected="false" role="tab" tabindex="-1">
+														<!--begin::Title-->
+														<span class="nav-text fw-semibold fs-4 mb-3">Basic</span>
+														<!--end::Title-->
+
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 w-100 h-1px top-100 bottom-n100 bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+												</li>
+												<!--end::Nav item-->
+
+												<!--begin::Nav item-->
+												<li class="nav-item p-0 ms-0" role="presentation">
+													<a class="nav-link btn btn-color-gray-400 flex-center px-3" data-kt-timeline-widget-4="tab" data-bs-toggle="tab" href="#kt_timeline_widget_4_tab_compensation" aria-selected="false" role="tab" tabindex="-1">
+														<!--begin::Title-->
+														<span class="nav-text fw-semibold fs-4 mb-3">Compensation</span>
+														<!--end::Title-->
+
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 w-100 h-1px top-100 bottom-n100 bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+												</li>
+												<!--end::Nav item-->
+
+												<!--begin::Nav item-->
+												<li class="nav-item p-0 ms-0" role="presentation">
+													<a class="nav-link btn btn-color-gray-400 flex-center px-3 active" data-kt-timeline-widget-4="tab" data-bs-toggle="tab" href="#kt_timeline_widget_4_tab_month" aria-selected="true" role="tab">
+														<!--begin::Title-->
+														<span class="nav-text fw-semibold fs-4 mb-3">Timeoff</span>
+														<!--end::Title-->
+
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 w-100 h-1px top-100 bottom-n100 bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+												</li>
+												<!--end::Nav item-->
+
+												<!--begin::Nav item-->
+												<li class="nav-item p-0 ms-0" role="presentation">
+													<a class="nav-link btn btn-color-gray-400 flex-center px-3" data-kt-timeline-widget-4="tab" data-bs-toggle="tab" href="#kt_timeline_widget_4_tab_2022" aria-selected="false" tabindex="-1" role="tab">
+														<!--begin::Title-->
+														<span class="nav-text fw-semibold fs-4 mb-3">Custom Fields</span>
+														<!--end::Title-->
+
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 w-100 h-1px top-100 bottom-n100 bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+												</li>
+												<!--end::Nav item-->
+
+												<!--begin::Nav item-->
+												<li class="nav-item p-0 ms-0" role="presentation">
+													<a class="nav-link btn btn-color-gray-400 flex-center px-3" data-kt-timeline-widget-4="tab" data-bs-toggle="tab" href="#kt_timeline_widget_4_tab_2022" aria-selected="false" tabindex="-1" role="tab">
+														<!--begin::Title-->
+														<span class="nav-text fw-semibold fs-4 mb-3">Documents</span>
+														<!--end::Title-->
+
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 w-100 h-1px top-100 bottom-n100 bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+												</li>
+												<!--end::Nav item-->
+
+												<!--begin::Nav item-->
+												<li class="nav-item p-0 ms-0" role="presentation">
+													<a class="nav-link btn btn-color-gray-400 flex-center px-3" data-kt-timeline-widget-4="tab" data-bs-toggle="tab" href="#kt_timeline_widget_4_tab_2022" aria-selected="false" tabindex="-1" role="tab">
+														<!--begin::Title-->
+														<span class="nav-text fw-semibold fs-4 mb-3">Approvers</span>
+														<!--end::Title-->
+
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 w-100 h-1px top-100 bottom-n100 bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+												</li>
+												<!--end::Nav item-->
+
+												<!--begin::Nav item-->
+												<li class="nav-item p-0 ms-0" role="presentation">
+													<a class="nav-link btn btn-color-gray-400 flex-center px-3" data-kt-timeline-widget-4="tab" data-bs-toggle="tab" href="#kt_timeline_widget_4_tab_2022" aria-selected="false" tabindex="-1" role="tab">
+														<!--begin::Title-->
+														<span class="nav-text fw-semibold fs-4 mb-3">Welcome Notes</span>
+														<!--end::Title-->
+
+														<!--begin::Bullet-->
+														<span class="bullet-custom position-absolute z-index-2 w-100 h-1px top-100 bottom-n100 bg-primary rounded"></span>
+														<!--end::Bullet-->
+													</a>
+												</li>
+												<!--end::Nav item-->
+
+
+											</ul>
+											<!--end::Tabs-->
 										</div>
 										<!--end::Card header-->
+
 										<!--begin::Card body-->
-										<div class="card-body pt-0">
-											<!--begin::Table-->
-											<div id="kt_customers_table_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer"><div class="table-responsive"><table class="table align-middle table-row-dashed fs-6 gy-5 dataTable no-footer" id="kt_customers_table">
-												<!--begin::Table head-->
-												<thead>
-													<!--begin::Table row-->
-													<tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0"><th class="w-10px pe-2 sorting_disabled" rowspan="1" colspan="1" aria-label="
-															
-																
-															
-														" style="width: 29.9px;">
-															<div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-																<input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_customers_table .form-check-input" value="1">
-															</div>
-														</th><th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Customer Name: activate to sort column ascending" style="width: 164.475px;">Customer Name</th><th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 203.587px;">Email</th><th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 164.475px;">Status</th><th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="IP Address: activate to sort column ascending" style="width: 164.475px;">IP Address</th><th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Created Date: activate to sort column ascending" style="width: 215.025px;">Created Date</th><th class="text-end min-w-70px sorting_disabled" rowspan="1" colspan="1" aria-label="Actions" style="width: 128.762px;">Actions</th></tr>
-													<!--end::Table row-->
-												</thead>
-												<!--end::Table head-->
-												<!--begin::Table body-->
-												<tbody class="fw-semibold text-gray-600">
-												
-													
-												<tr class="odd">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Emma Smith</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">smith@kpmg.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-success">Active</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>211.68.47.195</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-07-25T17:30:00+05:30">25 Jul 2023, 5:30 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+										<div class="card-body pb-0">
+											<!--begin::Tab content-->
+											<div class="tab-content">
+												<!--begin::Tab pane-->
+												<div class="tab-pane blockui" id="kt_timeline_widget_4_tab_day" role="tabpanel" aria-labelledby="day-tab" data-kt-timeline-widget-4-blockui="true" style="">
+													<div class="table-responsive pb-10">
+														<!--begin::Timeline-->
+														<div id="kt_timeline_widget_4_1" class="vis-timeline-custom h-350px min-w-700px" data-kt-timeline-widget-4-image-root="/metronic8/demo1/assets/media/" style="position: relative;">
+															<div class="vis-timeline vis-bottom vis-ltr" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: visible; height: 354px;">
+																<div class="vis-panel vis-background" style="height: 354px; width: 727px; left: 0px; top: 0px;"></div>
+																<div class="vis-panel vis-background vis-vertical" style="height: 354px; width: 601px; left: 128px; top: 0px;">
+																	<div class="vis-axis" style="top: 304px; left: 0px;">
+																		<div class="vis-group"></div>
+																		<div class="vis-group"></div>
+																		<div class="vis-group"></div>
+																		<div class="vis-group"></div>
+																	</div>
+																	<div class="vis-time-axis vis-background">
+																		<div class="vis-grid vis-vertical vis-minor vis-h9  vis-today  vis-odd" style="width: 193.667px; height: 330px; transform: translate(-192.256px, -1px);"></div>
+																		<div class="vis-grid vis-vertical vis-minor vis-h10  vis-today  vis-even" style="width: 193.667px; height: 330px; transform: translate(1.41111px, -1px);"></div>
+																		<div class="vis-grid vis-vertical vis-minor vis-h11  vis-today  vis-odd" style="width: 193.667px; height: 330px; transform: translate(195.078px, -1px);"></div>
+																		<div class="vis-grid vis-vertical vis-minor vis-h12  vis-today  vis-even" style="width: 193.667px; height: 330px; transform: translate(388.744px, -1px);"></div>
+																		<div class="vis-grid vis-vertical vis-minor vis-h13  vis-today  vis-odd" style="width: 193.667px; height: 330px; transform: translate(582.411px, -1px);"></div>
+																	</div>
 																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																<div class="vis-panel vis-background vis-horizontal" style="height: 305px; width: 727px; left: 0px; top: -1px;"></div>
+																<div class="vis-panel vis-center" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 305px; width: 601px; left: 127px; top: -1px;">
+																	<div class="vis-content" style="left: 0px; transform: translateY(0px);">
+																		<div class="vis-itemset" style="height: 303px;">
+																			<div class="vis-background">
+																				<div class="vis-group" style="height: 0px;">
+																					<div style="visibility: hidden; position: absolute;"></div>
+																				</div>
+																				<div class="vis-group" style="height: 75px;">
+																					<div style="visibility: hidden; position: absolute;"></div>
+																				</div>
+																				<div class="vis-group" style="height: 75px;">
+																					<div style="visibility: hidden; position: absolute;"></div>
+																				</div>
+																				<div class="vis-group" style="height: 75px;">
+																					<div style="visibility: hidden; position: absolute;"></div>
+																				</div>
+																				<div class="vis-group" style="height: 78px;">
+																					<div style="visibility: hidden; position: absolute;"></div>
+																				</div>
+																			</div>
+																			<div class="vis-foreground">
+																				<div class="vis-group" style="height: 75px;">
+																					<div class="vis-item vis-range vis-readonly" style="transform: translateX(10px); width: 290.5px; top: 17.5px;">
+																						<div class="vis-item-overflow">
+																							<div class="vis-item-content" style="transform: translateX(0px);">
+																								<div class="rounded-pill bg-light-primary d-flex align-items-center position-relative h-40px w-100 p-2 overflow-hidden">
+																									<div class="position-absolute rounded-pill d-block bg-primary start-0 top-0 h-100 z-index-1" style="width:60%;"></div>
+
+																									<div class="d-flex align-items-center position-relative z-index-2">
+																										<div class="symbol-group symbol-hover flex-nowrap me-3">
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-6.jpg"></div>
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-1.jpg"></div>
+																										</div>
+
+																										<a href="#" class="fw-bold text-white text-hover-dark">Meeting</a>
+																									</div>
+
+																									<div class="d-flex flex-center bg-body rounded-pill fs-7 fw-bolder ms-auto h-100 px-3 position-relative z-index-2">
+																										60%
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="vis-item-visible-frame"></div>
+																					</div>
+																				</div>
+																				<div class="vis-group" style="height: 75px;">
+																					<div class="vis-item vis-range vis-readonly" style="transform: translateX(203.667px); width: 193.667px; top: 17.5px;">
+																						<div class="vis-item-overflow">
+																							<div class="vis-item-content" style="transform: translateX(0px);">
+																								<div class="rounded-pill bg-light-success d-flex align-items-center position-relative h-40px w-100 p-2 overflow-hidden">
+																									<div class="position-absolute rounded-pill d-block bg-success start-0 top-0 h-100 z-index-1" style="width:47%;"></div>
+
+																									<div class="d-flex align-items-center position-relative z-index-2">
+																										<div class="symbol-group symbol-hover flex-nowrap me-3">
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-2.jpg"></div>
+																										</div>
+
+																										<a href="#" class="fw-bold text-white text-hover-dark">Testing</a>
+																									</div>
+
+																									<div class="d-flex flex-center bg-body rounded-pill fs-7 fw-bolder ms-auto h-100 px-3 position-relative z-index-2">
+																										47%
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="vis-item-visible-frame"></div>
+																					</div>
+																				</div>
+																				<div class="vis-group" style="height: 75px;">
+																					<div class="vis-item vis-range vis-readonly" style="transform: translateX(106.833px); width: 387.333px; top: 17.5px;">
+																						<div class="vis-item-overflow">
+																							<div class="vis-item-content" style="transform: translateX(0px);">
+																								<div class="rounded-pill bg-light-danger d-flex align-items-center position-relative h-40px w-100 p-2 overflow-hidden">
+																									<div class="position-absolute rounded-pill d-block bg-danger start-0 top-0 h-100 z-index-1" style="width:55%;"></div>
+
+																									<div class="d-flex align-items-center position-relative z-index-2">
+																										<div class="symbol-group symbol-hover flex-nowrap me-3">
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-5.jpg"></div>
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-20.jpg"></div>
+																										</div>
+
+																										<a href="#" class="fw-bold text-white text-hover-dark">Landing page</a>
+																									</div>
+
+																									<div class="d-flex flex-center bg-body rounded-pill fs-7 fw-bolder ms-auto h-100 px-3 position-relative z-index-2">
+																										55%
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="vis-item-visible-frame"></div>
+																					</div>
+																				</div>
+																				<div class="vis-group" style="height: 78px;">
+																					<div class="vis-item vis-range vis-readonly" style="transform: translateX(300.5px); width: 290.5px; top: 18px;">
+																						<div class="vis-item-overflow">
+																							<div class="vis-item-content" style="transform: translateX(0px);">
+																								<div class="rounded-pill bg-light-info d-flex align-items-center position-relative h-40px w-100 p-2 overflow-hidden">
+																									<div class="position-absolute rounded-pill d-block bg-info start-0 top-0 h-100 z-index-1" style="width:75%;"></div>
+
+																									<div class="d-flex align-items-center position-relative z-index-2">
+																										<div class="symbol-group symbol-hover flex-nowrap me-3">
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-23.jpg"></div>
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-12.jpg"></div>
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-9.jpg"></div>
+																										</div>
+
+																										<a href="#" class="fw-bold text-white text-hover-dark">Products module</a>
+																									</div>
+
+																									<div class="d-flex flex-center bg-body rounded-pill fs-7 fw-bolder ms-auto h-100 px-3 position-relative z-index-2">
+																										75%
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="vis-item-visible-frame"></div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="vis-shadow vis-top" style="visibility: hidden;"></div>
+																	<div class="vis-shadow vis-bottom" style="visibility: hidden;"></div>
 																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="even">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Melody Macy</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">melody@altbox.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-danger">Locked</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>109.79.69.219</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-08-19T22:10:00+05:30">19 Aug 2023, 10:10 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																<div class="vis-panel vis-left" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 305px; left: 0px; top: -1px;">
+																	<div class="vis-content" style="left: 0px; top: 0px;">
+																		<div class="vis-labelset">
+																			<div class="vis-label vis-group-level-0" title="" style="height: 75px;">
+																				<div class="vis-inner">Research</div>
+																			</div>
+																			<div class="vis-label vis-group-level-0" title="" style="height: 75px;">
+																				<div class="vis-inner">Phase 2.6 QA</div>
+																			</div>
+																			<div class="vis-label vis-group-level-0" title="" style="height: 75px;">
+																				<div class="vis-inner">UI Design</div>
+																			</div>
+																			<div class="vis-label vis-group-level-0" title="" style="height: 78px;">
+																				<div class="vis-inner">Development</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="vis-shadow vis-top" style="visibility: hidden;"></div>
+																	<div class="vis-shadow vis-bottom" style="visibility: hidden;"></div>
 																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																<div class="vis-panel vis-right" style="height: 305px; left: 728px; top: -1px;">
+																	<div class="vis-content" style="left: 0px; top: 0px;"></div>
+																	<div class="vis-shadow vis-top" style="visibility: hidden;"></div>
+																	<div class="vis-shadow vis-bottom" style="visibility: hidden;"></div>
 																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="odd">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Max Smith</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">max@kt.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-success">Active</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>163.53.20.122</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-02-21T18:05:00+05:30">21 Feb 2023, 6:05 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																<div class="vis-panel vis-top" style="width: 601px; left: 127px; top: 0px;"></div>
+																<div class="vis-panel vis-bottom" style="width: 601px; left: 127px; top: 304px;">
+																	<div class="vis-time-axis vis-foreground" style="height: 50px;">
+																		<div class="vis-text vis-minor vis-measure" style="position: absolute;">0</div>
+																		<div class="vis-text vis-major vis-measure" style="position: absolute;">0</div>
+																		<div class="vis-text vis-minor vis-h9  vis-today  vis-odd" style="transform: translate(-191.756px, 0px); width: 193.667px;">09:00</div>
+																		<div class="vis-text vis-minor vis-h10  vis-today  vis-even" style="transform: translate(1.91111px, 0px); width: 193.667px;">10:00</div>
+																		<div class="vis-text vis-minor vis-h11  vis-today  vis-odd" style="transform: translate(195.578px, 0px); width: 193.667px;">11:00</div>
+																		<div class="vis-text vis-minor vis-h12  vis-today  vis-even" style="transform: translate(389.244px, 0px); width: 193.667px;">12:00</div>
+																		<div class="vis-text vis-minor vis-h13  vis-today  vis-odd" style="transform: translate(582.911px, 0px); width: 193.667px;">13:00</div>
+																		<div class="vis-text vis-major vis-h13  vis-today  vis-odd" style="transform: translate(0px, 25px);">
+																			<div>Mon 6 March</div>
+																		</div>
+																	</div>
 																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
+																<div class="vis-rolling-mode-btn" style="visibility: hidden;"></div>
 															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="even">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Sean Bean</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">sean@dellito.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-success">Active</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>152.73.79.190</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-04-15T11:05:00+05:30">15 Apr 2023, 11:05 am</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+														</div>
+														<!--end::Timeline-->
+													</div>
+												</div>
+												<!--end::Tab pane-->
+
+												<!--begin::Tab pane-->
+												<div class="tab-pane blockui" id="kt_timeline_widget_4_tab_week" role="tabpanel" aria-labelledby="week-tab" data-kt-timeline-widget-4-blockui="true" style="">
+													<div class="table-responsive pb-10">
+														<!--begin::Timeline-->
+														<div id="kt_timeline_widget_4_2" class="vis-timeline-custom h-350px min-w-700px" data-kt-timeline-widget-4-image-root="/metronic8/demo1/assets/media/" style="position: relative;">
+															<div class="vis-timeline vis-bottom vis-ltr" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: visible; height: 354px;">
+																<div class="vis-panel vis-background" style="height: 354px; width: 727px; left: 0px; top: 0px;"></div>
+																<div class="vis-panel vis-background vis-vertical" style="height: 354px; width: 601px; left: 128px; top: 0px;">
+																	<div class="vis-axis" style="top: 304px; left: 0px;">
+																		<div class="vis-group"></div>
+																		<div class="vis-group"></div>
+																		<div class="vis-group"></div>
+																		<div class="vis-group"></div>
+																	</div>
+																	<div class="vis-time-axis vis-background">
+																		<div class="vis-grid vis-vertical vis-minor vis-march  vis-current-month  vis-even" style="width: 857.667px; height: 330px; transform: translate(-140.431px, -1px);"></div>
+																	</div>
 																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																<div class="vis-panel vis-background vis-horizontal" style="height: 305px; width: 727px; left: 0px; top: -1px;"></div>
+																<div class="vis-panel vis-center" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 305px; width: 601px; left: 127px; top: -1px;">
+																	<div class="vis-content" style="left: 0px; transform: translateY(0px);">
+																		<div class="vis-itemset" style="height: 303px;">
+																			<div class="vis-background">
+																				<div class="vis-group" style="height: 0px;">
+																					<div style="visibility: hidden; position: absolute;"></div>
+																				</div>
+																				<div class="vis-group" style="height: 75px;">
+																					<div style="visibility: hidden; position: absolute;"></div>
+																				</div>
+																				<div class="vis-group" style="height: 75px;">
+																					<div style="visibility: hidden; position: absolute;"></div>
+																				</div>
+																				<div class="vis-group" style="height: 75px;">
+																					<div style="visibility: hidden; position: absolute;"></div>
+																				</div>
+																				<div class="vis-group" style="height: 78px;">
+																					<div style="visibility: hidden; position: absolute;"></div>
+																				</div>
+																			</div>
+																			<div class="vis-foreground">
+																				<div class="vis-group" style="height: 75px;">
+																					<div class="vis-item vis-range vis-readonly" style="transform: translateX(10px); width: 193.667px; top: 17.5px;">
+																						<div class="vis-item-overflow">
+																							<div class="vis-item-content" style="transform: translateX(0px);">
+																								<div class="rounded-pill bg-light-primary d-flex align-items-center position-relative h-40px w-100 p-2 overflow-hidden">
+																									<div class="position-absolute rounded-pill d-block bg-primary start-0 top-0 h-100 z-index-1" style="width:71%;"></div>
+
+																									<div class="d-flex align-items-center position-relative z-index-2">
+																										<div class="symbol-group symbol-hover flex-nowrap me-3">
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-6.jpg"></div>
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-1.jpg"></div>
+																										</div>
+
+																										<a href="#" class="fw-bold text-white text-hover-dark">Framework</a>
+																									</div>
+
+																									<div class="d-flex flex-center bg-body rounded-pill fs-7 fw-bolder ms-auto h-100 px-3 position-relative z-index-2">
+																										71%
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="vis-item-visible-frame"></div>
+																					</div>
+																				</div>
+																				<div class="vis-group" style="height: 75px;">
+																					<div class="vis-item vis-range vis-readonly" style="transform: translateX(203.667px); width: 193.667px; top: 17.5px;">
+																						<div class="vis-item-overflow">
+																							<div class="vis-item-content" style="transform: translateX(0px);">
+																								<div class="rounded-pill bg-light-success d-flex align-items-center position-relative h-40px w-100 p-2 overflow-hidden">
+																									<div class="position-absolute rounded-pill d-block bg-success start-0 top-0 h-100 z-index-1" style="width:84%;"></div>
+
+																									<div class="d-flex align-items-center position-relative z-index-2">
+																										<div class="symbol-group symbol-hover flex-nowrap me-3">
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-2.jpg"></div>
+																										</div>
+
+																										<a href="#" class="fw-bold text-white text-hover-dark">Accessibility</a>
+																									</div>
+
+																									<div class="d-flex flex-center bg-body rounded-pill fs-7 fw-bolder ms-auto h-100 px-3 position-relative z-index-2">
+																										84%
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="vis-item-visible-frame"></div>
+																					</div>
+																				</div>
+																				<div class="vis-group" style="height: 75px;">
+																					<div class="vis-item vis-range vis-readonly" style="transform: translateX(93px); width: 470.333px; top: 17.5px;">
+																						<div class="vis-item-overflow">
+																							<div class="vis-item-content" style="transform: translateX(0px);">
+																								<div class="rounded-pill bg-light-danger d-flex align-items-center position-relative h-40px w-100 p-2 overflow-hidden">
+																									<div class="position-absolute rounded-pill d-block bg-danger start-0 top-0 h-100 z-index-1" style="width:69%;"></div>
+
+																									<div class="d-flex align-items-center position-relative z-index-2">
+																										<div class="symbol-group symbol-hover flex-nowrap me-3">
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-5.jpg"></div>
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-20.jpg"></div>
+																										</div>
+
+																										<a href="#" class="fw-bold text-white text-hover-dark">Microsites</a>
+																									</div>
+
+																									<div class="d-flex flex-center bg-body rounded-pill fs-7 fw-bolder ms-auto h-100 px-3 position-relative z-index-2">
+																										69%
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="vis-item-visible-frame"></div>
+																					</div>
+																				</div>
+																				<div class="vis-group" style="height: 78px;">
+																					<div class="vis-item vis-range vis-readonly" style="transform: translateX(286.667px); width: 304.333px; top: 18px;">
+																						<div class="vis-item-overflow">
+																							<div class="vis-item-content" style="transform: translateX(0px);">
+																								<div class="rounded-pill bg-light-info d-flex align-items-center position-relative h-40px w-100 p-2 overflow-hidden">
+																									<div class="position-absolute rounded-pill d-block bg-info start-0 top-0 h-100 z-index-1" style="width:74%;"></div>
+
+																									<div class="d-flex align-items-center position-relative z-index-2">
+																										<div class="symbol-group symbol-hover flex-nowrap me-3">
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-23.jpg"></div>
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-12.jpg"></div>
+																											<div class="symbol symbol-circle symbol-25px"><img alt="" src="/metronic8/demo1/assets/media/avatars/300-9.jpg"></div>
+																										</div>
+
+																										<a href="#" class="fw-bold text-white text-hover-dark">Deployment</a>
+																									</div>
+
+																									<div class="d-flex flex-center bg-body rounded-pill fs-7 fw-bolder ms-auto h-100 px-3 position-relative z-index-2">
+																										74%
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="vis-item-visible-frame"></div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="vis-shadow vis-top" style="visibility: hidden;"></div>
+																	<div class="vis-shadow vis-bottom" style="visibility: hidden;"></div>
 																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="odd">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Brian Cox</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">brian@exchange.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-danger">Locked</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>156.57.29.138</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-06-24T10:30:00+05:30">24 Jun 2023, 10:30 am</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																<div class="vis-panel vis-left" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 305px; left: 0px; top: -1px;">
+																	<div class="vis-content" style="left: 0px; top: 0px;">
+																		<div class="vis-labelset">
+																			<div class="vis-label vis-group-level-0" title="" style="height: 75px;">
+																				<div class="vis-inner">Research</div>
+																			</div>
+																			<div class="vis-label vis-group-level-0" title="" style="height: 75px;">
+																				<div class="vis-inner">Phase 2.6 QA</div>
+																			</div>
+																			<div class="vis-label vis-group-level-0" title="" style="height: 75px;">
+																				<div class="vis-inner">UI Design</div>
+																			</div>
+																			<div class="vis-label vis-group-level-0" title="" style="height: 78px;">
+																				<div class="vis-inner">Development</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="vis-shadow vis-top" style="visibility: hidden;"></div>
+																	<div class="vis-shadow vis-bottom" style="visibility: hidden;"></div>
 																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																<div class="vis-panel vis-right" style="height: 305px; left: 728px; top: -1px;">
+																	<div class="vis-content" style="left: 0px; top: 0px;"></div>
+																	<div class="vis-shadow vis-top" style="visibility: hidden;"></div>
+																	<div class="vis-shadow vis-bottom" style="visibility: hidden;"></div>
 																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="even">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Mikaela Collins</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">mik@pex.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-success">Active</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>180.74.55.185</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-02-21T10:30:00+05:30">21 Feb 2023, 10:30 am</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																<div class="vis-panel vis-top" style="width: 601px; left: 127px; top: 0px;"></div>
+																<div class="vis-panel vis-bottom" style="width: 601px; left: 127px; top: 304px;">
+																	<div class="vis-time-axis vis-foreground" style="height: 50px;">
+																		<div class="vis-text vis-minor vis-measure" style="position: absolute;">0</div>
+																		<div class="vis-text vis-major vis-measure" style="position: absolute;">0</div>
+																		<div class="vis-text vis-minor vis-march  vis-current-month  vis-even" style="transform: translate(-139.931px, 0px); width: 857.667px;">Mar</div>
+																		<div class="vis-text vis-major vis-march  vis-current-month  vis-even" style="transform: translate(0px, 25px);">
+																			<div>2023</div>
+																		</div>
+																	</div>
 																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
+																<div class="vis-rolling-mode-btn" style="visibility: hidden;"></div>
 															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="odd">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Francis Mitcham</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">f.mit@kpmg.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-danger">Locked</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>111.79.26.49</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-05-05T17:30:00+05:30">05 May 2023, 5:30 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="even">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Olivia Wild</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">olivia@corpmail.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-success">Active</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>170.64.79.229</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-08-19T20:43:00+05:30">19 Aug 2023, 8:43 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="odd">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Neil Owen</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">owen.neil@gmail.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-danger">Locked</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>109.73.28.156</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-06-20T18:05:00+05:30">20 Jun 2023, 6:05 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="even">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Dan Wilson</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">dam@consilting.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-danger">Locked</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>190.55.39.154</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-05-05T18:05:00+05:30">05 May 2023, 6:05 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr></tbody>
-												<!--end::Table body-->
-											</table></div><div class="row"><div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start"><div class="dataTables_length" id="kt_customers_table_length"><label><select name="kt_customers_table_length" aria-controls="kt_customers_table" class="form-select form-select-sm form-select-solid"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div></div><div class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end"><div class="dataTables_paginate paging_simple_numbers" id="kt_customers_table_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="kt_customers_table_previous"><a href="#" aria-controls="kt_customers_table" data-dt-idx="0" tabindex="0" class="page-link"><i class="previous"></i></a></li><li class="paginate_button page-item active"><a href="#" aria-controls="kt_customers_table" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_customers_table" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_customers_table" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_customers_table" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class="paginate_button page-item next" id="kt_customers_table_next"><a href="#" aria-controls="kt_customers_table" data-dt-idx="5" tabindex="0" class="page-link"><i class="next"></i></a></li></ul></div></div></div></div>
-											<!--end::Table-->
+														</div>
+														<!--end::Timeline-->
+													</div>
+												</div>
+												<!--end::Tab pane-->
+
+												<!--begin::Tab pane-->
+												<div class="tab-pane blockui active show" id="kt_timeline_widget_4_tab_time_off" role="tabpanel" aria-labelledby="month-tab" data-kt-timeline-widget-4-blockui="true" style="">
+													<div class="table-responsive pb-10">
+														<!--begin::Timeline-->
+														<div id="kt_timeline_widget_4_3" class="vis-timeline-custom h-350px min-w-700px" data-kt-timeline-widget-4-image-root="/metronic8/demo1/assets/media/" style="position: relative;">
+															<h2>Time Off</h2>
+														</div>
+														<!--end::Timeline-->
+													</div>
+												</div>
+												<!--end::Tab pane-->
+
+												<!--begin::Tab pane-->
+												<div class="tab-pane blockui" id="kt_timeline_widget_4_tab_2022" role="tabpanel" aria-labelledby="week-tab" data-kt-timeline-widget-4-blockui="true" style="overflow: hidden;">
+													<div class="table-responsive pb-10">
+														<!--begin::Timeline-->
+														<div id="kt_timeline_widget_4_4" class="vis-timeline-custom h-350px min-w-700px" data-kt-timeline-widget-4-image-root="/metronic8/demo1/assets/media/"></div>
+														<!--end::Timeline-->
+													</div>
+													<div class="blockui-overlay bg-body" style="z-index: 1;"><span class="spinner-border text-primary"></span></div>
+												</div>
+												<!--end::Tab pane-->
+											</div>
+											<!--end::Tab content-->
 										</div>
 										<!--end::Card body-->
 									</div>
-									<!--end::Card-->
-									<!--begin::Modals-->
-									<!--begin::Modal - Customers - Add-->
-									<div class="modal fade" id="kt_modal_add_customer" tabindex="-1" aria-hidden="true">
-										<!--begin::Modal dialog-->
-										<div class="modal-dialog modal-dialog-centered mw-650px">
-											<!--begin::Modal content-->
-											<div class="modal-content">
-												<!--begin::Form-->
-												<form class="form fv-plugins-bootstrap5 fv-plugins-framework" action="#" id="kt_modal_add_customer_form" data-kt-redirect="../../demo1/dist/apps/customers/list.html">
-													<!--begin::Modal header-->
-													<div class="modal-header" id="kt_modal_add_customer_header">
-														<!--begin::Modal title-->
-														<h2 class="fw-bold">Add a Customer</h2>
-														<!--end::Modal title-->
-														<!--begin::Close-->
-														<div id="kt_modal_add_customer_close" class="btn btn-icon btn-sm btn-active-icon-primary">
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-															<span class="svg-icon svg-icon-1">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor"></rect>
-																	<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor"></rect>
-																</svg>
-															</span>
-															<!--end::Svg Icon-->
-														</div>
-														<!--end::Close-->
-													</div>
-													<!--end::Modal header-->
-													<!--begin::Modal body-->
-													<div class="modal-body py-10 px-lg-17">
-														<!--begin::Scroll-->
-														<div class="scroll-y me-n7 pe-7" id="kt_modal_add_customer_scroll" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#kt_modal_add_customer_header" data-kt-scroll-wrappers="#kt_modal_add_customer_scroll" data-kt-scroll-offset="300px" style="max-height: 374px;">
-															<!--begin::Input group-->
-															<div class="fv-row mb-7 fv-plugins-icon-container">
-																<!--begin::Label-->
-																<label class="required fs-6 fw-semibold mb-2">Name</label>
-																<!--end::Label-->
-																<!--begin::Input-->
-																<input type="text" class="form-control form-control-solid" placeholder="" name="name" value="Sean Bean">
-																<!--end::Input-->
-															<div class="fv-plugins-message-container invalid-feedback"></div></div>
-															<!--end::Input group-->
-															<!--begin::Input group-->
-															<div class="fv-row mb-7 fv-plugins-icon-container">
-																<!--begin::Label-->
-																<label class="fs-6 fw-semibold mb-2">
-																	<span class="required">Email</span>
-																	<i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" aria-label="Email address must be active" data-bs-original-title="Email address must be active" data-kt-initialized="1"></i>
-																</label>
-																<!--end::Label-->
-																<!--begin::Input-->
-																<input type="email" class="form-control form-control-solid" placeholder="" name="email" value="sean@dellito.com">
-																<!--end::Input-->
-															<div class="fv-plugins-message-container invalid-feedback"></div></div>
-															<!--end::Input group-->
-															<!--begin::Input group-->
-															<div class="fv-row mb-15">
-																<!--begin::Label-->
-																<label class="fs-6 fw-semibold mb-2">Description</label>
-																<!--end::Label-->
-																<!--begin::Input-->
-																<input type="text" class="form-control form-control-solid" placeholder="" name="description">
-																<!--end::Input-->
-															</div>
-															<!--end::Input group-->
-															<!--begin::Billing toggle-->
-															<div class="fw-bold fs-3 rotate collapsible mb-7" data-bs-toggle="collapse" href="#kt_modal_add_customer_billing_info" role="button" aria-expanded="false" aria-controls="kt_customer_view_details">Shipping Information
-															<span class="ms-2 rotate-180">
-																<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-																<span class="svg-icon svg-icon-3">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span></div>
-															<!--end::Billing toggle-->
-															<!--begin::Billing form-->
-															<div id="kt_modal_add_customer_billing_info" class="collapse show">
-																<!--begin::Input group-->
-																<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
-																	<!--begin::Label-->
-																	<label class="required fs-6 fw-semibold mb-2">Address Line 1</label>
-																	<!--end::Label-->
-																	<!--begin::Input-->
-																	<input class="form-control form-control-solid" placeholder="" name="address1" value="101, Collins Street">
-																	<!--end::Input-->
-																<div class="fv-plugins-message-container invalid-feedback"></div></div>
-																<!--end::Input group-->
-																<!--begin::Input group-->
-																<div class="d-flex flex-column mb-7 fv-row">
-																	<!--begin::Label-->
-																	<label class="fs-6 fw-semibold mb-2">Address Line 2</label>
-																	<!--end::Label-->
-																	<!--begin::Input-->
-																	<input class="form-control form-control-solid" placeholder="" name="address2" value="">
-																	<!--end::Input-->
-																</div>
-																<!--end::Input group-->
-																<!--begin::Input group-->
-																<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
-																	<!--begin::Label-->
-																	<label class="required fs-6 fw-semibold mb-2">Town</label>
-																	<!--end::Label-->
-																	<!--begin::Input-->
-																	<input class="form-control form-control-solid" placeholder="" name="city" value="Melbourne">
-																	<!--end::Input-->
-																<div class="fv-plugins-message-container invalid-feedback"></div></div>
-																<!--end::Input group-->
-																<!--begin::Input group-->
-																<div class="row g-9 mb-7">
-																	<!--begin::Col-->
-																	<div class="col-md-6 fv-row fv-plugins-icon-container">
-																		<!--begin::Label-->
-																		<label class="required fs-6 fw-semibold mb-2">State / Province</label>
-																		<!--end::Label-->
-																		<!--begin::Input-->
-																		<input class="form-control form-control-solid" placeholder="" name="state" value="Victoria">
-																		<!--end::Input-->
-																	<div class="fv-plugins-message-container invalid-feedback"></div></div>
-																	<!--end::Col-->
-																	<!--begin::Col-->
-																	<div class="col-md-6 fv-row fv-plugins-icon-container">
-																		<!--begin::Label-->
-																		<label class="required fs-6 fw-semibold mb-2">Post Code</label>
-																		<!--end::Label-->
-																		<!--begin::Input-->
-																		<input class="form-control form-control-solid" placeholder="" name="postcode" value="3000">
-																		<!--end::Input-->
-																	<div class="fv-plugins-message-container invalid-feedback"></div></div>
-																	<!--end::Col-->
-																</div>
-																<!--end::Input group-->
-																<!--begin::Input group-->
-																<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
-																	<!--begin::Label-->
-																	<label class="fs-6 fw-semibold mb-2">
-																		<span class="required">Country</span>
-																		<i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" aria-label="Country of origination" data-bs-original-title="Country of origination" data-kt-initialized="1"></i>
-																	</label>
-																	<!--end::Label-->
-																	<!--begin::Input-->
-																	<span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-14-qv6p" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid fw-bold" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-country-7s-container" aria-controls="select2-country-7s-container"><span class="select2-selection__rendered" id="select2-country-7s-container" role="textbox" aria-readonly="true" title="United States">United States</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-																	<!--end::Input-->
-																<div class="fv-plugins-message-container invalid-feedback"></div></div>
-																<!--end::Input group-->
-																<!--begin::Input group-->
-																<div class="fv-row mb-7">
-																	<!--begin::Wrapper-->
-																	<div class="d-flex flex-stack">
-																		<!--begin::Label-->
-																		<div class="me-5">
-																			<!--begin::Label-->
-																			<label class="fs-6 fw-semibold">Use as a billing adderess?</label>
-																			<!--end::Label-->
-																			<!--begin::Input-->
-																			<div class="fs-7 fw-semibold text-muted">If you need more info, please check budget planning</div>
-																			<!--end::Input-->
-																		</div>
-																		<!--end::Label-->
-																		<!--begin::Switch-->
-																		<label class="form-check form-switch form-check-custom form-check-solid">
-																			<!--begin::Input-->
-																			<input class="form-check-input" name="billing" type="checkbox" value="1" id="kt_modal_add_customer_billing" checked="checked">
-																			<!--end::Input-->
-																			<!--begin::Label-->
-																			<span class="form-check-label fw-semibold text-muted" for="kt_modal_add_customer_billing">Yes</span>
-																			<!--end::Label-->
-																		</label>
-																		<!--end::Switch-->
-																	</div>
-																	<!--begin::Wrapper-->
-																</div>
-																<!--end::Input group-->
-															</div>
-															<!--end::Billing form-->
-														</div>
-														<!--end::Scroll-->
-													</div>
-													<!--end::Modal body-->
-													<!--begin::Modal footer-->
-													<div class="modal-footer flex-center">
-														<!--begin::Button-->
-														<button type="reset" id="kt_modal_add_customer_cancel" class="btn btn-light me-3">Discard</button>
-														<!--end::Button-->
-														<!--begin::Button-->
-														<button type="submit" id="kt_modal_add_customer_submit" class="btn btn-primary">
-															<span class="indicator-label">Submit</span>
-															<span class="indicator-progress">Please wait...
-															<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
-														</button>
-														<!--end::Button-->
-													</div>
-													<!--end::Modal footer-->
-												</form>
-												<!--end::Form-->
-											</div>
-										</div>
-									</div>
-									<!--end::Modal - Customers - Add-->
-									<!--begin::Modal - Adjust Balance-->
-									<div class="modal fade" id="kt_customers_export_modal" tabindex="-1" aria-hidden="true">
-										<!--begin::Modal dialog-->
-										<div class="modal-dialog modal-dialog-centered mw-650px">
-											<!--begin::Modal content-->
-											<div class="modal-content">
+									<!--end::Timeline Widget 1-->
+								</div>
+								<!--end::Card-->
+								<!--begin::Modals-->
+								<!--begin::Modal - Customers - Add-->
+								<div class="modal fade" id="kt_modal_add_customer" tabindex="-1" aria-hidden="true">
+									<!--begin::Modal dialog-->
+									<div class="modal-dialog modal-dialog-centered mw-650px">
+										<!--begin::Modal content-->
+										<div class="modal-content">
+											<!--begin::Form-->
+											<form class="form fv-plugins-bootstrap5 fv-plugins-framework" action="#" id="kt_modal_add_customer_form" data-kt-redirect="../../demo1/dist/apps/customers/list.html">
 												<!--begin::Modal header-->
-												<div class="modal-header">
+												<div class="modal-header" id="kt_modal_add_customer_header">
 													<!--begin::Modal title-->
-													<h2 class="fw-bold">Export Customers</h2>
+													<h2 class="fw-bold">Add a Customer</h2>
 													<!--end::Modal title-->
 													<!--begin::Close-->
-													<div id="kt_customers_export_close" class="btn btn-icon btn-sm btn-active-icon-primary">
+													<div id="kt_modal_add_customer_close" class="btn btn-icon btn-sm btn-active-icon-primary">
 														<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
 														<span class="svg-icon svg-icon-1">
 															<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1090,124 +765,556 @@
 												</div>
 												<!--end::Modal header-->
 												<!--begin::Modal body-->
-												<div class="modal-body scroll-y mx-5 mx-xl-15 my-7">
-													<!--begin::Form-->
-													<form id="kt_customers_export_form" class="form fv-plugins-bootstrap5 fv-plugins-framework" action="#">
+												<div class="modal-body py-10 px-lg-17">
+													<!--begin::Scroll-->
+													<div class="scroll-y me-n7 pe-7" id="kt_modal_add_customer_scroll" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#kt_modal_add_customer_header" data-kt-scroll-wrappers="#kt_modal_add_customer_scroll" data-kt-scroll-offset="300px" style="max-height: 374px;">
 														<!--begin::Input group-->
-														<div class="fv-row mb-10">
+														<div class="fv-row mb-7 fv-plugins-icon-container">
 															<!--begin::Label-->
-															<label class="fs-5 fw-semibold form-label mb-5">Select Export Format:</label>
+															<label class="required fs-6 fw-semibold mb-2">Name</label>
 															<!--end::Label-->
 															<!--begin::Input-->
-															<select data-control="select2" data-placeholder="Select a format" data-hide-search="true" name="format" class="form-select form-select-solid select2-hidden-accessible" data-select2-id="select2-data-16-1ayb" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-																<option value="excell" data-select2-id="select2-data-18-6b92">Excel</option>
-																<option value="pdf">PDF</option>
-																<option value="cvs">CVS</option>
-																<option value="zip">ZIP</option>
-															</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-17-487v" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-format-t6-container" aria-controls="select2-format-t6-container"><span class="select2-selection__rendered" id="select2-format-t6-container" role="textbox" aria-readonly="true" title="Excel">Excel</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+															<input type="text" class="form-control form-control-solid" placeholder="" name="name" value="Sean Bean">
 															<!--end::Input-->
+															<div class="fv-plugins-message-container invalid-feedback"></div>
 														</div>
 														<!--end::Input group-->
 														<!--begin::Input group-->
-														<div class="fv-row mb-10 fv-plugins-icon-container">
+														<div class="fv-row mb-7 fv-plugins-icon-container">
 															<!--begin::Label-->
-															<label class="fs-5 fw-semibold form-label mb-5">Select Date Range:</label>
+															<label class="fs-6 fw-semibold mb-2">
+																<span class="required">Email</span>
+																<i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" aria-label="Email address must be active" data-bs-original-title="Email address must be active" data-kt-initialized="1"></i>
+															</label>
 															<!--end::Label-->
 															<!--begin::Input-->
-															<input class="form-control form-control-solid flatpickr-input" placeholder="Pick a date" name="date" type="hidden"><input class="form-control form-control-solid form-control input" placeholder="Pick a date" tabindex="0" type="text" readonly="readonly">
+															<input type="email" class="form-control form-control-solid" placeholder="" name="email" value="sean@dellito.com">
 															<!--end::Input-->
-														<div class="fv-plugins-message-container invalid-feedback"></div></div>
+															<div class="fv-plugins-message-container invalid-feedback"></div>
+														</div>
 														<!--end::Input group-->
-														<!--begin::Row-->
-														<div class="row fv-row mb-15">
+														<!--begin::Input group-->
+														<div class="fv-row mb-15">
 															<!--begin::Label-->
-															<label class="fs-5 fw-semibold form-label mb-5">Payment Type:</label>
+															<label class="fs-6 fw-semibold mb-2">Description</label>
 															<!--end::Label-->
-															<!--begin::Radio group-->
-															<div class="d-flex flex-column">
-																<!--begin::Radio button-->
-																<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
-																	<input class="form-check-input" type="checkbox" value="1" checked="checked" name="payment_type">
-																	<span class="form-check-label text-gray-600 fw-semibold">All</span>
+															<!--begin::Input-->
+															<input type="text" class="form-control form-control-solid" placeholder="" name="description">
+															<!--end::Input-->
+														</div>
+														<!--end::Input group-->
+														<!--begin::Billing toggle-->
+														<div class="fw-bold fs-3 rotate collapsible mb-7" data-bs-toggle="collapse" href="#kt_modal_add_customer_billing_info" role="button" aria-expanded="false" aria-controls="kt_customer_view_details">Shipping Information
+															<span class="ms-2 rotate-180">
+																<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																<span class="svg-icon svg-icon-3">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																	</svg>
+																</span>
+																<!--end::Svg Icon-->
+															</span>
+														</div>
+														<!--end::Billing toggle-->
+														<!--begin::Billing form-->
+														<div id="kt_modal_add_customer_billing_info" class="collapse show">
+															<!--begin::Input group-->
+															<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
+																<!--begin::Label-->
+																<label class="required fs-6 fw-semibold mb-2">Address Line 1</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<input class="form-control form-control-solid" placeholder="" name="address1" value="101, Collins Street">
+																<!--end::Input-->
+																<div class="fv-plugins-message-container invalid-feedback"></div>
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="d-flex flex-column mb-7 fv-row">
+																<!--begin::Label-->
+																<label class="fs-6 fw-semibold mb-2">Address Line 2</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<input class="form-control form-control-solid" placeholder="" name="address2" value="">
+																<!--end::Input-->
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
+																<!--begin::Label-->
+																<label class="required fs-6 fw-semibold mb-2">Town</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<input class="form-control form-control-solid" placeholder="" name="city" value="Melbourne">
+																<!--end::Input-->
+																<div class="fv-plugins-message-container invalid-feedback"></div>
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="row g-9 mb-7">
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<!--begin::Label-->
+																	<label class="required fs-6 fw-semibold mb-2">State / Province</label>
+																	<!--end::Label-->
+																	<!--begin::Input-->
+																	<input class="form-control form-control-solid" placeholder="" name="state" value="Victoria">
+																	<!--end::Input-->
+																	<div class="fv-plugins-message-container invalid-feedback"></div>
+																</div>
+																<!--end::Col-->
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<!--begin::Label-->
+																	<label class="required fs-6 fw-semibold mb-2">Post Code</label>
+																	<!--end::Label-->
+																	<!--begin::Input-->
+																	<input class="form-control form-control-solid" placeholder="" name="postcode" value="3000">
+																	<!--end::Input-->
+																	<div class="fv-plugins-message-container invalid-feedback"></div>
+																</div>
+																<!--end::Col-->
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
+																<!--begin::Label-->
+																<label class="fs-6 fw-semibold mb-2">
+																	<span class="required">Country</span>
+																	<i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" aria-label="Country of origination" data-bs-original-title="Country of origination" data-kt-initialized="1"></i>
 																</label>
-																<!--end::Radio button-->
-																<!--begin::Radio button-->
-																<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
-																	<input class="form-check-input" type="checkbox" value="2" checked="checked" name="payment_type">
-																	<span class="form-check-label text-gray-600 fw-semibold">Visa</span>
-																</label>
-																<!--end::Radio button-->
-																<!--begin::Radio button-->
-																<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
-																	<input class="form-check-input" type="checkbox" value="3" name="payment_type">
-																	<span class="form-check-label text-gray-600 fw-semibold">Mastercard</span>
-																</label>
-																<!--end::Radio button-->
-																<!--begin::Radio button-->
-																<label class="form-check form-check-custom form-check-sm form-check-solid">
-																	<input class="form-check-input" type="checkbox" value="4" name="payment_type">
-																	<span class="form-check-label text-gray-600 fw-semibold">American Express</span>
-																</label>
-																<!--end::Radio button-->
+																<!--end::Label-->
+																<!--begin::Input-->
+																<select name="country" aria-label="Select a Country" data-control="select2" data-placeholder="Select a Country..." data-dropdown-parent="#kt_modal_add_customer" class="form-select form-select-solid fw-bold select2-hidden-accessible" data-select2-id="select2-data-13-daj9" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+																	<option value="">Select a Country...</option>
+																	<option value="AF">Afghanistan</option>
+																	<option value="AX">Aland Islands</option>
+																	<option value="AL">Albania</option>
+																	<option value="DZ">Algeria</option>
+																	<option value="AS">American Samoa</option>
+																	<option value="AD">Andorra</option>
+																	<option value="AO">Angola</option>
+																	<option value="AI">Anguilla</option>
+																	<option value="AG">Antigua and Barbuda</option>
+																	<option value="AR">Argentina</option>
+																	<option value="AM">Armenia</option>
+																	<option value="AW">Aruba</option>
+																	<option value="AU">Australia</option>
+																	<option value="AT">Austria</option>
+																	<option value="AZ">Azerbaijan</option>
+																	<option value="BS">Bahamas</option>
+																	<option value="BH">Bahrain</option>
+																	<option value="BD">Bangladesh</option>
+																	<option value="BB">Barbados</option>
+																	<option value="BY">Belarus</option>
+																	<option value="BE">Belgium</option>
+																	<option value="BZ">Belize</option>
+																	<option value="BJ">Benin</option>
+																	<option value="BM">Bermuda</option>
+																	<option value="BT">Bhutan</option>
+																	<option value="BO">Bolivia, Plurinational State of</option>
+																	<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+																	<option value="BA">Bosnia and Herzegovina</option>
+																	<option value="BW">Botswana</option>
+																	<option value="BR">Brazil</option>
+																	<option value="IO">British Indian Ocean Territory</option>
+																	<option value="BN">Brunei Darussalam</option>
+																	<option value="BG">Bulgaria</option>
+																	<option value="BF">Burkina Faso</option>
+																	<option value="BI">Burundi</option>
+																	<option value="KH">Cambodia</option>
+																	<option value="CM">Cameroon</option>
+																	<option value="CA">Canada</option>
+																	<option value="CV">Cape Verde</option>
+																	<option value="KY">Cayman Islands</option>
+																	<option value="CF">Central African Republic</option>
+																	<option value="TD">Chad</option>
+																	<option value="CL">Chile</option>
+																	<option value="CN">China</option>
+																	<option value="CX">Christmas Island</option>
+																	<option value="CC">Cocos (Keeling) Islands</option>
+																	<option value="CO">Colombia</option>
+																	<option value="KM">Comoros</option>
+																	<option value="CK">Cook Islands</option>
+																	<option value="CR">Costa Rica</option>
+																	<option value="CI">Côte d'Ivoire</option>
+																	<option value="HR">Croatia</option>
+																	<option value="CU">Cuba</option>
+																	<option value="CW">Curaçao</option>
+																	<option value="CZ">Czech Republic</option>
+																	<option value="DK">Denmark</option>
+																	<option value="DJ">Djibouti</option>
+																	<option value="DM">Dominica</option>
+																	<option value="DO">Dominican Republic</option>
+																	<option value="EC">Ecuador</option>
+																	<option value="EG">Egypt</option>
+																	<option value="SV">El Salvador</option>
+																	<option value="GQ">Equatorial Guinea</option>
+																	<option value="ER">Eritrea</option>
+																	<option value="EE">Estonia</option>
+																	<option value="ET">Ethiopia</option>
+																	<option value="FK">Falkland Islands (Malvinas)</option>
+																	<option value="FJ">Fiji</option>
+																	<option value="FI">Finland</option>
+																	<option value="FR">France</option>
+																	<option value="PF">French Polynesia</option>
+																	<option value="GA">Gabon</option>
+																	<option value="GM">Gambia</option>
+																	<option value="GE">Georgia</option>
+																	<option value="DE">Germany</option>
+																	<option value="GH">Ghana</option>
+																	<option value="GI">Gibraltar</option>
+																	<option value="GR">Greece</option>
+																	<option value="GL">Greenland</option>
+																	<option value="GD">Grenada</option>
+																	<option value="GU">Guam</option>
+																	<option value="GT">Guatemala</option>
+																	<option value="GG">Guernsey</option>
+																	<option value="GN">Guinea</option>
+																	<option value="GW">Guinea-Bissau</option>
+																	<option value="HT">Haiti</option>
+																	<option value="VA">Holy See (Vatican City State)</option>
+																	<option value="HN">Honduras</option>
+																	<option value="HK">Hong Kong</option>
+																	<option value="HU">Hungary</option>
+																	<option value="IS">Iceland</option>
+																	<option value="IN">India</option>
+																	<option value="ID">Indonesia</option>
+																	<option value="IR">Iran, Islamic Republic of</option>
+																	<option value="IQ">Iraq</option>
+																	<option value="IE">Ireland</option>
+																	<option value="IM">Isle of Man</option>
+																	<option value="IL">Israel</option>
+																	<option value="IT">Italy</option>
+																	<option value="JM">Jamaica</option>
+																	<option value="JP">Japan</option>
+																	<option value="JE">Jersey</option>
+																	<option value="JO">Jordan</option>
+																	<option value="KZ">Kazakhstan</option>
+																	<option value="KE">Kenya</option>
+																	<option value="KI">Kiribati</option>
+																	<option value="KP">Korea, Democratic People's Republic of</option>
+																	<option value="KW">Kuwait</option>
+																	<option value="KG">Kyrgyzstan</option>
+																	<option value="LA">Lao People's Democratic Republic</option>
+																	<option value="LV">Latvia</option>
+																	<option value="LB">Lebanon</option>
+																	<option value="LS">Lesotho</option>
+																	<option value="LR">Liberia</option>
+																	<option value="LY">Libya</option>
+																	<option value="LI">Liechtenstein</option>
+																	<option value="LT">Lithuania</option>
+																	<option value="LU">Luxembourg</option>
+																	<option value="MO">Macao</option>
+																	<option value="MG">Madagascar</option>
+																	<option value="MW">Malawi</option>
+																	<option value="MY">Malaysia</option>
+																	<option value="MV">Maldives</option>
+																	<option value="ML">Mali</option>
+																	<option value="MT">Malta</option>
+																	<option value="MH">Marshall Islands</option>
+																	<option value="MQ">Martinique</option>
+																	<option value="MR">Mauritania</option>
+																	<option value="MU">Mauritius</option>
+																	<option value="MX">Mexico</option>
+																	<option value="FM">Micronesia, Federated States of</option>
+																	<option value="MD">Moldova, Republic of</option>
+																	<option value="MC">Monaco</option>
+																	<option value="MN">Mongolia</option>
+																	<option value="ME">Montenegro</option>
+																	<option value="MS">Montserrat</option>
+																	<option value="MA">Morocco</option>
+																	<option value="MZ">Mozambique</option>
+																	<option value="MM">Myanmar</option>
+																	<option value="NA">Namibia</option>
+																	<option value="NR">Nauru</option>
+																	<option value="NP">Nepal</option>
+																	<option value="NL">Netherlands</option>
+																	<option value="NZ">New Zealand</option>
+																	<option value="NI">Nicaragua</option>
+																	<option value="NE">Niger</option>
+																	<option value="NG">Nigeria</option>
+																	<option value="NU">Niue</option>
+																	<option value="NF">Norfolk Island</option>
+																	<option value="MP">Northern Mariana Islands</option>
+																	<option value="NO">Norway</option>
+																	<option value="OM">Oman</option>
+																	<option value="PK">Pakistan</option>
+																	<option value="PW">Palau</option>
+																	<option value="PS">Palestinian Territory, Occupied</option>
+																	<option value="PA">Panama</option>
+																	<option value="PG">Papua New Guinea</option>
+																	<option value="PY">Paraguay</option>
+																	<option value="PE">Peru</option>
+																	<option value="PH">Philippines</option>
+																	<option value="PL">Poland</option>
+																	<option value="PT">Portugal</option>
+																	<option value="PR">Puerto Rico</option>
+																	<option value="QA">Qatar</option>
+																	<option value="RO">Romania</option>
+																	<option value="RU">Russian Federation</option>
+																	<option value="RW">Rwanda</option>
+																	<option value="BL">Saint Barthélemy</option>
+																	<option value="KN">Saint Kitts and Nevis</option>
+																	<option value="LC">Saint Lucia</option>
+																	<option value="MF">Saint Martin (French part)</option>
+																	<option value="VC">Saint Vincent and the Grenadines</option>
+																	<option value="WS">Samoa</option>
+																	<option value="SM">San Marino</option>
+																	<option value="ST">Sao Tome and Principe</option>
+																	<option value="SA">Saudi Arabia</option>
+																	<option value="SN">Senegal</option>
+																	<option value="RS">Serbia</option>
+																	<option value="SC">Seychelles</option>
+																	<option value="SL">Sierra Leone</option>
+																	<option value="SG">Singapore</option>
+																	<option value="SX">Sint Maarten (Dutch part)</option>
+																	<option value="SK">Slovakia</option>
+																	<option value="SI">Slovenia</option>
+																	<option value="SB">Solomon Islands</option>
+																	<option value="SO">Somalia</option>
+																	<option value="ZA">South Africa</option>
+																	<option value="KR">South Korea</option>
+																	<option value="SS">South Sudan</option>
+																	<option value="ES">Spain</option>
+																	<option value="LK">Sri Lanka</option>
+																	<option value="SD">Sudan</option>
+																	<option value="SR">Suriname</option>
+																	<option value="SZ">Swaziland</option>
+																	<option value="SE">Sweden</option>
+																	<option value="CH">Switzerland</option>
+																	<option value="SY">Syrian Arab Republic</option>
+																	<option value="TW">Taiwan, Province of China</option>
+																	<option value="TJ">Tajikistan</option>
+																	<option value="TZ">Tanzania, United Republic of</option>
+																	<option value="TH">Thailand</option>
+																	<option value="TG">Togo</option>
+																	<option value="TK">Tokelau</option>
+																	<option value="TO">Tonga</option>
+																	<option value="TT">Trinidad and Tobago</option>
+																	<option value="TN">Tunisia</option>
+																	<option value="TR">Turkey</option>
+																	<option value="TM">Turkmenistan</option>
+																	<option value="TC">Turks and Caicos Islands</option>
+																	<option value="TV">Tuvalu</option>
+																	<option value="UG">Uganda</option>
+																	<option value="UA">Ukraine</option>
+																	<option value="AE">United Arab Emirates</option>
+																	<option value="GB">United Kingdom</option>
+																	<option value="US" selected="selected" data-select2-id="select2-data-15-q6jo">United States</option>
+																	<option value="UY">Uruguay</option>
+																	<option value="UZ">Uzbekistan</option>
+																	<option value="VU">Vanuatu</option>
+																	<option value="VE">Venezuela, Bolivarian Republic of</option>
+																	<option value="VN">Vietnam</option>
+																	<option value="VI">Virgin Islands</option>
+																	<option value="YE">Yemen</option>
+																	<option value="ZM">Zambia</option>
+																	<option value="ZW">Zimbabwe</option>
+																</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-14-qv6p" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid fw-bold" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-country-7s-container" aria-controls="select2-country-7s-container"><span class="select2-selection__rendered" id="select2-country-7s-container" role="textbox" aria-readonly="true" title="United States">United States</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+																<!--end::Input-->
+																<div class="fv-plugins-message-container invalid-feedback"></div>
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="fv-row mb-7">
+																<!--begin::Wrapper-->
+																<div class="d-flex flex-stack">
+																	<!--begin::Label-->
+																	<div class="me-5">
+																		<!--begin::Label-->
+																		<label class="fs-6 fw-semibold">Use as a billing adderess?</label>
+																		<!--end::Label-->
+																		<!--begin::Input-->
+																		<div class="fs-7 fw-semibold text-muted">If you need more info, please check budget planning</div>
+																		<!--end::Input-->
+																	</div>
+																	<!--end::Label-->
+																	<!--begin::Switch-->
+																	<label class="form-check form-switch form-check-custom form-check-solid">
+																		<!--begin::Input-->
+																		<input class="form-check-input" name="billing" type="checkbox" value="1" id="kt_modal_add_customer_billing" checked="checked">
+																		<!--end::Input-->
+																		<!--begin::Label-->
+																		<span class="form-check-label fw-semibold text-muted" for="kt_modal_add_customer_billing">Yes</span>
+																		<!--end::Label-->
+																	</label>
+																	<!--end::Switch-->
+																</div>
+																<!--begin::Wrapper-->
 															</div>
 															<!--end::Input group-->
 														</div>
-														<!--end::Row-->
-														<!--begin::Actions-->
-														<div class="text-center">
-															<button type="reset" id="kt_customers_export_cancel" class="btn btn-light me-3">Discard</button>
-															<button type="submit" id="kt_customers_export_submit" class="btn btn-primary">
-																<span class="indicator-label">Submit</span>
-																<span class="indicator-progress">Please wait...
-																<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
-															</button>
-														</div>
-														<!--end::Actions-->
-													</form>
-													<!--end::Form-->
+														<!--end::Billing form-->
+													</div>
+													<!--end::Scroll-->
 												</div>
 												<!--end::Modal body-->
-											</div>
-											<!--end::Modal content-->
+												<!--begin::Modal footer-->
+												<div class="modal-footer flex-center">
+													<!--begin::Button-->
+													<button type="reset" id="kt_modal_add_customer_cancel" class="btn btn-light me-3">Discard</button>
+													<!--end::Button-->
+													<!--begin::Button-->
+													<button type="submit" id="kt_modal_add_customer_submit" class="btn btn-primary">
+														<span class="indicator-label">Submit</span>
+														<span class="indicator-progress">Please wait...
+															<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+													</button>
+													<!--end::Button-->
+												</div>
+												<!--end::Modal footer-->
+											</form>
+											<!--end::Form-->
 										</div>
-										<!--end::Modal dialog-->
 									</div>
-									<!--end::Modal - New Card-->
-									<!--end::Modals-->
 								</div>
-								<!--end::Content container-->
-							</div>
-							<!--end::Content-->
-						</div>
-						<!--end::Content wrapper-->
-						<!--begin::Footer-->
-						<div id="kt_app_footer" class="app-footer">
-							<!--begin::Footer container-->
-							<div class="app-container container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3">
-								<!--begin::Copyright-->
-								<div class="text-dark order-2 order-md-1">
-									<span class="text-muted fw-semibold me-1">2023©</span>
-									<a href="https://keenthemes.com" target="_blank" class="text-gray-800 text-hover-primary">Keenthemes</a>
+								<!--end::Modal - Customers - Add-->
+								<!--begin::Modal - Adjust Balance-->
+								<div class="modal fade" id="kt_customers_export_modal" tabindex="-1" aria-hidden="true">
+									<!--begin::Modal dialog-->
+									<div class="modal-dialog modal-dialog-centered mw-650px">
+										<!--begin::Modal content-->
+										<div class="modal-content">
+											<!--begin::Modal header-->
+											<div class="modal-header">
+												<!--begin::Modal title-->
+												<h2 class="fw-bold">Export Customers</h2>
+												<!--end::Modal title-->
+												<!--begin::Close-->
+												<div id="kt_customers_export_close" class="btn btn-icon btn-sm btn-active-icon-primary">
+													<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+													<span class="svg-icon svg-icon-1">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor"></rect>
+															<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor"></rect>
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</div>
+												<!--end::Close-->
+											</div>
+											<!--end::Modal header-->
+											<!--begin::Modal body-->
+											<div class="modal-body scroll-y mx-5 mx-xl-15 my-7">
+												<!--begin::Form-->
+												<form id="kt_customers_export_form" class="form fv-plugins-bootstrap5 fv-plugins-framework" action="#">
+													<!--begin::Input group-->
+													<div class="fv-row mb-10">
+														<!--begin::Label-->
+														<label class="fs-5 fw-semibold form-label mb-5">Select Export Format:</label>
+														<!--end::Label-->
+														<!--begin::Input-->
+														<select data-control="select2" data-placeholder="Select a format" data-hide-search="true" name="format" class="form-select form-select-solid select2-hidden-accessible" data-select2-id="select2-data-16-1ayb" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+															<option value="excell" data-select2-id="select2-data-18-6b92">Excel</option>
+															<option value="pdf">PDF</option>
+															<option value="cvs">CVS</option>
+															<option value="zip">ZIP</option>
+														</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-17-487v" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-format-t6-container" aria-controls="select2-format-t6-container"><span class="select2-selection__rendered" id="select2-format-t6-container" role="textbox" aria-readonly="true" title="Excel">Excel</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+														<!--end::Input-->
+													</div>
+													<!--end::Input group-->
+													<!--begin::Input group-->
+													<div class="fv-row mb-10 fv-plugins-icon-container">
+														<!--begin::Label-->
+														<label class="fs-5 fw-semibold form-label mb-5">Select Date Range:</label>
+														<!--end::Label-->
+														<!--begin::Input-->
+														<input class="form-control form-control-solid flatpickr-input" placeholder="Pick a date" name="date" type="hidden"><input class="form-control form-control-solid form-control input" placeholder="Pick a date" tabindex="0" type="text" readonly="readonly">
+														<!--end::Input-->
+														<div class="fv-plugins-message-container invalid-feedback"></div>
+													</div>
+													<!--end::Input group-->
+													<!--begin::Row-->
+													<div class="row fv-row mb-15">
+														<!--begin::Label-->
+														<label class="fs-5 fw-semibold form-label mb-5">Payment Type:</label>
+														<!--end::Label-->
+														<!--begin::Radio group-->
+														<div class="d-flex flex-column">
+															<!--begin::Radio button-->
+															<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
+																<input class="form-check-input" type="checkbox" value="1" checked="checked" name="payment_type">
+																<span class="form-check-label text-gray-600 fw-semibold">All</span>
+															</label>
+															<!--end::Radio button-->
+															<!--begin::Radio button-->
+															<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
+																<input class="form-check-input" type="checkbox" value="2" checked="checked" name="payment_type">
+																<span class="form-check-label text-gray-600 fw-semibold">Visa</span>
+															</label>
+															<!--end::Radio button-->
+															<!--begin::Radio button-->
+															<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
+																<input class="form-check-input" type="checkbox" value="3" name="payment_type">
+																<span class="form-check-label text-gray-600 fw-semibold">Mastercard</span>
+															</label>
+															<!--end::Radio button-->
+															<!--begin::Radio button-->
+															<label class="form-check form-check-custom form-check-sm form-check-solid">
+																<input class="form-check-input" type="checkbox" value="4" name="payment_type">
+																<span class="form-check-label text-gray-600 fw-semibold">American Express</span>
+															</label>
+															<!--end::Radio button-->
+														</div>
+														<!--end::Input group-->
+													</div>
+													<!--end::Row-->
+													<!--begin::Actions-->
+													<div class="text-center">
+														<button type="reset" id="kt_customers_export_cancel" class="btn btn-light me-3">Discard</button>
+														<button type="submit" id="kt_customers_export_submit" class="btn btn-primary">
+															<span class="indicator-label">Submit</span>
+															<span class="indicator-progress">Please wait...
+																<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+														</button>
+													</div>
+													<!--end::Actions-->
+												</form>
+												<!--end::Form-->
+											</div>
+											<!--end::Modal body-->
+										</div>
+										<!--end::Modal content-->
+									</div>
+									<!--end::Modal dialog-->
 								</div>
-								<!--end::Copyright-->
-								<!--begin::Menu-->
-								<ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
-									<li class="menu-item">
-										<a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
-									</li>
-									<li class="menu-item">
-										<a href="https://devs.keenthemes.com" target="_blank" class="menu-link px-2">Support</a>
-									</li>
-									<li class="menu-item">
-										<a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
-									</li>
-								</ul>
-								<!--end::Menu-->
+								<!--end::Modal - New Card-->
+								<!--end::Modals-->
 							</div>
-							<!--end::Footer container-->
+							<!--end::Content container-->
 						</div>
-						<!--end::Footer-->
+						<!--end::Content-->
 					</div>
+					<!--end::Content wrapper-->
+					<!--begin::Footer-->
+					<div id="kt_app_footer" class="app-footer">
+						<!--begin::Footer container-->
+						<div class="app-container container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3">
+							<!--begin::Copyright-->
+							<div class="text-dark order-2 order-md-1">
+								<span class="text-muted fw-semibold me-1">2023©</span>
+								<a href="https://keenthemes.com" target="_blank" class="text-gray-800 text-hover-primary">Keenthemes</a>
+							</div>
+							<!--end::Copyright-->
+							<!--begin::Menu-->
+							<ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
+								<li class="menu-item">
+									<a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
+								</li>
+								<li class="menu-item">
+									<a href="https://devs.keenthemes.com" target="_blank" class="menu-link px-2">Support</a>
+								</li>
+								<li class="menu-item">
+									<a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
+								</li>
+							</ul>
+							<!--end::Menu-->
+						</div>
+						<!--end::Footer container-->
+					</div>
+					<!--end::Footer-->
+				</div>
 				<!--end:::Main-->
 			</div>
 			<!--end::Wrapper-->
@@ -5125,37 +5232,37 @@
 	<script src="<?php echo base_url() ?>assets/js/custom/utilities/modals/users-search.js"></script>
 	<!--end::Custom Javascript-->
 	<script>
-                $(document).ready(function() {
-                    // Time function start
-                    function t() {
-                        var current_date = new Date();
-                        document.getElementById('timeNow').innerHTML = '<b>' + current_date.getFullYear() + "-" + (((current_date.getMonth() + 1) < 10 ? '0' : '') + (current_date.getMonth() + 1)) + "-" + current_date.getDate() + " " + current_date.getHours() + ":" + ((current_date.getMinutes() < 10 ? '0' : '') + current_date.getMinutes()) + ":" + ((current_date.getSeconds() < 10 ? '0' : '') + current_date.getSeconds()) + '</b>';
-                        // document.getElementById('time').innerHTML = '<b>' + current_date.getFullYear() + "-" + (((current_date.getMonth() + 1) < 10 ? '0' : '') + (current_date.getMonth() + 1)) + "-" + current_date.getDate() + " " + current_date.getHours() + ":" + ((current_date.getMinutes() < 10 ? '0' : '') + current_date.getMinutes()) + ":" + ((current_date.getSeconds() < 10 ? '0' : '') + current_date.getSeconds()) + '</b>';
-                    }
-                    t();
-                    window.setInterval(t, 1000);
-                    // Time function end
-                    function s() {
-                        var today_date = new Date();
-                        document.getElementById('time').innerHTML = '<b>' + today_date.getFullYear() + "-" + (((today_date.getMonth() + 1) < 10 ? '0' : '') + (today_date.getMonth() + 1)) + "-" + today_date.getDate() + " " + today_date.getHours() + ":" + ((today_date.getMinutes() < 10 ? '0' : '') + today_date.getMinutes()) + ":" + ((today_date.getSeconds() < 10 ? '0' : '') + today_date.getSeconds()) + '</b>';
-                    }
-                    s();
-                    window.setInterval(s, 1000);
+		$(document).ready(function() {
+			// Time function start
+			function t() {
+				var current_date = new Date();
+				document.getElementById('timeNow').innerHTML = '<b>' + current_date.getFullYear() + "-" + (((current_date.getMonth() + 1) < 10 ? '0' : '') + (current_date.getMonth() + 1)) + "-" + current_date.getDate() + " " + current_date.getHours() + ":" + ((current_date.getMinutes() < 10 ? '0' : '') + current_date.getMinutes()) + ":" + ((current_date.getSeconds() < 10 ? '0' : '') + current_date.getSeconds()) + '</b>';
+				// document.getElementById('time').innerHTML = '<b>' + current_date.getFullYear() + "-" + (((current_date.getMonth() + 1) < 10 ? '0' : '') + (current_date.getMonth() + 1)) + "-" + current_date.getDate() + " " + current_date.getHours() + ":" + ((current_date.getMinutes() < 10 ? '0' : '') + current_date.getMinutes()) + ":" + ((current_date.getSeconds() < 10 ? '0' : '') + current_date.getSeconds()) + '</b>';
+			}
+			t();
+			window.setInterval(t, 1000);
+			// Time function end
+			function s() {
+				var today_date = new Date();
+				document.getElementById('time').innerHTML = '<b>' + today_date.getFullYear() + "-" + (((today_date.getMonth() + 1) < 10 ? '0' : '') + (today_date.getMonth() + 1)) + "-" + today_date.getDate() + " " + today_date.getHours() + ":" + ((today_date.getMinutes() < 10 ? '0' : '') + today_date.getMinutes()) + ":" + ((today_date.getSeconds() < 10 ? '0' : '') + today_date.getSeconds()) + '</b>';
+			}
+			s();
+			window.setInterval(s, 1000);
 
-                    $('#btnCheckIn').click(function() {
-                        var element = document.getElementById("btnCheckIn");
-                        element.style.display = "none";
-                        var checkOut = document.getElementById("btnCheckout");
-                        checkOut.style.display = "block";
-                    });
-                    $('#btnCheckout').click(function() {
-                        var element = document.getElementById("btnCheckIn");
-                        element.style.display = "block";
-                        var checkOut = document.getElementById("btnCheckout");
-                        checkOut.style.display = "none";
-                    });
-                });
-            </script>
+			$('#btnCheckIn').click(function() {
+				var element = document.getElementById("btnCheckIn");
+				element.style.display = "none";
+				var checkOut = document.getElementById("btnCheckout");
+				checkOut.style.display = "block";
+			});
+			$('#btnCheckout').click(function() {
+				var element = document.getElementById("btnCheckIn");
+				element.style.display = "block";
+				var checkOut = document.getElementById("btnCheckout");
+				checkOut.style.display = "none";
+			});
+		});
+	</script>
 	<!--end::Javascript-->
 </body>
 <!--end::Body-->
