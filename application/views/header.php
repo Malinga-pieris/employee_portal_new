@@ -91,8 +91,8 @@
 
 								<!--begin:Menu item-->
 								<div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
-									<div class="timeDiv py-1 mb-1 bg-primary">
-										<div class="timeToday"><span class="text-white timeNow" id="timeNow"></span></div>
+									<div class="timeDiv py-1 mb-1">
+										<div class="timeToday"><span class="text-primary timeNow" id="timeNow"></span></div>
 									</div>
 								</div>
 								<!--end:Menu item-->

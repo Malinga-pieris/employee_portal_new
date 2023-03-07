@@ -58,45 +58,45 @@
 		<!--begin::Page-->
 		<div class="app-page flex-column flex-column-fluid" id="kt_app_page">
 			<!--begin::Wrapper-->
-			<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">	
+			<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
 				<!--begin::Main-->
 				<div class="app-main flex-column flex-row-fluid" id="kt_app_main">
-						<!--begin::Content wrapper-->
-						<div class="d-flex flex-column flex-column-fluid">
-							<!--begin::Toolbar-->
-							<div id="kt_app_toolbar" class="app-toolbar py-3 py-lg-6">
-								<!--begin::Toolbar container-->
-								<div id="kt_app_toolbar_container" class="app-container container-xxl d-flex flex-stack">
-									<!--begin::Page title-->
-									<div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
-										<!--begin::Title-->
-										<h1 class="page-heading d-flex text-dark fw-bold fs-1 flex-column justify-content-center my-0">Attendance Reports</h1>
-										<!--end::Title-->
-										<!--begin::Breadcrumb-->
-										<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
-											<!--begin::Item-->
-											<li class="breadcrumb-item text-muted">
-												<a href="../../demo1/dist/index.html" class="text-muted text-hover-primary">Reports</a>
-											</li>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<li class="breadcrumb-item">
-												<span class="bullet bg-gray-400 w-5px h-2px"></span>
-											</li>
-											<!--end::Item-->
-											<!--begin::Item-->
-											<li class="breadcrumb-item text-muted">Attendance Reports</li>
-											<!--end::Item-->
-										</ul>
-										<!--end::Breadcrumb-->
-									</div>
-									<!--end::Page title-->
-									<!--begin::Actions-->
-									<div class="d-flex align-items-center gap-2 gap-lg-3">
-										<!--begin::Filter menu-->
-										<div class="m-0">
-											<!--begin::Menu toggle-->
-											<a href="#" class="btn btn-sm btn-flex bg-body btn-color-gray-700 btn-active-color-primary fw-bold" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+					<!--begin::Content wrapper-->
+					<div class="d-flex flex-column flex-column-fluid">
+						<!--begin::Toolbar-->
+						<div id="kt_app_toolbar" class="app-toolbar py-3 py-lg-6">
+							<!--begin::Toolbar container-->
+							<div id="kt_app_toolbar_container" class="app-container container-xxl d-flex flex-stack">
+								<!--begin::Page title-->
+								<div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
+									<!--begin::Title-->
+									<h1 class="page-heading d-flex text-dark fw-bold fs-1 flex-column justify-content-center my-0">Attendance Reports</h1>
+									<!--end::Title-->
+									<!--begin::Breadcrumb-->
+									<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
+										<!--begin::Item-->
+										<li class="breadcrumb-item text-muted">
+											<a href="../../demo1/dist/index.html" class="text-muted text-hover-primary">Reports</a>
+										</li>
+										<!--end::Item-->
+										<!--begin::Item-->
+										<li class="breadcrumb-item">
+											<span class="bullet bg-gray-400 w-5px h-2px"></span>
+										</li>
+										<!--end::Item-->
+										<!--begin::Item-->
+										<li class="breadcrumb-item text-muted">Attendance Reports</li>
+										<!--end::Item-->
+									</ul>
+									<!--end::Breadcrumb-->
+								</div>
+								<!--end::Page title-->
+								<!--begin::Actions-->
+								<div class="d-flex align-items-center gap-2 gap-lg-3">
+									<!--begin::Filter menu-->
+									<div class="m-0">
+										<!--begin::Menu toggle-->
+										<a href="#" class="btn btn-sm btn-flex bg-body btn-color-gray-700 btn-active-color-primary fw-bold" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
 											<!--begin::Svg Icon | path: icons/duotune/general/gen031.svg-->
 											<span class="svg-icon svg-icon-6 svg-icon-muted me-1">
 												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,139 +104,139 @@
 												</svg>
 											</span>
 											<!--end::Svg Icon-->Filter</a>
-											<!--end::Menu toggle-->
-											<!--begin::Menu 1-->
-											<div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true" id="kt_menu_63de6bef13965">
-												<!--begin::Header-->
-												<div class="px-7 py-5">
-													<div class="fs-5 text-dark fw-bold">Filter Options</div>
-												</div>
-												<!--end::Header-->
-												<!--begin::Menu separator-->
-												<div class="separator border-gray-200"></div>
-												<!--end::Menu separator-->
-												<!--begin::Form-->
-												<div class="px-7 py-5">
-													<!--begin::Input group-->
-													<div class="mb-10">
-														<!--begin::Label-->
-														<label class="form-label fw-semibold">Status:</label>
-														<!--end::Label-->
-														<!--begin::Input-->
-														<div>
-															<select class="form-select form-select-solid select2-hidden-accessible" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_63de6bef13965" data-allow-clear="true" data-select2-id="select2-data-7-aoli" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-																<option data-select2-id="select2-data-9-o463"></option>
-																<option value="1">Approved</option>
-																<option value="2">Pending</option>
-																<option value="2">In Process</option>
-																<option value="2">Rejected</option>
-															</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-8-d1gz" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-fxcn-container" aria-controls="select2-fxcn-container"><span class="select2-selection__rendered" id="select2-fxcn-container" role="textbox" aria-readonly="true" title="Select option"><span class="select2-selection__placeholder">Select option</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-														</div>
-														<!--end::Input-->
+										<!--end::Menu toggle-->
+										<!--begin::Menu 1-->
+										<div class="menu menu-sub menu-sub-dropdown w-250px w-md-300px" data-kt-menu="true" id="kt_menu_63de6bef13965">
+											<!--begin::Header-->
+											<div class="px-7 py-5">
+												<div class="fs-5 text-dark fw-bold">Filter Options</div>
+											</div>
+											<!--end::Header-->
+											<!--begin::Menu separator-->
+											<div class="separator border-gray-200"></div>
+											<!--end::Menu separator-->
+											<!--begin::Form-->
+											<div class="px-7 py-5">
+												<!--begin::Input group-->
+												<div class="mb-10">
+													<!--begin::Label-->
+													<label class="form-label fw-semibold">Status:</label>
+													<!--end::Label-->
+													<!--begin::Input-->
+													<div>
+														<select class="form-select form-select-solid select2-hidden-accessible" data-kt-select2="true" data-placeholder="Select option" data-dropdown-parent="#kt_menu_63de6bef13965" data-allow-clear="true" data-select2-id="select2-data-7-aoli" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+															<option data-select2-id="select2-data-9-o463"></option>
+															<option value="1">Approved</option>
+															<option value="2">Pending</option>
+															<option value="2">In Process</option>
+															<option value="2">Rejected</option>
+														</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-8-d1gz" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-fxcn-container" aria-controls="select2-fxcn-container"><span class="select2-selection__rendered" id="select2-fxcn-container" role="textbox" aria-readonly="true" title="Select option"><span class="select2-selection__placeholder">Select option</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
 													</div>
-													<!--end::Input group-->
-													<!--begin::Input group-->
-													<div class="mb-10">
-														<!--begin::Label-->
-														<label class="form-label fw-semibold">Member Type:</label>
-														<!--end::Label-->
+													<!--end::Input-->
+												</div>
+												<!--end::Input group-->
+												<!--begin::Input group-->
+												<div class="mb-10">
+													<!--begin::Label-->
+													<label class="form-label fw-semibold">Member Type:</label>
+													<!--end::Label-->
+													<!--begin::Options-->
+													<div class="d-flex">
 														<!--begin::Options-->
-														<div class="d-flex">
-															<!--begin::Options-->
-															<label class="form-check form-check-sm form-check-custom form-check-solid me-5">
-																<input class="form-check-input" type="checkbox" value="1">
-																<span class="form-check-label">Author</span>
-															</label>
-															<!--end::Options-->
-															<!--begin::Options-->
-															<label class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="2" checked="checked">
-																<span class="form-check-label">Customer</span>
-															</label>
-															<!--end::Options-->
-														</div>
+														<label class="form-check form-check-sm form-check-custom form-check-solid me-5">
+															<input class="form-check-input" type="checkbox" value="1">
+															<span class="form-check-label">Author</span>
+														</label>
+														<!--end::Options-->
+														<!--begin::Options-->
+														<label class="form-check form-check-sm form-check-custom form-check-solid">
+															<input class="form-check-input" type="checkbox" value="2" checked="checked">
+															<span class="form-check-label">Customer</span>
+														</label>
 														<!--end::Options-->
 													</div>
-													<!--end::Input group-->
-													<!--begin::Input group-->
-													<div class="mb-10">
-														<!--begin::Label-->
-														<label class="form-label fw-semibold">Notifications:</label>
-														<!--end::Label-->
-														<!--begin::Switch-->
-														<div class="form-check form-switch form-switch-sm form-check-custom form-check-solid">
-															<input class="form-check-input" type="checkbox" value="" name="notifications" checked="checked">
-															<label class="form-check-label">Enabled</label>
-														</div>
-														<!--end::Switch-->
-													</div>
-													<!--end::Input group-->
-													<!--begin::Actions-->
-													<div class="d-flex justify-content-end">
-														<button type="reset" class="btn btn-sm btn-light btn-active-light-primary me-2" data-kt-menu-dismiss="true">Reset</button>
-														<button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Apply</button>
-													</div>
-													<!--end::Actions-->
+													<!--end::Options-->
 												</div>
-												<!--end::Form-->
+												<!--end::Input group-->
+												<!--begin::Input group-->
+												<div class="mb-10">
+													<!--begin::Label-->
+													<label class="form-label fw-semibold">Notifications:</label>
+													<!--end::Label-->
+													<!--begin::Switch-->
+													<div class="form-check form-switch form-switch-sm form-check-custom form-check-solid">
+														<input class="form-check-input" type="checkbox" value="" name="notifications" checked="checked">
+														<label class="form-check-label">Enabled</label>
+													</div>
+													<!--end::Switch-->
+												</div>
+												<!--end::Input group-->
+												<!--begin::Actions-->
+												<div class="d-flex justify-content-end">
+													<button type="reset" class="btn btn-sm btn-light btn-active-light-primary me-2" data-kt-menu-dismiss="true">Reset</button>
+													<button type="submit" class="btn btn-sm btn-primary" data-kt-menu-dismiss="true">Apply</button>
+												</div>
+												<!--end::Actions-->
 											</div>
-											<!--end::Menu 1-->
+											<!--end::Form-->
 										</div>
-										<!--end::Filter menu-->
-										<!--begin::Secondary button-->
-										<!--end::Secondary button-->
-										<!--begin::Primary button-->
-										<a href="#" class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Create</a>
-										<!--end::Primary button-->
+										<!--end::Menu 1-->
 									</div>
-									<!--end::Actions-->
+									<!--end::Filter menu-->
+									<!--begin::Secondary button-->
+									<!--end::Secondary button-->
+									<!--begin::Primary button-->
+									<a href="#" class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Create</a>
+									<!--end::Primary button-->
 								</div>
-								<!--end::Toolbar container-->
+								<!--end::Actions-->
 							</div>
-							<!--end::Toolbar-->
-							<!--begin::Content-->
-							<div id="kt_app_content" class="app-content flex-column-fluid">
-								<!--begin::Content container-->
-								<div id="kt_app_content_container" class="app-container container-xxl">
-									<!--begin::Card-->
-									<div class="card">
-										<!--begin::Card header-->
-										<div class="card-header border-0 pt-6">
-											<!--begin::Card title-->
-											<div class="card-title">
-												<!--begin::Search-->
-												<div class="d-flex align-items-center position-relative my-1">
-													<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
-													<span class="svg-icon svg-icon-1 position-absolute ms-6">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor"></rect>
-															<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor"></path>
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-													<input type="text" data-kt-customer-table-filter="search" class="form-control form-control-solid w-250px ps-15" placeholder="Search Employees">
-												</div>
-												<!--end::Search-->
+							<!--end::Toolbar container-->
+						</div>
+						<!--end::Toolbar-->
+						<!--begin::Content-->
+						<div id="kt_app_content" class="app-content flex-column-fluid">
+							<!--begin::Content container-->
+							<div id="kt_app_content_container" class="app-container container-xxl">
+								<!--begin::Card-->
+								<div class="card">
+									<!--begin::Card header-->
+									<div class="card-header border-0 pt-6">
+										<!--begin::Card title-->
+										<div class="card-title">
+											<!--begin::Search-->
+											<div class="d-flex align-items-center position-relative my-1">
+												<!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
+												<span class="svg-icon svg-icon-1 position-absolute ms-6">
+													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="currentColor"></rect>
+														<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="currentColor"></path>
+													</svg>
+												</span>
+												<!--end::Svg Icon-->
+												<input type="text" data-kt-customer-table-filter="search" class="form-control form-control-solid w-250px ps-15" placeholder="Search Employees">
 											</div>
-											<!--begin::Card title-->
-											<!--begin::Card toolbar-->
-											<div class="card-toolbar">
-												<!--begin::Toolbar-->
-												<div class="d-flex justify-content-end" data-kt-customer-table-toolbar="base">
-													<!--begin::Filter-->
-													<div class="w-150px me-3">
-														<!--begin::Select2-->
-														<select class="form-select form-select-solid select2-hidden-accessible" data-control="select2" data-hide-search="true" data-placeholder="Status" data-kt-ecommerce-order-filter="status" data-select2-id="select2-data-10-tvf3" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-															<option data-select2-id="select2-data-12-flr1"></option>
-															<option value="all">All</option>
-															<option value="active">Active</option>
-															<option value="locked">Locked</option>
-														</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-11-dje6" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-ip8p-container" aria-controls="select2-ip8p-container"><span class="select2-selection__rendered" id="select2-ip8p-container" role="textbox" aria-readonly="true" title="Status"><span class="select2-selection__placeholder">Status</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-														<!--end::Select2-->
-													</div>
-													<!--end::Filter-->
-													<!--begin::Export-->
-													<button type="button" class="btn btn-light-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_customers_export_modal">
+											<!--end::Search-->
+										</div>
+										<!--begin::Card title-->
+										<!--begin::Card toolbar-->
+										<div class="card-toolbar">
+											<!--begin::Toolbar-->
+											<div class="d-flex justify-content-end" data-kt-customer-table-toolbar="base">
+												<!--begin::Filter-->
+												<div class="w-150px me-3">
+													<!--begin::Select2-->
+													<select class="form-select form-select-solid select2-hidden-accessible" data-control="select2" data-hide-search="true" data-placeholder="Status" data-kt-ecommerce-order-filter="status" data-select2-id="select2-data-10-tvf3" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+														<option data-select2-id="select2-data-12-flr1"></option>
+														<option value="all">All</option>
+														<option value="active">Active</option>
+														<option value="locked">Locked</option>
+													</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-11-dje6" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-ip8p-container" aria-controls="select2-ip8p-container"><span class="select2-selection__rendered" id="select2-ip8p-container" role="textbox" aria-readonly="true" title="Status"><span class="select2-selection__placeholder">Status</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+													<!--end::Select2-->
+												</div>
+												<!--end::Filter-->
+												<!--begin::Export-->
+												<button type="button" class="btn btn-light-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_customers_export_modal">
 													<!--begin::Svg Icon | path: icons/duotune/arrows/arr078.svg-->
 													<span class="svg-icon svg-icon-2">
 														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -246,877 +246,850 @@
 														</svg>
 													</span>
 													<!--end::Svg Icon-->Export</button>
-													<!--end::Export-->
-													<!--begin::Add customer-->
-													<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_customer">Add Employee</button>
-													<!--end::Add customer-->
-												</div>
-												<!--end::Toolbar-->
-												<!--begin::Group actions-->
-												<div class="d-flex justify-content-end align-items-center d-none" data-kt-customer-table-toolbar="selected">
-													<div class="fw-bold me-5">
-													<span class="me-2" data-kt-customer-table-select="selected_count"></span>Selected</div>
-													<button type="button" class="btn btn-danger" data-kt-customer-table-select="delete_selected">Delete Selected</button>
-												</div>
-												<!--end::Group actions-->
+												<!--end::Export-->
+												<!--begin::Add customer-->
+												<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_customer">Add Employee</button>
+												<!--end::Add customer-->
 											</div>
-											<!--end::Card toolbar-->
+											<!--end::Toolbar-->
+											<!--begin::Group actions-->
+											<div class="d-flex justify-content-end align-items-center d-none" data-kt-customer-table-toolbar="selected">
+												<div class="fw-bold me-5">
+													<span class="me-2" data-kt-customer-table-select="selected_count"></span>Selected
+												</div>
+												<button type="button" class="btn btn-danger" data-kt-customer-table-select="delete_selected">Delete Selected</button>
+											</div>
+											<!--end::Group actions-->
 										</div>
-										<!--end::Card header-->
-										<!--begin::Card body-->
-										<div class="card-body pt-0">
-											<!--begin::Table-->
-											<div id="kt_customers_table_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer"><div class="table-responsive"><table class="table align-middle table-row-dashed fs-6 gy-5 dataTable no-footer" id="kt_customers_table">
-												<!--begin::Table head-->
-												<thead>
-													<!--begin::Table row-->
-													<tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0"><th class="w-10px pe-2 sorting_disabled" rowspan="1" colspan="1" aria-label="
+										<!--end::Card toolbar-->
+									</div>
+									<!--end::Card header-->
+									<!--begin::Card body-->
+									<div class="card-body pt-0">
+										<!--begin::Table-->
+										<div id="kt_customers_table_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+											<div class="table-responsive">
+												<table class="table align-middle table-row-dashed fs-6 gy-5 dataTable no-footer" id="kt_customers_table">
+													<!--begin::Table head-->
+													<thead>
+														<!--begin::Table row-->
+														<tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0">
+															<th class="w-10px pe-2 sorting_disabled" rowspan="1" colspan="1" aria-label="
 															
 																
 															
 														" style="width: 29.9px;">
-															<div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-																<input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_customers_table .form-check-input" value="1">
-															</div>
-														</th><th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Customer Name: activate to sort column ascending" style="width: 164.475px;">Customer Name</th><th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 203.587px;">Email</th><th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 164.475px;">Status</th><th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="IP Address: activate to sort column ascending" style="width: 164.475px;">IP Address</th><th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Created Date: activate to sort column ascending" style="width: 215.025px;">Created Date</th><th class="text-end min-w-70px sorting_disabled" rowspan="1" colspan="1" aria-label="Actions" style="width: 128.762px;">Actions</th></tr>
-													<!--end::Table row-->
-												</thead>
-												<!--end::Table head-->
-												<!--begin::Table body-->
-												<tbody class="fw-semibold text-gray-600">
-												<tr class="odd">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Emma Smith</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">smith@kpmg.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-success">Active</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>211.68.47.195</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-07-25T17:30:00+05:30">25 Jul 2023, 5:30 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																<div class="form-check form-check-sm form-check-custom form-check-solid me-3">
+																	<input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_customers_table .form-check-input" value="1">
 																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+															</th>
+															<th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Customer Name: activate to sort column ascending" style="width: 164.475px;">Customer Name</th>
+															<th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 203.587px;">Email</th>
+															<th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 164.475px;">Status</th>
+															<th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="IP Address: activate to sort column ascending" style="width: 164.475px;">IP Address</th>
+															<th class="min-w-125px sorting" tabindex="0" aria-controls="kt_customers_table" rowspan="1" colspan="1" aria-label="Created Date: activate to sort column ascending" style="width: 215.025px;">Created Date</th>
+															<th class="text-end min-w-70px sorting_disabled" rowspan="1" colspan="1" aria-label="Actions" style="width: 128.762px;">Actions</th>
+														</tr>
+														<!--end::Table row-->
+													</thead>
+													<!--end::Table head-->
+													<!--begin::Table body-->
+													<tbody class="fw-semibold text-gray-600">
+														<tr class="odd">
+															<!--begin::Checkbox-->
+															<td>
+																<div class="form-check form-check-sm form-check-custom form-check-solid">
+																	<input class="form-check-input" type="checkbox" value="1">
 																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="even">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Melody Macy</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">melody@altbox.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-danger">Locked</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>109.79.69.219</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-08-19T22:10:00+05:30">19 Aug 2023, 10:10 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="odd">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Max Smith</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">max@kt.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-success">Active</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>163.53.20.122</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-02-21T18:05:00+05:30">21 Feb 2023, 6:05 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="even">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Sean Bean</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">sean@dellito.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-success">Active</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>152.73.79.190</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-04-15T11:05:00+05:30">15 Apr 2023, 11:05 am</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="odd">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Brian Cox</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">brian@exchange.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-danger">Locked</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>156.57.29.138</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-06-24T10:30:00+05:30">24 Jun 2023, 10:30 am</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="even">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Mikaela Collins</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">mik@pex.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-success">Active</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>180.74.55.185</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-02-21T10:30:00+05:30">21 Feb 2023, 10:30 am</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="odd">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Francis Mitcham</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">f.mit@kpmg.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-danger">Locked</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>111.79.26.49</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-05-05T17:30:00+05:30">05 May 2023, 5:30 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="even">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Olivia Wild</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">olivia@corpmail.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-success">Active</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>170.64.79.229</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-08-19T20:43:00+05:30">19 Aug 2023, 8:43 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="odd">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Neil Owen</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">owen.neil@gmail.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-danger">Locked</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>109.73.28.156</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-06-20T18:05:00+05:30">20 Jun 2023, 6:05 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr><tr class="even">
-														<!--begin::Checkbox-->
-														<td>
-															<div class="form-check form-check-sm form-check-custom form-check-solid">
-																<input class="form-check-input" type="checkbox" value="1">
-															</div>
-														</td>
-														<!--end::Checkbox-->
-														<!--begin::Name=-->
-														<td>
-															<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Dan Wilson</a>
-														</td>
-														<!--end::Name=-->
-														<!--begin::Email=-->
-														<td>
-															<a href="#" class="text-gray-600 text-hover-primary mb-1">dam@consilting.com</a>
-														</td>
-														<!--end::Email=-->
-														<!--begin::Status=-->
-														<td>
-															<!--begin::Badges-->
-															<div class="badge badge-light-danger">Locked</div>
-															<!--end::Badges-->
-														</td>
-														<!--end::Status=-->
-														<!--begin::IP Address=-->
-														<td>190.55.39.154</td>
-														<!--end::IP Address=-->
-														<!--begin::Date=-->
-														<td data-order="2023-05-05T18:05:00+05:30">05 May 2023, 6:05 pm</td>
-														<!--end::Date=-->
-														<!--begin::Action=-->
-														<td class="text-end">
-															<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-															<span class="svg-icon svg-icon-5 m-0">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																</svg>
-															</span>
-															<!--end::Svg Icon--></a>
-															<!--begin::Menu-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu-->
-														</td>
-														<!--end::Action=-->
-													</tr></tbody>
-												<!--end::Table body-->
-											</table></div><div class="row"><div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start"><div class="dataTables_length" id="kt_customers_table_length"><label><select name="kt_customers_table_length" aria-controls="kt_customers_table" class="form-select form-select-sm form-select-solid"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div></div><div class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end"><div class="dataTables_paginate paging_simple_numbers" id="kt_customers_table_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="kt_customers_table_previous"><a href="#" aria-controls="kt_customers_table" data-dt-idx="0" tabindex="0" class="page-link"><i class="previous"></i></a></li><li class="paginate_button page-item active"><a href="#" aria-controls="kt_customers_table" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_customers_table" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_customers_table" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item "><a href="#" aria-controls="kt_customers_table" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class="paginate_button page-item next" id="kt_customers_table_next"><a href="#" aria-controls="kt_customers_table" data-dt-idx="5" tabindex="0" class="page-link"><i class="next"></i></a></li></ul></div></div></div></div>
-											<!--end::Table-->
-										</div>
-										<!--end::Card body-->
-									</div>
-
-									<div class="card card-flush h-xl-100">
-    <!--begin::Header-->
-    <div class="card-header pt-7">
-        <!--begin::Title-->
-        <h3 class="card-title align-items-start flex-column">
-			<span class="card-label fw-bold text-gray-800">Learn Activity</span>
-			<span class="text-gray-400 mt-1 fw-semibold fs-6">Hours per course</span>
-		</h3>
-        <!--end::Title-->
-
-        <!--begin::Toolbar-->
-        <div class="card-toolbar">           
-            <!--begin::Daterangepicker(defined in src/js/layout/app.js)-->
-            <div data-kt-daterangepicker="true" data-kt-daterangepicker-opens="left" class="btn btn-sm btn-light d-flex align-items-center px-4" data-kt-initialized="1">           
-                <!--begin::Display range-->
-                <div class="text-gray-600 fw-bold">5 Feb 2023 - 6 Mar 2023</div>
-                <!--end::Display range-->
-
-                <!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
-<span class="svg-icon svg-icon-1 ms-2 me-0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.3" d="M21 22H3C2.4 22 2 21.6 2 21V5C2 4.4 2.4 4 3 4H21C21.6 4 22 4.4 22 5V21C22 21.6 21.6 22 21 22Z" fill="currentColor"></path>
-<path d="M6 6C5.4 6 5 5.6 5 5V3C5 2.4 5.4 2 6 2C6.6 2 7 2.4 7 3V5C7 5.6 6.6 6 6 6ZM11 5V3C11 2.4 10.6 2 10 2C9.4 2 9 2.4 9 3V5C9 5.6 9.4 6 10 6C10.6 6 11 5.6 11 5ZM15 5V3C15 2.4 14.6 2 14 2C13.4 2 13 2.4 13 3V5C13 5.6 13.4 6 14 6C14.6 6 15 5.6 15 5ZM19 5V3C19 2.4 18.6 2 18 2C17.4 2 17 2.4 17 3V5C17 5.6 17.4 6 18 6C18.6 6 19 5.6 19 5Z" fill="currentColor"></path>
-<path d="M8.8 13.1C9.2 13.1 9.5 13 9.7 12.8C9.9 12.6 10.1 12.3 10.1 11.9C10.1 11.6 10 11.3 9.8 11.1C9.6 10.9 9.3 10.8 9 10.8C8.8 10.8 8.59999 10.8 8.39999 10.9C8.19999 11 8.1 11.1 8 11.2C7.9 11.3 7.8 11.4 7.7 11.6C7.6 11.8 7.5 11.9 7.5 12.1C7.5 12.2 7.4 12.2 7.3 12.3C7.2 12.4 7.09999 12.4 6.89999 12.4C6.69999 12.4 6.6 12.3 6.5 12.2C6.4 12.1 6.3 11.9 6.3 11.7C6.3 11.5 6.4 11.3 6.5 11.1C6.6 10.9 6.8 10.7 7 10.5C7.2 10.3 7.49999 10.1 7.89999 10C8.29999 9.90003 8.60001 9.80003 9.10001 9.80003C9.50001 9.80003 9.80001 9.90003 10.1 10C10.4 10.1 10.7 10.3 10.9 10.4C11.1 10.5 11.3 10.8 11.4 11.1C11.5 11.4 11.6 11.6 11.6 11.9C11.6 12.3 11.5 12.6 11.3 12.9C11.1 13.2 10.9 13.5 10.6 13.7C10.9 13.9 11.2 14.1 11.4 14.3C11.6 14.5 11.8 14.7 11.9 15C12 15.3 12.1 15.5 12.1 15.8C12.1 16.2 12 16.5 11.9 16.8C11.8 17.1 11.5 17.4 11.3 17.7C11.1 18 10.7 18.2 10.3 18.3C9.9 18.4 9.5 18.5 9 18.5C8.5 18.5 8.1 18.4 7.7 18.2C7.3 18 7 17.8 6.8 17.6C6.6 17.4 6.4 17.1 6.3 16.8C6.2 16.5 6.10001 16.3 6.10001 16.1C6.10001 15.9 6.2 15.7 6.3 15.6C6.4 15.5 6.6 15.4 6.8 15.4C6.9 15.4 7.00001 15.4 7.10001 15.5C7.20001 15.6 7.3 15.6 7.3 15.7C7.5 16.2 7.7 16.6 8 16.9C8.3 17.2 8.6 17.3 9 17.3C9.2 17.3 9.5 17.2 9.7 17.1C9.9 17 10.1 16.8 10.3 16.6C10.5 16.4 10.5 16.1 10.5 15.8C10.5 15.3 10.4 15 10.1 14.7C9.80001 14.4 9.50001 14.3 9.10001 14.3C9.00001 14.3 8.9 14.3 8.7 14.3C8.5 14.3 8.39999 14.3 8.39999 14.3C8.19999 14.3 7.99999 14.2 7.89999 14.1C7.79999 14 7.7 13.8 7.7 13.7C7.7 13.5 7.79999 13.4 7.89999 13.2C7.99999 13 8.2 13 8.5 13H8.8V13.1ZM15.3 17.5V12.2C14.3 13 13.6 13.3 13.3 13.3C13.1 13.3 13 13.2 12.9 13.1C12.8 13 12.7 12.8 12.7 12.6C12.7 12.4 12.8 12.3 12.9 12.2C13 12.1 13.2 12 13.6 11.8C14.1 11.6 14.5 11.3 14.7 11.1C14.9 10.9 15.2 10.6 15.5 10.3C15.8 10 15.9 9.80003 15.9 9.70003C15.9 9.60003 16.1 9.60004 16.3 9.60004C16.5 9.60004 16.7 9.70003 16.8 9.80003C16.9 9.90003 17 10.2 17 10.5V17.2C17 18 16.7 18.4 16.2 18.4C16 18.4 15.8 18.3 15.6 18.2C15.4 18.1 15.3 17.8 15.3 17.5Z" fill="currentColor"></path>
-</svg>
-</span>
-<!--end::Svg Icon-->          
-            </div>  
-            <!--end::Daterangepicker-->
-        </div>
-        <!--end::Toolbar-->
-    </div>
-    <!--end::Header-->
-
-    <!--begin::Body-->
-    <div class="card-body d-flex align-items-end px-0 pt-3 pb-5"> 
-        <!--begin::Chart-->
-        <div id="kt_charts_widget_18_chart" class="h-325px w-100 min-h-auto ps-4 pe-6" style="min-height: 340px;"><div id="apexchartseiaikz6h" class="apexcharts-canvas apexchartseiaikz6h apexcharts-theme-light" style="width: 708.5px; height: 325px;"><svg id="SvgjsSvg1446" width="708.5" height="325" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG1448" class="apexcharts-inner apexcharts-graphical" transform="translate(58.66250038146973, 30)"><defs id="SvgjsDefs1447"><linearGradient id="SvgjsLinearGradient1452" x1="0" y1="0" x2="0" y2="1"><stop id="SvgjsStop1453" stop-opacity="0" stop-color="rgba(216,227,240,0)" offset="0"></stop><stop id="SvgjsStop1454" stop-opacity="0" stop-color="rgba(190,209,230,0)" offset="1"></stop><stop id="SvgjsStop1455" stop-opacity="0" stop-color="rgba(190,209,230,0)" offset="1"></stop></linearGradient><clipPath id="gridRectMaskeiaikz6h"><rect id="SvgjsRect1457" width="645.8374996185303" height="256.11199999999997" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="forecastMaskeiaikz6h"></clipPath><clipPath id="nonForecastMaskeiaikz6h"></clipPath><clipPath id="gridRectMarkerMaskeiaikz6h"><rect id="SvgjsRect1458" width="643.8374996185303" height="258.11199999999997" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs><rect id="SvgjsRect1456" width="25.59349998474121" height="254.11199999999997" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke-dasharray="3" fill="url(#SvgjsLinearGradient1452)" class="apexcharts-xcrosshairs" y2="254.11199999999997" filter="none" fill-opacity="0.9"></rect><g id="SvgjsG1505" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1506" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"><text id="SvgjsText1508" font-family="inherit" x="45.702678544180735" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1509">QA Analysis</tspan><title>QA Analysis</title></text><text id="SvgjsText1511" font-family="inherit" x="137.1080356325422" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1512">Marketing</tspan><title>Marketing</title></text><text id="SvgjsText1514" font-family="inherit" x="228.51339272090365" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1515">Web Dev</tspan><title>Web Dev</title></text><text id="SvgjsText1517" font-family="inherit" x="319.91874980926514" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1518">Maths</tspan><title>Maths</title></text><text id="SvgjsText1520" font-family="inherit" x="411.3241068976266" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1521">Front-end Dev</tspan><title>Front-end Dev</title></text><text id="SvgjsText1523" font-family="inherit" x="502.72946398598805" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1524">Physics</tspan><title>Physics</title></text><text id="SvgjsText1526" font-family="inherit" x="594.1348210743496" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1527">Phylosophy</tspan><title>Phylosophy</title></text></g></g><g id="SvgjsG1545" class="apexcharts-grid"><g id="SvgjsG1546" class="apexcharts-gridlines-horizontal"><line id="SvgjsLine1548" x1="0" y1="0" x2="639.8374996185303" y2="0" stroke="#e1e3ea" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1549" x1="0" y1="63.52799999999999" x2="639.8374996185303" y2="63.52799999999999" stroke="#e1e3ea" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1550" x1="0" y1="127.05599999999998" x2="639.8374996185303" y2="127.05599999999998" stroke="#e1e3ea" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1551" x1="0" y1="190.58399999999997" x2="639.8374996185303" y2="190.58399999999997" stroke="#e1e3ea" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1552" x1="0" y1="254.11199999999997" x2="639.8374996185303" y2="254.11199999999997" stroke="#e1e3ea" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1547" class="apexcharts-gridlines-vertical"></g><line id="SvgjsLine1554" x1="0" y1="254.11199999999997" x2="639.8374996185303" y2="254.11199999999997" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line><line id="SvgjsLine1553" x1="0" y1="1" x2="0" y2="254.11199999999997" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line></g><g id="SvgjsG1459" class="apexcharts-bar-series apexcharts-plot-series"><g id="SvgjsG1460" class="apexcharts-series" rel="1" seriesName="Spentxtime" data:realIndex="0"><path id="SvgjsPath1464" d="M 32.90592855181013 254.11199999999997L 32.90592855181013 144.7616Q 32.90592855181013 139.7616 37.90592855181013 139.7616L 51.499428536551335 139.7616Q 56.499428536551335 139.7616 56.499428536551335 144.7616L 56.499428536551335 144.7616L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 32.90592855181013 254.11199999999997L 32.90592855181013 144.7616Q 32.90592855181013 139.7616 37.90592855181013 139.7616L 51.499428536551335 139.7616Q 56.499428536551335 139.7616 56.499428536551335 144.7616L 56.499428536551335 144.7616L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997z" pathFrom="M 32.90592855181013 254.11199999999997L 32.90592855181013 254.11199999999997L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997L 32.90592855181013 254.11199999999997" cy="139.7616" cx="123.3112856401716" j="0" val="54" barHeight="114.35039999999998" barWidth="25.59349998474121"></path><path id="SvgjsPath1470" d="M 124.3112856401716 254.11199999999997L 124.3112856401716 170.1728Q 124.3112856401716 165.1728 129.3112856401716 165.1728L 142.90478562491282 165.1728Q 147.90478562491282 165.1728 147.90478562491282 170.1728L 147.90478562491282 170.1728L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 124.3112856401716 254.11199999999997L 124.3112856401716 170.1728Q 124.3112856401716 165.1728 129.3112856401716 165.1728L 142.90478562491282 165.1728Q 147.90478562491282 165.1728 147.90478562491282 170.1728L 147.90478562491282 170.1728L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997z" pathFrom="M 124.3112856401716 254.11199999999997L 124.3112856401716 254.11199999999997L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997L 124.3112856401716 254.11199999999997" cy="165.1728" cx="214.7166427285331" j="1" val="42" barHeight="88.93919999999999" barWidth="25.59349998474121"></path><path id="SvgjsPath1476" d="M 215.7166427285331 254.11199999999997L 215.7166427285331 100.29199999999997Q 215.7166427285331 95.29199999999997 220.7166427285331 95.29199999999997L 234.3101427132743 95.29199999999997Q 239.3101427132743 95.29199999999997 239.3101427132743 100.29199999999997L 239.3101427132743 100.29199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 215.7166427285331 254.11199999999997L 215.7166427285331 100.29199999999997Q 215.7166427285331 95.29199999999997 220.7166427285331 95.29199999999997L 234.3101427132743 95.29199999999997Q 239.3101427132743 95.29199999999997 239.3101427132743 100.29199999999997L 239.3101427132743 100.29199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997z" pathFrom="M 215.7166427285331 254.11199999999997L 215.7166427285331 254.11199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997L 215.7166427285331 254.11199999999997" cy="95.29199999999997" cx="306.1219998168946" j="2" val="75" barHeight="158.82" barWidth="25.59349998474121"></path><path id="SvgjsPath1482" d="M 307.1219998168946 254.11199999999997L 307.1219998168946 26.175999999999988Q 307.1219998168946 21.175999999999988 312.1219998168946 21.175999999999988L 325.71549980163576 21.175999999999988Q 330.71549980163576 21.175999999999988 330.71549980163576 26.175999999999988L 330.71549980163576 26.175999999999988L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 307.1219998168946 254.11199999999997L 307.1219998168946 26.175999999999988Q 307.1219998168946 21.175999999999988 312.1219998168946 21.175999999999988L 325.71549980163576 21.175999999999988Q 330.71549980163576 21.175999999999988 330.71549980163576 26.175999999999988L 330.71549980163576 26.175999999999988L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997z" pathFrom="M 307.1219998168946 254.11199999999997L 307.1219998168946 254.11199999999997L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997L 307.1219998168946 254.11199999999997" cy="21.175999999999988" cx="397.52735690525606" j="3" val="110" barHeight="232.93599999999998" barWidth="25.59349998474121"></path><path id="SvgjsPath1488" d="M 398.52735690525606 254.11199999999997L 398.52735690525606 210.4072Q 398.52735690525606 205.4072 403.52735690525606 205.4072L 417.12085688999724 205.4072Q 422.12085688999724 205.4072 422.12085688999724 210.4072L 422.12085688999724 210.4072L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 398.52735690525606 254.11199999999997L 398.52735690525606 210.4072Q 398.52735690525606 205.4072 403.52735690525606 205.4072L 417.12085688999724 205.4072Q 422.12085688999724 205.4072 422.12085688999724 210.4072L 422.12085688999724 210.4072L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997z" pathFrom="M 398.52735690525606 254.11199999999997L 398.52735690525606 254.11199999999997L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997L 398.52735690525606 254.11199999999997" cy="205.4072" cx="488.93271399361754" j="4" val="23" barHeight="48.70479999999999" barWidth="25.59349998474121"></path><path id="SvgjsPath1494" d="M 489.93271399361754 254.11199999999997L 489.93271399361754 74.8808Q 489.93271399361754 69.8808 494.93271399361754 69.8808L 508.5262139783588 69.8808Q 513.5262139783588 69.8808 513.5262139783588 74.8808L 513.5262139783588 74.8808L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 489.93271399361754 254.11199999999997L 489.93271399361754 74.8808Q 489.93271399361754 69.8808 494.93271399361754 69.8808L 508.5262139783588 69.8808Q 513.5262139783588 69.8808 513.5262139783588 74.8808L 513.5262139783588 74.8808L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997z" pathFrom="M 489.93271399361754 254.11199999999997L 489.93271399361754 254.11199999999997L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997L 489.93271399361754 254.11199999999997" cy="69.8808" cx="580.338071081979" j="5" val="87" barHeight="184.23119999999997" barWidth="25.59349998474121"></path><path id="SvgjsPath1500" d="M 581.338071081979 254.11199999999997L 581.338071081979 153.23199999999997Q 581.338071081979 148.23199999999997 586.338071081979 148.23199999999997L 599.9315710667203 148.23199999999997Q 604.9315710667203 148.23199999999997 604.9315710667203 153.23199999999997L 604.9315710667203 153.23199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 581.338071081979 254.11199999999997L 581.338071081979 153.23199999999997Q 581.338071081979 148.23199999999997 586.338071081979 148.23199999999997L 599.9315710667203 148.23199999999997Q 604.9315710667203 148.23199999999997 604.9315710667203 153.23199999999997L 604.9315710667203 153.23199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997z" pathFrom="M 581.338071081979 254.11199999999997L 581.338071081979 254.11199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997L 581.338071081979 254.11199999999997" cy="148.23199999999997" cx="671.7434281703405" j="6" val="50" barHeight="105.87999999999998" barWidth="25.59349998474121"></path><g id="SvgjsG1462" class="apexcharts-bar-goals-markers" style="pointer-events: none"><g id="SvgjsG1463" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG1469" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG1475" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG1481" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG1487" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG1493" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG1499" className="apexcharts-bar-goals-groups"></g></g></g><g id="SvgjsG1461" class="apexcharts-datalabels" data:realIndex="0"><g id="SvgjsG1466" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1468" font-family="inherit" x="44.70267854418074" y="127.76159999999999" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="44.70267854418074" cy="127.76159999999999" style="font-family: inherit;">54</text></g><g id="SvgjsG1472" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1474" font-family="inherit" x="136.10803563254223" y="153.1728" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="136.10803563254223" cy="153.1728" style="font-family: inherit;">42</text></g><g id="SvgjsG1478" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1480" font-family="inherit" x="227.51339272090368" y="83.29199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="227.51339272090368" cy="83.29199999999997" style="font-family: inherit;">75</text></g><g id="SvgjsG1484" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1486" font-family="inherit" x="318.9187498092652" y="9.175999999999988" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="318.9187498092652" cy="9.175999999999988" style="font-family: inherit;">110</text></g><g id="SvgjsG1490" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1492" font-family="inherit" x="410.3241068976267" y="193.4072" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="410.3241068976267" cy="193.4072" style="font-family: inherit;">23</text></g><g id="SvgjsG1496" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1498" font-family="inherit" x="501.72946398598816" y="57.880799999999994" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="501.72946398598816" cy="57.880799999999994" style="font-family: inherit;">87</text></g><g id="SvgjsG1502" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1504" font-family="inherit" x="593.1348210743496" y="136.23199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="593.1348210743496" cy="136.23199999999997" style="font-family: inherit;">50</text></g></g></g><line id="SvgjsLine1555" x1="0" y1="0" x2="639.8374996185303" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1556" x1="0" y1="0" x2="639.8374996185303" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1557" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG1558" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG1559" class="apexcharts-point-annotations"></g></g><g id="SvgjsG1528" class="apexcharts-yaxis" rel="0" transform="translate(28.662500381469727, 0)"><g id="SvgjsG1529" class="apexcharts-yaxis-texts-g"><text id="SvgjsText1531" font-family="inherit" x="20" y="31.4" text-anchor="end" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1532">120H</tspan><title>120H</title></text><text id="SvgjsText1534" font-family="inherit" x="20" y="94.928" text-anchor="end" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1535">90H</tspan><title>90H</title></text><text id="SvgjsText1537" font-family="inherit" x="20" y="158.456" text-anchor="end" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1538">60H</tspan><title>60H</title></text><text id="SvgjsText1540" font-family="inherit" x="20" y="221.98399999999998" text-anchor="end" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1541">30H</tspan><title>30H</title></text><text id="SvgjsText1543" font-family="inherit" x="20" y="285.51199999999994" text-anchor="end" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1544">0H</tspan><title>0H</title></text></g></g><g id="SvgjsG1449" class="apexcharts-annotations"></g></svg><div class="apexcharts-legend" style="max-height: 162.5px;"></div><div class="apexcharts-tooltip apexcharts-theme-light"><div class="apexcharts-tooltip-title" style="font-family: inherit; font-size: 12px;"></div><div class="apexcharts-tooltip-series-group" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(0, 158, 247);"></span><div class="apexcharts-tooltip-text" style="font-family: inherit; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label"></span><span class="apexcharts-tooltip-text-y-value"></span></div><div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light"><div class="apexcharts-yaxistooltip-text"></div></div></div></div>
-        <!--end::Chart-->                  
-    </div>
-    <!--end: Card Body-->
-</div>
-									<!--end::Card-->
-									<!--begin::Modals-->
-									<!--begin::Modal - Customers - Add-->
-									<div class="modal fade" id="kt_modal_add_customer" tabindex="-1" aria-hidden="true">
-										<!--begin::Modal dialog-->
-										<div class="modal-dialog modal-dialog-centered mw-650px">
-											<!--begin::Modal content-->
-											<div class="modal-content">
-												<!--begin::Form-->
-												<form class="form fv-plugins-bootstrap5 fv-plugins-framework" action="#" id="kt_modal_add_customer_form" data-kt-redirect="../../demo1/dist/apps/customers/list.html">
-													<!--begin::Modal header-->
-													<div class="modal-header" id="kt_modal_add_customer_header">
-														<!--begin::Modal title-->
-														<h2 class="fw-bold">Add a Customer</h2>
-														<!--end::Modal title-->
-														<!--begin::Close-->
-														<div id="kt_modal_add_customer_close" class="btn btn-icon btn-sm btn-active-icon-primary">
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-															<span class="svg-icon svg-icon-1">
-																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor"></rect>
-																	<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor"></rect>
-																</svg>
-															</span>
-															<!--end::Svg Icon-->
-														</div>
-														<!--end::Close-->
-													</div>
-													<!--end::Modal header-->
-													<!--begin::Modal body-->
-													<div class="modal-body py-10 px-lg-17">
-														<!--begin::Scroll-->
-														<div class="scroll-y me-n7 pe-7" id="kt_modal_add_customer_scroll" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#kt_modal_add_customer_header" data-kt-scroll-wrappers="#kt_modal_add_customer_scroll" data-kt-scroll-offset="300px" style="max-height: 374px;">
-															<!--begin::Input group-->
-															<div class="fv-row mb-7 fv-plugins-icon-container">
-																<!--begin::Label-->
-																<label class="required fs-6 fw-semibold mb-2">Name</label>
-																<!--end::Label-->
-																<!--begin::Input-->
-																<input type="text" class="form-control form-control-solid" placeholder="" name="name" value="Sean Bean">
-																<!--end::Input-->
-															<div class="fv-plugins-message-container invalid-feedback"></div></div>
-															<!--end::Input group-->
-															<!--begin::Input group-->
-															<div class="fv-row mb-7 fv-plugins-icon-container">
-																<!--begin::Label-->
-																<label class="fs-6 fw-semibold mb-2">
-																	<span class="required">Email</span>
-																	<i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" aria-label="Email address must be active" data-bs-original-title="Email address must be active" data-kt-initialized="1"></i>
-																</label>
-																<!--end::Label-->
-																<!--begin::Input-->
-																<input type="email" class="form-control form-control-solid" placeholder="" name="email" value="sean@dellito.com">
-																<!--end::Input-->
-															<div class="fv-plugins-message-container invalid-feedback"></div></div>
-															<!--end::Input group-->
-															<!--begin::Input group-->
-															<div class="fv-row mb-15">
-																<!--begin::Label-->
-																<label class="fs-6 fw-semibold mb-2">Description</label>
-																<!--end::Label-->
-																<!--begin::Input-->
-																<input type="text" class="form-control form-control-solid" placeholder="" name="description">
-																<!--end::Input-->
-															</div>
-															<!--end::Input group-->
-															<!--begin::Billing toggle-->
-															<div class="fw-bold fs-3 rotate collapsible mb-7" data-bs-toggle="collapse" href="#kt_modal_add_customer_billing_info" role="button" aria-expanded="false" aria-controls="kt_customer_view_details">Shipping Information
-															<span class="ms-2 rotate-180">
-																<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
-																<span class="svg-icon svg-icon-3">
-																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</span></div>
-															<!--end::Billing toggle-->
-															<!--begin::Billing form-->
-															<div id="kt_modal_add_customer_billing_info" class="collapse show">
-																<!--begin::Input group-->
-																<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
-																	<!--begin::Label-->
-																	<label class="required fs-6 fw-semibold mb-2">Address Line 1</label>
-																	<!--end::Label-->
-																	<!--begin::Input-->
-																	<input class="form-control form-control-solid" placeholder="" name="address1" value="101, Collins Street">
-																	<!--end::Input-->
-																<div class="fv-plugins-message-container invalid-feedback"></div></div>
-																<!--end::Input group-->
-																<!--begin::Input group-->
-																<div class="d-flex flex-column mb-7 fv-row">
-																	<!--begin::Label-->
-																	<label class="fs-6 fw-semibold mb-2">Address Line 2</label>
-																	<!--end::Label-->
-																	<!--begin::Input-->
-																	<input class="form-control form-control-solid" placeholder="" name="address2" value="">
-																	<!--end::Input-->
-																</div>
-																<!--end::Input group-->
-																<!--begin::Input group-->
-																<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
-																	<!--begin::Label-->
-																	<label class="required fs-6 fw-semibold mb-2">Town</label>
-																	<!--end::Label-->
-																	<!--begin::Input-->
-																	<input class="form-control form-control-solid" placeholder="" name="city" value="Melbourne">
-																	<!--end::Input-->
-																<div class="fv-plugins-message-container invalid-feedback"></div></div>
-																<!--end::Input group-->
-																<!--begin::Input group-->
-																<div class="row g-9 mb-7">
-																	<!--begin::Col-->
-																	<div class="col-md-6 fv-row fv-plugins-icon-container">
-																		<!--begin::Label-->
-																		<label class="required fs-6 fw-semibold mb-2">State / Province</label>
-																		<!--end::Label-->
-																		<!--begin::Input-->
-																		<input class="form-control form-control-solid" placeholder="" name="state" value="Victoria">
-																		<!--end::Input-->
-																	<div class="fv-plugins-message-container invalid-feedback"></div></div>
-																	<!--end::Col-->
-																	<!--begin::Col-->
-																	<div class="col-md-6 fv-row fv-plugins-icon-container">
-																		<!--begin::Label-->
-																		<label class="required fs-6 fw-semibold mb-2">Post Code</label>
-																		<!--end::Label-->
-																		<!--begin::Input-->
-																		<input class="form-control form-control-solid" placeholder="" name="postcode" value="3000">
-																		<!--end::Input-->
-																	<div class="fv-plugins-message-container invalid-feedback"></div></div>
-																	<!--end::Col-->
-																</div>
-																<!--end::Input group-->
-																<!--begin::Input group-->
-																<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
-																	<!--begin::Label-->
-																	<label class="fs-6 fw-semibold mb-2">
-																		<span class="required">Country</span>
-																		<i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" aria-label="Country of origination" data-bs-original-title="Country of origination" data-kt-initialized="1"></i>
-																	</label>
-																	<!--end::Label-->
-																	<!--begin::Input-->
-																	<span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-14-qv6p" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid fw-bold" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-country-7s-container" aria-controls="select2-country-7s-container"><span class="select2-selection__rendered" id="select2-country-7s-container" role="textbox" aria-readonly="true" title="United States">United States</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-																	<!--end::Input-->
-																<div class="fv-plugins-message-container invalid-feedback"></div></div>
-																<!--end::Input group-->
-																<!--begin::Input group-->
-																<div class="fv-row mb-7">
-																	<!--begin::Wrapper-->
-																	<div class="d-flex flex-stack">
-																		<!--begin::Label-->
-																		<div class="me-5">
-																			<!--begin::Label-->
-																			<label class="fs-6 fw-semibold">Use as a billing adderess?</label>
-																			<!--end::Label-->
-																			<!--begin::Input-->
-																			<div class="fs-7 fw-semibold text-muted">If you need more info, please check budget planning</div>
-																			<!--end::Input-->
-																		</div>
-																		<!--end::Label-->
-																		<!--begin::Switch-->
-																		<label class="form-check form-switch form-check-custom form-check-solid">
-																			<!--begin::Input-->
-																			<input class="form-check-input" name="billing" type="checkbox" value="1" id="kt_modal_add_customer_billing" checked="checked">
-																			<!--end::Input-->
-																			<!--begin::Label-->
-																			<span class="form-check-label fw-semibold text-muted" for="kt_modal_add_customer_billing">Yes</span>
-																			<!--end::Label-->
-																		</label>
-																		<!--end::Switch-->
+															</td>
+															<!--end::Checkbox-->
+															<!--begin::Name=-->
+															<td>
+																<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Emma Smith</a>
+															</td>
+															<!--end::Name=-->
+															<!--begin::Email=-->
+															<td>
+																<a href="#" class="text-gray-600 text-hover-primary mb-1">smith@kpmg.com</a>
+															</td>
+															<!--end::Email=-->
+															<!--begin::Status=-->
+															<td>
+																<!--begin::Badges-->
+																<div class="badge badge-light-success">Active</div>
+																<!--end::Badges-->
+															</td>
+															<!--end::Status=-->
+															<!--begin::IP Address=-->
+															<td>211.68.47.195</td>
+															<!--end::IP Address=-->
+															<!--begin::Date=-->
+															<td data-order="2023-07-25T17:30:00+05:30">25 Jul 2023, 5:30 pm</td>
+															<!--end::Date=-->
+															<!--begin::Action=-->
+															<td class="text-end">
+																<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																	<span class="svg-icon svg-icon-5 m-0">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon--></a>
+																<!--begin::Menu-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
 																	</div>
-																	<!--begin::Wrapper-->
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																	</div>
+																	<!--end::Menu item-->
 																</div>
-																<!--end::Input group-->
-															</div>
-															<!--end::Billing form-->
-														</div>
-														<!--end::Scroll-->
+																<!--end::Menu-->
+															</td>
+															<!--end::Action=-->
+														</tr>
+														<tr class="even">
+															<!--begin::Checkbox-->
+															<td>
+																<div class="form-check form-check-sm form-check-custom form-check-solid">
+																	<input class="form-check-input" type="checkbox" value="1">
+																</div>
+															</td>
+															<!--end::Checkbox-->
+															<!--begin::Name=-->
+															<td>
+																<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Melody Macy</a>
+															</td>
+															<!--end::Name=-->
+															<!--begin::Email=-->
+															<td>
+																<a href="#" class="text-gray-600 text-hover-primary mb-1">melody@altbox.com</a>
+															</td>
+															<!--end::Email=-->
+															<!--begin::Status=-->
+															<td>
+																<!--begin::Badges-->
+																<div class="badge badge-light-danger">Locked</div>
+																<!--end::Badges-->
+															</td>
+															<!--end::Status=-->
+															<!--begin::IP Address=-->
+															<td>109.79.69.219</td>
+															<!--end::IP Address=-->
+															<!--begin::Date=-->
+															<td data-order="2023-08-19T22:10:00+05:30">19 Aug 2023, 10:10 pm</td>
+															<!--end::Date=-->
+															<!--begin::Action=-->
+															<td class="text-end">
+																<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																	<span class="svg-icon svg-icon-5 m-0">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon--></a>
+																<!--begin::Menu-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu-->
+															</td>
+															<!--end::Action=-->
+														</tr>
+														<tr class="odd">
+															<!--begin::Checkbox-->
+															<td>
+																<div class="form-check form-check-sm form-check-custom form-check-solid">
+																	<input class="form-check-input" type="checkbox" value="1">
+																</div>
+															</td>
+															<!--end::Checkbox-->
+															<!--begin::Name=-->
+															<td>
+																<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Max Smith</a>
+															</td>
+															<!--end::Name=-->
+															<!--begin::Email=-->
+															<td>
+																<a href="#" class="text-gray-600 text-hover-primary mb-1">max@kt.com</a>
+															</td>
+															<!--end::Email=-->
+															<!--begin::Status=-->
+															<td>
+																<!--begin::Badges-->
+																<div class="badge badge-light-success">Active</div>
+																<!--end::Badges-->
+															</td>
+															<!--end::Status=-->
+															<!--begin::IP Address=-->
+															<td>163.53.20.122</td>
+															<!--end::IP Address=-->
+															<!--begin::Date=-->
+															<td data-order="2023-02-21T18:05:00+05:30">21 Feb 2023, 6:05 pm</td>
+															<!--end::Date=-->
+															<!--begin::Action=-->
+															<td class="text-end">
+																<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																	<span class="svg-icon svg-icon-5 m-0">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon--></a>
+																<!--begin::Menu-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu-->
+															</td>
+															<!--end::Action=-->
+														</tr>
+														<tr class="even">
+															<!--begin::Checkbox-->
+															<td>
+																<div class="form-check form-check-sm form-check-custom form-check-solid">
+																	<input class="form-check-input" type="checkbox" value="1">
+																</div>
+															</td>
+															<!--end::Checkbox-->
+															<!--begin::Name=-->
+															<td>
+																<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Sean Bean</a>
+															</td>
+															<!--end::Name=-->
+															<!--begin::Email=-->
+															<td>
+																<a href="#" class="text-gray-600 text-hover-primary mb-1">sean@dellito.com</a>
+															</td>
+															<!--end::Email=-->
+															<!--begin::Status=-->
+															<td>
+																<!--begin::Badges-->
+																<div class="badge badge-light-success">Active</div>
+																<!--end::Badges-->
+															</td>
+															<!--end::Status=-->
+															<!--begin::IP Address=-->
+															<td>152.73.79.190</td>
+															<!--end::IP Address=-->
+															<!--begin::Date=-->
+															<td data-order="2023-04-15T11:05:00+05:30">15 Apr 2023, 11:05 am</td>
+															<!--end::Date=-->
+															<!--begin::Action=-->
+															<td class="text-end">
+																<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																	<span class="svg-icon svg-icon-5 m-0">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon--></a>
+																<!--begin::Menu-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu-->
+															</td>
+															<!--end::Action=-->
+														</tr>
+														<tr class="odd">
+															<!--begin::Checkbox-->
+															<td>
+																<div class="form-check form-check-sm form-check-custom form-check-solid">
+																	<input class="form-check-input" type="checkbox" value="1">
+																</div>
+															</td>
+															<!--end::Checkbox-->
+															<!--begin::Name=-->
+															<td>
+																<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Brian Cox</a>
+															</td>
+															<!--end::Name=-->
+															<!--begin::Email=-->
+															<td>
+																<a href="#" class="text-gray-600 text-hover-primary mb-1">brian@exchange.com</a>
+															</td>
+															<!--end::Email=-->
+															<!--begin::Status=-->
+															<td>
+																<!--begin::Badges-->
+																<div class="badge badge-light-danger">Locked</div>
+																<!--end::Badges-->
+															</td>
+															<!--end::Status=-->
+															<!--begin::IP Address=-->
+															<td>156.57.29.138</td>
+															<!--end::IP Address=-->
+															<!--begin::Date=-->
+															<td data-order="2023-06-24T10:30:00+05:30">24 Jun 2023, 10:30 am</td>
+															<!--end::Date=-->
+															<!--begin::Action=-->
+															<td class="text-end">
+																<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																	<span class="svg-icon svg-icon-5 m-0">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon--></a>
+																<!--begin::Menu-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu-->
+															</td>
+															<!--end::Action=-->
+														</tr>
+														<tr class="even">
+															<!--begin::Checkbox-->
+															<td>
+																<div class="form-check form-check-sm form-check-custom form-check-solid">
+																	<input class="form-check-input" type="checkbox" value="1">
+																</div>
+															</td>
+															<!--end::Checkbox-->
+															<!--begin::Name=-->
+															<td>
+																<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Mikaela Collins</a>
+															</td>
+															<!--end::Name=-->
+															<!--begin::Email=-->
+															<td>
+																<a href="#" class="text-gray-600 text-hover-primary mb-1">mik@pex.com</a>
+															</td>
+															<!--end::Email=-->
+															<!--begin::Status=-->
+															<td>
+																<!--begin::Badges-->
+																<div class="badge badge-light-success">Active</div>
+																<!--end::Badges-->
+															</td>
+															<!--end::Status=-->
+															<!--begin::IP Address=-->
+															<td>180.74.55.185</td>
+															<!--end::IP Address=-->
+															<!--begin::Date=-->
+															<td data-order="2023-02-21T10:30:00+05:30">21 Feb 2023, 10:30 am</td>
+															<!--end::Date=-->
+															<!--begin::Action=-->
+															<td class="text-end">
+																<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																	<span class="svg-icon svg-icon-5 m-0">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon--></a>
+																<!--begin::Menu-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu-->
+															</td>
+															<!--end::Action=-->
+														</tr>
+														<tr class="odd">
+															<!--begin::Checkbox-->
+															<td>
+																<div class="form-check form-check-sm form-check-custom form-check-solid">
+																	<input class="form-check-input" type="checkbox" value="1">
+																</div>
+															</td>
+															<!--end::Checkbox-->
+															<!--begin::Name=-->
+															<td>
+																<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Francis Mitcham</a>
+															</td>
+															<!--end::Name=-->
+															<!--begin::Email=-->
+															<td>
+																<a href="#" class="text-gray-600 text-hover-primary mb-1">f.mit@kpmg.com</a>
+															</td>
+															<!--end::Email=-->
+															<!--begin::Status=-->
+															<td>
+																<!--begin::Badges-->
+																<div class="badge badge-light-danger">Locked</div>
+																<!--end::Badges-->
+															</td>
+															<!--end::Status=-->
+															<!--begin::IP Address=-->
+															<td>111.79.26.49</td>
+															<!--end::IP Address=-->
+															<!--begin::Date=-->
+															<td data-order="2023-05-05T17:30:00+05:30">05 May 2023, 5:30 pm</td>
+															<!--end::Date=-->
+															<!--begin::Action=-->
+															<td class="text-end">
+																<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																	<span class="svg-icon svg-icon-5 m-0">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon--></a>
+																<!--begin::Menu-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu-->
+															</td>
+															<!--end::Action=-->
+														</tr>
+														<tr class="even">
+															<!--begin::Checkbox-->
+															<td>
+																<div class="form-check form-check-sm form-check-custom form-check-solid">
+																	<input class="form-check-input" type="checkbox" value="1">
+																</div>
+															</td>
+															<!--end::Checkbox-->
+															<!--begin::Name=-->
+															<td>
+																<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Olivia Wild</a>
+															</td>
+															<!--end::Name=-->
+															<!--begin::Email=-->
+															<td>
+																<a href="#" class="text-gray-600 text-hover-primary mb-1">olivia@corpmail.com</a>
+															</td>
+															<!--end::Email=-->
+															<!--begin::Status=-->
+															<td>
+																<!--begin::Badges-->
+																<div class="badge badge-light-success">Active</div>
+																<!--end::Badges-->
+															</td>
+															<!--end::Status=-->
+															<!--begin::IP Address=-->
+															<td>170.64.79.229</td>
+															<!--end::IP Address=-->
+															<!--begin::Date=-->
+															<td data-order="2023-08-19T20:43:00+05:30">19 Aug 2023, 8:43 pm</td>
+															<!--end::Date=-->
+															<!--begin::Action=-->
+															<td class="text-end">
+																<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																	<span class="svg-icon svg-icon-5 m-0">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon--></a>
+																<!--begin::Menu-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu-->
+															</td>
+															<!--end::Action=-->
+														</tr>
+														<tr class="odd">
+															<!--begin::Checkbox-->
+															<td>
+																<div class="form-check form-check-sm form-check-custom form-check-solid">
+																	<input class="form-check-input" type="checkbox" value="1">
+																</div>
+															</td>
+															<!--end::Checkbox-->
+															<!--begin::Name=-->
+															<td>
+																<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Neil Owen</a>
+															</td>
+															<!--end::Name=-->
+															<!--begin::Email=-->
+															<td>
+																<a href="#" class="text-gray-600 text-hover-primary mb-1">owen.neil@gmail.com</a>
+															</td>
+															<!--end::Email=-->
+															<!--begin::Status=-->
+															<td>
+																<!--begin::Badges-->
+																<div class="badge badge-light-danger">Locked</div>
+																<!--end::Badges-->
+															</td>
+															<!--end::Status=-->
+															<!--begin::IP Address=-->
+															<td>109.73.28.156</td>
+															<!--end::IP Address=-->
+															<!--begin::Date=-->
+															<td data-order="2023-06-20T18:05:00+05:30">20 Jun 2023, 6:05 pm</td>
+															<!--end::Date=-->
+															<!--begin::Action=-->
+															<td class="text-end">
+																<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																	<span class="svg-icon svg-icon-5 m-0">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon--></a>
+																<!--begin::Menu-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu-->
+															</td>
+															<!--end::Action=-->
+														</tr>
+														<tr class="even">
+															<!--begin::Checkbox-->
+															<td>
+																<div class="form-check form-check-sm form-check-custom form-check-solid">
+																	<input class="form-check-input" type="checkbox" value="1">
+																</div>
+															</td>
+															<!--end::Checkbox-->
+															<!--begin::Name=-->
+															<td>
+																<a href="../../demo1/dist/apps/ecommerce/customers/details.html" class="text-gray-800 text-hover-primary mb-1">Dan Wilson</a>
+															</td>
+															<!--end::Name=-->
+															<!--begin::Email=-->
+															<td>
+																<a href="#" class="text-gray-600 text-hover-primary mb-1">dam@consilting.com</a>
+															</td>
+															<!--end::Email=-->
+															<!--begin::Status=-->
+															<td>
+																<!--begin::Badges-->
+																<div class="badge badge-light-danger">Locked</div>
+																<!--end::Badges-->
+															</td>
+															<!--end::Status=-->
+															<!--begin::IP Address=-->
+															<td>190.55.39.154</td>
+															<!--end::IP Address=-->
+															<!--begin::Date=-->
+															<td data-order="2023-05-05T18:05:00+05:30">05 May 2023, 6:05 pm</td>
+															<!--end::Date=-->
+															<!--begin::Action=-->
+															<td class="text-end">
+																<a href="#" class="btn btn-sm btn-light btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">Actions
+																	<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																	<span class="svg-icon svg-icon-5 m-0">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																		</svg>
+																	</span>
+																	<!--end::Svg Icon--></a>
+																<!--begin::Menu-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="../../demo1/dist/apps/customers/view.html" class="menu-link px-3">View</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">Delete</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu-->
+															</td>
+															<!--end::Action=-->
+														</tr>
+													</tbody>
+													<!--end::Table body-->
+												</table>
+											</div>
+											<div class="row">
+												<div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start">
+													<div class="dataTables_length" id="kt_customers_table_length"><label><select name="kt_customers_table_length" aria-controls="kt_customers_table" class="form-select form-select-sm form-select-solid">
+																<option value="10">10</option>
+																<option value="25">25</option>
+																<option value="50">50</option>
+																<option value="100">100</option>
+															</select></label></div>
+												</div>
+												<div class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end">
+													<div class="dataTables_paginate paging_simple_numbers" id="kt_customers_table_paginate">
+														<ul class="pagination">
+															<li class="paginate_button page-item previous disabled" id="kt_customers_table_previous"><a href="#" aria-controls="kt_customers_table" data-dt-idx="0" tabindex="0" class="page-link"><i class="previous"></i></a></li>
+															<li class="paginate_button page-item active"><a href="#" aria-controls="kt_customers_table" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+															<li class="paginate_button page-item "><a href="#" aria-controls="kt_customers_table" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+															<li class="paginate_button page-item "><a href="#" aria-controls="kt_customers_table" data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
+															<li class="paginate_button page-item "><a href="#" aria-controls="kt_customers_table" data-dt-idx="4" tabindex="0" class="page-link">4</a></li>
+															<li class="paginate_button page-item next" id="kt_customers_table_next"><a href="#" aria-controls="kt_customers_table" data-dt-idx="5" tabindex="0" class="page-link"><i class="next"></i></a></li>
+														</ul>
 													</div>
-													<!--end::Modal body-->
-													<!--begin::Modal footer-->
-													<div class="modal-footer flex-center">
-														<!--begin::Button-->
-														<button type="reset" id="kt_modal_add_customer_cancel" class="btn btn-light me-3">Discard</button>
-														<!--end::Button-->
-														<!--begin::Button-->
-														<button type="submit" id="kt_modal_add_customer_submit" class="btn btn-primary">
-															<span class="indicator-label">Submit</span>
-															<span class="indicator-progress">Please wait...
-															<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
-														</button>
-														<!--end::Button-->
-													</div>
-													<!--end::Modal footer-->
-												</form>
-												<!--end::Form-->
+												</div>
 											</div>
 										</div>
+										<!--end::Table-->
 									</div>
-									<!--end::Modal - Customers - Add-->
-									<!--begin::Modal - Adjust Balance-->
-									<div class="modal fade" id="kt_customers_export_modal" tabindex="-1" aria-hidden="true">
-										<!--begin::Modal dialog-->
-										<div class="modal-dialog modal-dialog-centered mw-650px">
-											<!--begin::Modal content-->
-											<div class="modal-content">
+									<!--end::Card body-->
+								</div>
+
+								<div class="card card-flush h-xl-100">
+									<!--begin::Header-->
+									<div class="card-header pt-7">
+										<!--begin::Title-->
+										<h3 class="card-title align-items-start flex-column">
+											<span class="card-label fw-bold text-gray-800">Learn Activity</span>
+											<span class="text-gray-400 mt-1 fw-semibold fs-6">Hours per course</span>
+										</h3>
+										<!--end::Title-->
+
+										<!--begin::Toolbar-->
+										<div class="card-toolbar">
+											<!--begin::Daterangepicker(defined in src/js/layout/app.js)-->
+											<div data-kt-daterangepicker="true" data-kt-daterangepicker-opens="left" class="btn btn-sm btn-light d-flex align-items-center px-4" data-kt-initialized="1">
+												<!--begin::Display range-->
+												<div class="text-gray-600 fw-bold">5 Feb 2023 - 6 Mar 2023</div>
+												<!--end::Display range-->
+
+												<!--begin::Svg Icon | path: icons/duotune/general/gen014.svg-->
+												<span class="svg-icon svg-icon-1 ms-2 me-0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path opacity="0.3" d="M21 22H3C2.4 22 2 21.6 2 21V5C2 4.4 2.4 4 3 4H21C21.6 4 22 4.4 22 5V21C22 21.6 21.6 22 21 22Z" fill="currentColor"></path>
+														<path d="M6 6C5.4 6 5 5.6 5 5V3C5 2.4 5.4 2 6 2C6.6 2 7 2.4 7 3V5C7 5.6 6.6 6 6 6ZM11 5V3C11 2.4 10.6 2 10 2C9.4 2 9 2.4 9 3V5C9 5.6 9.4 6 10 6C10.6 6 11 5.6 11 5ZM15 5V3C15 2.4 14.6 2 14 2C13.4 2 13 2.4 13 3V5C13 5.6 13.4 6 14 6C14.6 6 15 5.6 15 5ZM19 5V3C19 2.4 18.6 2 18 2C17.4 2 17 2.4 17 3V5C17 5.6 17.4 6 18 6C18.6 6 19 5.6 19 5Z" fill="currentColor"></path>
+														<path d="M8.8 13.1C9.2 13.1 9.5 13 9.7 12.8C9.9 12.6 10.1 12.3 10.1 11.9C10.1 11.6 10 11.3 9.8 11.1C9.6 10.9 9.3 10.8 9 10.8C8.8 10.8 8.59999 10.8 8.39999 10.9C8.19999 11 8.1 11.1 8 11.2C7.9 11.3 7.8 11.4 7.7 11.6C7.6 11.8 7.5 11.9 7.5 12.1C7.5 12.2 7.4 12.2 7.3 12.3C7.2 12.4 7.09999 12.4 6.89999 12.4C6.69999 12.4 6.6 12.3 6.5 12.2C6.4 12.1 6.3 11.9 6.3 11.7C6.3 11.5 6.4 11.3 6.5 11.1C6.6 10.9 6.8 10.7 7 10.5C7.2 10.3 7.49999 10.1 7.89999 10C8.29999 9.90003 8.60001 9.80003 9.10001 9.80003C9.50001 9.80003 9.80001 9.90003 10.1 10C10.4 10.1 10.7 10.3 10.9 10.4C11.1 10.5 11.3 10.8 11.4 11.1C11.5 11.4 11.6 11.6 11.6 11.9C11.6 12.3 11.5 12.6 11.3 12.9C11.1 13.2 10.9 13.5 10.6 13.7C10.9 13.9 11.2 14.1 11.4 14.3C11.6 14.5 11.8 14.7 11.9 15C12 15.3 12.1 15.5 12.1 15.8C12.1 16.2 12 16.5 11.9 16.8C11.8 17.1 11.5 17.4 11.3 17.7C11.1 18 10.7 18.2 10.3 18.3C9.9 18.4 9.5 18.5 9 18.5C8.5 18.5 8.1 18.4 7.7 18.2C7.3 18 7 17.8 6.8 17.6C6.6 17.4 6.4 17.1 6.3 16.8C6.2 16.5 6.10001 16.3 6.10001 16.1C6.10001 15.9 6.2 15.7 6.3 15.6C6.4 15.5 6.6 15.4 6.8 15.4C6.9 15.4 7.00001 15.4 7.10001 15.5C7.20001 15.6 7.3 15.6 7.3 15.7C7.5 16.2 7.7 16.6 8 16.9C8.3 17.2 8.6 17.3 9 17.3C9.2 17.3 9.5 17.2 9.7 17.1C9.9 17 10.1 16.8 10.3 16.6C10.5 16.4 10.5 16.1 10.5 15.8C10.5 15.3 10.4 15 10.1 14.7C9.80001 14.4 9.50001 14.3 9.10001 14.3C9.00001 14.3 8.9 14.3 8.7 14.3C8.5 14.3 8.39999 14.3 8.39999 14.3C8.19999 14.3 7.99999 14.2 7.89999 14.1C7.79999 14 7.7 13.8 7.7 13.7C7.7 13.5 7.79999 13.4 7.89999 13.2C7.99999 13 8.2 13 8.5 13H8.8V13.1ZM15.3 17.5V12.2C14.3 13 13.6 13.3 13.3 13.3C13.1 13.3 13 13.2 12.9 13.1C12.8 13 12.7 12.8 12.7 12.6C12.7 12.4 12.8 12.3 12.9 12.2C13 12.1 13.2 12 13.6 11.8C14.1 11.6 14.5 11.3 14.7 11.1C14.9 10.9 15.2 10.6 15.5 10.3C15.8 10 15.9 9.80003 15.9 9.70003C15.9 9.60003 16.1 9.60004 16.3 9.60004C16.5 9.60004 16.7 9.70003 16.8 9.80003C16.9 9.90003 17 10.2 17 10.5V17.2C17 18 16.7 18.4 16.2 18.4C16 18.4 15.8 18.3 15.6 18.2C15.4 18.1 15.3 17.8 15.3 17.5Z" fill="currentColor"></path>
+													</svg>
+												</span>
+												<!--end::Svg Icon-->
+											</div>
+											<!--end::Daterangepicker-->
+										</div>
+										<!--end::Toolbar-->
+									</div>
+									<!--end::Header-->
+
+									<!--begin::Body-->
+									<div class="card-body d-flex align-items-end px-0 pt-3 pb-5">
+										<!--begin::Chart-->
+										<div id="kt_charts_widget_18_chart" class="h-325px w-100 min-h-auto ps-4 pe-6" style="min-height: 340px;">
+											<div id="apexchartseiaikz6h" class="apexcharts-canvas apexchartseiaikz6h apexcharts-theme-light" style="width: 708.5px; height: 325px;"><svg id="SvgjsSvg1446" width="708.5" height="325" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;">
+													<g id="SvgjsG1448" class="apexcharts-inner apexcharts-graphical" transform="translate(58.66250038146973, 30)">
+														<defs id="SvgjsDefs1447">
+															<linearGradient id="SvgjsLinearGradient1452" x1="0" y1="0" x2="0" y2="1">
+																<stop id="SvgjsStop1453" stop-opacity="0" stop-color="rgba(216,227,240,0)" offset="0"></stop>
+																<stop id="SvgjsStop1454" stop-opacity="0" stop-color="rgba(190,209,230,0)" offset="1"></stop>
+																<stop id="SvgjsStop1455" stop-opacity="0" stop-color="rgba(190,209,230,0)" offset="1"></stop>
+															</linearGradient>
+															<clipPath id="gridRectMaskeiaikz6h">
+																<rect id="SvgjsRect1457" width="645.8374996185303" height="256.11199999999997" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect>
+															</clipPath>
+															<clipPath id="forecastMaskeiaikz6h"></clipPath>
+															<clipPath id="nonForecastMaskeiaikz6h"></clipPath>
+															<clipPath id="gridRectMarkerMaskeiaikz6h">
+																<rect id="SvgjsRect1458" width="643.8374996185303" height="258.11199999999997" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect>
+															</clipPath>
+														</defs>
+														<rect id="SvgjsRect1456" width="25.59349998474121" height="254.11199999999997" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke-dasharray="3" fill="url(#SvgjsLinearGradient1452)" class="apexcharts-xcrosshairs" y2="254.11199999999997" filter="none" fill-opacity="0.9"></rect>
+														<g id="SvgjsG1505" class="apexcharts-xaxis" transform="translate(0, 0)">
+															<g id="SvgjsG1506" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"><text id="SvgjsText1508" font-family="inherit" x="45.702678544180735" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;">
+																	<tspan id="SvgjsTspan1509">QA Analysis</tspan>
+																	<title>QA Analysis</title>
+																</text><text id="SvgjsText1511" font-family="inherit" x="137.1080356325422" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;">
+																	<tspan id="SvgjsTspan1512">Marketing</tspan>
+																	<title>Marketing</title>
+																</text><text id="SvgjsText1514" font-family="inherit" x="228.51339272090365" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;">
+																	<tspan id="SvgjsTspan1515">Web Dev</tspan>
+																	<title>Web Dev</title>
+																</text><text id="SvgjsText1517" font-family="inherit" x="319.91874980926514" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;">
+																	<tspan id="SvgjsTspan1518">Maths</tspan>
+																	<title>Maths</title>
+																</text><text id="SvgjsText1520" font-family="inherit" x="411.3241068976266" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;">
+																	<tspan id="SvgjsTspan1521">Front-end Dev</tspan>
+																	<title>Front-end Dev</title>
+																</text><text id="SvgjsText1523" font-family="inherit" x="502.72946398598805" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;">
+																	<tspan id="SvgjsTspan1524">Physics</tspan>
+																	<title>Physics</title>
+																</text><text id="SvgjsText1526" font-family="inherit" x="594.1348210743496" y="283.11199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;">
+																	<tspan id="SvgjsTspan1527">Phylosophy</tspan>
+																	<title>Phylosophy</title>
+																</text></g>
+														</g>
+														<g id="SvgjsG1545" class="apexcharts-grid">
+															<g id="SvgjsG1546" class="apexcharts-gridlines-horizontal">
+																<line id="SvgjsLine1548" x1="0" y1="0" x2="639.8374996185303" y2="0" stroke="#e1e3ea" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line>
+																<line id="SvgjsLine1549" x1="0" y1="63.52799999999999" x2="639.8374996185303" y2="63.52799999999999" stroke="#e1e3ea" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line>
+																<line id="SvgjsLine1550" x1="0" y1="127.05599999999998" x2="639.8374996185303" y2="127.05599999999998" stroke="#e1e3ea" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line>
+																<line id="SvgjsLine1551" x1="0" y1="190.58399999999997" x2="639.8374996185303" y2="190.58399999999997" stroke="#e1e3ea" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line>
+																<line id="SvgjsLine1552" x1="0" y1="254.11199999999997" x2="639.8374996185303" y2="254.11199999999997" stroke="#e1e3ea" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line>
+															</g>
+															<g id="SvgjsG1547" class="apexcharts-gridlines-vertical"></g>
+															<line id="SvgjsLine1554" x1="0" y1="254.11199999999997" x2="639.8374996185303" y2="254.11199999999997" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line>
+															<line id="SvgjsLine1553" x1="0" y1="1" x2="0" y2="254.11199999999997" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line>
+														</g>
+														<g id="SvgjsG1459" class="apexcharts-bar-series apexcharts-plot-series">
+															<g id="SvgjsG1460" class="apexcharts-series" rel="1" seriesName="Spentxtime" data:realIndex="0">
+																<path id="SvgjsPath1464" d="M 32.90592855181013 254.11199999999997L 32.90592855181013 144.7616Q 32.90592855181013 139.7616 37.90592855181013 139.7616L 51.499428536551335 139.7616Q 56.499428536551335 139.7616 56.499428536551335 144.7616L 56.499428536551335 144.7616L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 32.90592855181013 254.11199999999997L 32.90592855181013 144.7616Q 32.90592855181013 139.7616 37.90592855181013 139.7616L 51.499428536551335 139.7616Q 56.499428536551335 139.7616 56.499428536551335 144.7616L 56.499428536551335 144.7616L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997z" pathFrom="M 32.90592855181013 254.11199999999997L 32.90592855181013 254.11199999999997L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997L 56.499428536551335 254.11199999999997L 32.90592855181013 254.11199999999997" cy="139.7616" cx="123.3112856401716" j="0" val="54" barHeight="114.35039999999998" barWidth="25.59349998474121"></path>
+																<path id="SvgjsPath1470" d="M 124.3112856401716 254.11199999999997L 124.3112856401716 170.1728Q 124.3112856401716 165.1728 129.3112856401716 165.1728L 142.90478562491282 165.1728Q 147.90478562491282 165.1728 147.90478562491282 170.1728L 147.90478562491282 170.1728L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 124.3112856401716 254.11199999999997L 124.3112856401716 170.1728Q 124.3112856401716 165.1728 129.3112856401716 165.1728L 142.90478562491282 165.1728Q 147.90478562491282 165.1728 147.90478562491282 170.1728L 147.90478562491282 170.1728L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997z" pathFrom="M 124.3112856401716 254.11199999999997L 124.3112856401716 254.11199999999997L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997L 147.90478562491282 254.11199999999997L 124.3112856401716 254.11199999999997" cy="165.1728" cx="214.7166427285331" j="1" val="42" barHeight="88.93919999999999" barWidth="25.59349998474121"></path>
+																<path id="SvgjsPath1476" d="M 215.7166427285331 254.11199999999997L 215.7166427285331 100.29199999999997Q 215.7166427285331 95.29199999999997 220.7166427285331 95.29199999999997L 234.3101427132743 95.29199999999997Q 239.3101427132743 95.29199999999997 239.3101427132743 100.29199999999997L 239.3101427132743 100.29199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 215.7166427285331 254.11199999999997L 215.7166427285331 100.29199999999997Q 215.7166427285331 95.29199999999997 220.7166427285331 95.29199999999997L 234.3101427132743 95.29199999999997Q 239.3101427132743 95.29199999999997 239.3101427132743 100.29199999999997L 239.3101427132743 100.29199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997z" pathFrom="M 215.7166427285331 254.11199999999997L 215.7166427285331 254.11199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997L 239.3101427132743 254.11199999999997L 215.7166427285331 254.11199999999997" cy="95.29199999999997" cx="306.1219998168946" j="2" val="75" barHeight="158.82" barWidth="25.59349998474121"></path>
+																<path id="SvgjsPath1482" d="M 307.1219998168946 254.11199999999997L 307.1219998168946 26.175999999999988Q 307.1219998168946 21.175999999999988 312.1219998168946 21.175999999999988L 325.71549980163576 21.175999999999988Q 330.71549980163576 21.175999999999988 330.71549980163576 26.175999999999988L 330.71549980163576 26.175999999999988L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 307.1219998168946 254.11199999999997L 307.1219998168946 26.175999999999988Q 307.1219998168946 21.175999999999988 312.1219998168946 21.175999999999988L 325.71549980163576 21.175999999999988Q 330.71549980163576 21.175999999999988 330.71549980163576 26.175999999999988L 330.71549980163576 26.175999999999988L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997z" pathFrom="M 307.1219998168946 254.11199999999997L 307.1219998168946 254.11199999999997L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997L 330.71549980163576 254.11199999999997L 307.1219998168946 254.11199999999997" cy="21.175999999999988" cx="397.52735690525606" j="3" val="110" barHeight="232.93599999999998" barWidth="25.59349998474121"></path>
+																<path id="SvgjsPath1488" d="M 398.52735690525606 254.11199999999997L 398.52735690525606 210.4072Q 398.52735690525606 205.4072 403.52735690525606 205.4072L 417.12085688999724 205.4072Q 422.12085688999724 205.4072 422.12085688999724 210.4072L 422.12085688999724 210.4072L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 398.52735690525606 254.11199999999997L 398.52735690525606 210.4072Q 398.52735690525606 205.4072 403.52735690525606 205.4072L 417.12085688999724 205.4072Q 422.12085688999724 205.4072 422.12085688999724 210.4072L 422.12085688999724 210.4072L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997z" pathFrom="M 398.52735690525606 254.11199999999997L 398.52735690525606 254.11199999999997L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997L 422.12085688999724 254.11199999999997L 398.52735690525606 254.11199999999997" cy="205.4072" cx="488.93271399361754" j="4" val="23" barHeight="48.70479999999999" barWidth="25.59349998474121"></path>
+																<path id="SvgjsPath1494" d="M 489.93271399361754 254.11199999999997L 489.93271399361754 74.8808Q 489.93271399361754 69.8808 494.93271399361754 69.8808L 508.5262139783588 69.8808Q 513.5262139783588 69.8808 513.5262139783588 74.8808L 513.5262139783588 74.8808L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 489.93271399361754 254.11199999999997L 489.93271399361754 74.8808Q 489.93271399361754 69.8808 494.93271399361754 69.8808L 508.5262139783588 69.8808Q 513.5262139783588 69.8808 513.5262139783588 74.8808L 513.5262139783588 74.8808L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997z" pathFrom="M 489.93271399361754 254.11199999999997L 489.93271399361754 254.11199999999997L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997L 513.5262139783588 254.11199999999997L 489.93271399361754 254.11199999999997" cy="69.8808" cx="580.338071081979" j="5" val="87" barHeight="184.23119999999997" barWidth="25.59349998474121"></path>
+																<path id="SvgjsPath1500" d="M 581.338071081979 254.11199999999997L 581.338071081979 153.23199999999997Q 581.338071081979 148.23199999999997 586.338071081979 148.23199999999997L 599.9315710667203 148.23199999999997Q 604.9315710667203 148.23199999999997 604.9315710667203 153.23199999999997L 604.9315710667203 153.23199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997z" fill="rgba(0,158,247,1)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskeiaikz6h)" pathTo="M 581.338071081979 254.11199999999997L 581.338071081979 153.23199999999997Q 581.338071081979 148.23199999999997 586.338071081979 148.23199999999997L 599.9315710667203 148.23199999999997Q 604.9315710667203 148.23199999999997 604.9315710667203 153.23199999999997L 604.9315710667203 153.23199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997z" pathFrom="M 581.338071081979 254.11199999999997L 581.338071081979 254.11199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997L 604.9315710667203 254.11199999999997L 581.338071081979 254.11199999999997" cy="148.23199999999997" cx="671.7434281703405" j="6" val="50" barHeight="105.87999999999998" barWidth="25.59349998474121"></path>
+																<g id="SvgjsG1462" class="apexcharts-bar-goals-markers" style="pointer-events: none">
+																	<g id="SvgjsG1463" className="apexcharts-bar-goals-groups"></g>
+																	<g id="SvgjsG1469" className="apexcharts-bar-goals-groups"></g>
+																	<g id="SvgjsG1475" className="apexcharts-bar-goals-groups"></g>
+																	<g id="SvgjsG1481" className="apexcharts-bar-goals-groups"></g>
+																	<g id="SvgjsG1487" className="apexcharts-bar-goals-groups"></g>
+																	<g id="SvgjsG1493" className="apexcharts-bar-goals-groups"></g>
+																	<g id="SvgjsG1499" className="apexcharts-bar-goals-groups"></g>
+																</g>
+															</g>
+															<g id="SvgjsG1461" class="apexcharts-datalabels" data:realIndex="0">
+																<g id="SvgjsG1466" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1468" font-family="inherit" x="44.70267854418074" y="127.76159999999999" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="44.70267854418074" cy="127.76159999999999" style="font-family: inherit;">54</text></g>
+																<g id="SvgjsG1472" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1474" font-family="inherit" x="136.10803563254223" y="153.1728" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="136.10803563254223" cy="153.1728" style="font-family: inherit;">42</text></g>
+																<g id="SvgjsG1478" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1480" font-family="inherit" x="227.51339272090368" y="83.29199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="227.51339272090368" cy="83.29199999999997" style="font-family: inherit;">75</text></g>
+																<g id="SvgjsG1484" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1486" font-family="inherit" x="318.9187498092652" y="9.175999999999988" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="318.9187498092652" cy="9.175999999999988" style="font-family: inherit;">110</text></g>
+																<g id="SvgjsG1490" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1492" font-family="inherit" x="410.3241068976267" y="193.4072" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="410.3241068976267" cy="193.4072" style="font-family: inherit;">23</text></g>
+																<g id="SvgjsG1496" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1498" font-family="inherit" x="501.72946398598816" y="57.880799999999994" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="501.72946398598816" cy="57.880799999999994" style="font-family: inherit;">87</text></g>
+																<g id="SvgjsG1502" class="apexcharts-data-labels" transform="rotate(0)"><text id="SvgjsText1504" font-family="inherit" x="593.1348210743496" y="136.23199999999997" text-anchor="middle" dominant-baseline="auto" font-size="13px" font-weight="600" fill="#181c32" class="apexcharts-datalabel" cx="593.1348210743496" cy="136.23199999999997" style="font-family: inherit;">50</text></g>
+															</g>
+														</g>
+														<line id="SvgjsLine1555" x1="0" y1="0" x2="639.8374996185303" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line>
+														<line id="SvgjsLine1556" x1="0" y1="0" x2="639.8374996185303" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line>
+														<g id="SvgjsG1557" class="apexcharts-yaxis-annotations"></g>
+														<g id="SvgjsG1558" class="apexcharts-xaxis-annotations"></g>
+														<g id="SvgjsG1559" class="apexcharts-point-annotations"></g>
+													</g>
+													<g id="SvgjsG1528" class="apexcharts-yaxis" rel="0" transform="translate(28.662500381469727, 0)">
+														<g id="SvgjsG1529" class="apexcharts-yaxis-texts-g"><text id="SvgjsText1531" font-family="inherit" x="20" y="31.4" text-anchor="end" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;">
+																<tspan id="SvgjsTspan1532">120H</tspan>
+																<title>120H</title>
+															</text><text id="SvgjsText1534" font-family="inherit" x="20" y="94.928" text-anchor="end" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;">
+																<tspan id="SvgjsTspan1535">90H</tspan>
+																<title>90H</title>
+															</text><text id="SvgjsText1537" font-family="inherit" x="20" y="158.456" text-anchor="end" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;">
+																<tspan id="SvgjsTspan1538">60H</tspan>
+																<title>60H</title>
+															</text><text id="SvgjsText1540" font-family="inherit" x="20" y="221.98399999999998" text-anchor="end" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;">
+																<tspan id="SvgjsTspan1541">30H</tspan>
+																<title>30H</title>
+															</text><text id="SvgjsText1543" font-family="inherit" x="20" y="285.51199999999994" text-anchor="end" dominant-baseline="auto" font-size="13px" font-weight="400" fill="#a1a5b7" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;">
+																<tspan id="SvgjsTspan1544">0H</tspan>
+																<title>0H</title>
+															</text></g>
+													</g>
+													<g id="SvgjsG1449" class="apexcharts-annotations"></g>
+												</svg>
+												<div class="apexcharts-legend" style="max-height: 162.5px;"></div>
+												<div class="apexcharts-tooltip apexcharts-theme-light">
+													<div class="apexcharts-tooltip-title" style="font-family: inherit; font-size: 12px;"></div>
+													<div class="apexcharts-tooltip-series-group" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(0, 158, 247);"></span>
+														<div class="apexcharts-tooltip-text" style="font-family: inherit; font-size: 12px;">
+															<div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label"></span><span class="apexcharts-tooltip-text-y-value"></span></div>
+															<div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div>
+															<div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div>
+														</div>
+													</div>
+												</div>
+												<div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light">
+													<div class="apexcharts-yaxistooltip-text"></div>
+												</div>
+											</div>
+										</div>
+										<!--end::Chart-->
+									</div>
+									<!--end: Card Body-->
+								</div>
+								<!--end::Card-->
+								<!--begin::Modals-->
+								<!--begin::Modal - Customers - Add-->
+								<div class="modal fade" id="kt_modal_add_customer" tabindex="-1" aria-hidden="true">
+									<!--begin::Modal dialog-->
+									<div class="modal-dialog modal-dialog-centered mw-650px">
+										<!--begin::Modal content-->
+										<div class="modal-content">
+											<!--begin::Form-->
+											<form class="form fv-plugins-bootstrap5 fv-plugins-framework" action="#" id="kt_modal_add_customer_form" data-kt-redirect="../../demo1/dist/apps/customers/list.html">
 												<!--begin::Modal header-->
-												<div class="modal-header">
+												<div class="modal-header" id="kt_modal_add_customer_header">
 													<!--begin::Modal title-->
-													<h2 class="fw-bold">Export Customers</h2>
+													<h2 class="fw-bold">Add a Customer</h2>
 													<!--end::Modal title-->
 													<!--begin::Close-->
-													<div id="kt_customers_export_close" class="btn btn-icon btn-sm btn-active-icon-primary">
+													<div id="kt_modal_add_customer_close" class="btn btn-icon btn-sm btn-active-icon-primary">
 														<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
 														<span class="svg-icon svg-icon-1">
 															<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1130,124 +1103,330 @@
 												</div>
 												<!--end::Modal header-->
 												<!--begin::Modal body-->
-												<div class="modal-body scroll-y mx-5 mx-xl-15 my-7">
-													<!--begin::Form-->
-													<form id="kt_customers_export_form" class="form fv-plugins-bootstrap5 fv-plugins-framework" action="#">
+												<div class="modal-body py-10 px-lg-17">
+													<!--begin::Scroll-->
+													<div class="scroll-y me-n7 pe-7" id="kt_modal_add_customer_scroll" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-max-height="auto" data-kt-scroll-dependencies="#kt_modal_add_customer_header" data-kt-scroll-wrappers="#kt_modal_add_customer_scroll" data-kt-scroll-offset="300px" style="max-height: 374px;">
 														<!--begin::Input group-->
-														<div class="fv-row mb-10">
+														<div class="fv-row mb-7 fv-plugins-icon-container">
 															<!--begin::Label-->
-															<label class="fs-5 fw-semibold form-label mb-5">Select Export Format:</label>
+															<label class="required fs-6 fw-semibold mb-2">Name</label>
 															<!--end::Label-->
 															<!--begin::Input-->
-															<select data-control="select2" data-placeholder="Select a format" data-hide-search="true" name="format" class="form-select form-select-solid select2-hidden-accessible" data-select2-id="select2-data-16-1ayb" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
-																<option value="excell" data-select2-id="select2-data-18-6b92">Excel</option>
-																<option value="pdf">PDF</option>
-																<option value="cvs">CVS</option>
-																<option value="zip">ZIP</option>
-															</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-17-487v" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-format-t6-container" aria-controls="select2-format-t6-container"><span class="select2-selection__rendered" id="select2-format-t6-container" role="textbox" aria-readonly="true" title="Excel">Excel</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+															<input type="text" class="form-control form-control-solid" placeholder="" name="name" value="Sean Bean">
 															<!--end::Input-->
+															<div class="fv-plugins-message-container invalid-feedback"></div>
 														</div>
 														<!--end::Input group-->
 														<!--begin::Input group-->
-														<div class="fv-row mb-10 fv-plugins-icon-container">
+														<div class="fv-row mb-7 fv-plugins-icon-container">
 															<!--begin::Label-->
-															<label class="fs-5 fw-semibold form-label mb-5">Select Date Range:</label>
+															<label class="fs-6 fw-semibold mb-2">
+																<span class="required">Email</span>
+																<i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" aria-label="Email address must be active" data-bs-original-title="Email address must be active" data-kt-initialized="1"></i>
+															</label>
 															<!--end::Label-->
 															<!--begin::Input-->
-															<input class="form-control form-control-solid flatpickr-input" placeholder="Pick a date" name="date" type="hidden"><input class="form-control form-control-solid form-control input" placeholder="Pick a date" tabindex="0" type="text" readonly="readonly">
+															<input type="email" class="form-control form-control-solid" placeholder="" name="email" value="sean@dellito.com">
 															<!--end::Input-->
-														<div class="fv-plugins-message-container invalid-feedback"></div></div>
+															<div class="fv-plugins-message-container invalid-feedback"></div>
+														</div>
 														<!--end::Input group-->
-														<!--begin::Row-->
-														<div class="row fv-row mb-15">
+														<!--begin::Input group-->
+														<div class="fv-row mb-15">
 															<!--begin::Label-->
-															<label class="fs-5 fw-semibold form-label mb-5">Payment Type:</label>
+															<label class="fs-6 fw-semibold mb-2">Description</label>
 															<!--end::Label-->
-															<!--begin::Radio group-->
-															<div class="d-flex flex-column">
-																<!--begin::Radio button-->
-																<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
-																	<input class="form-check-input" type="checkbox" value="1" checked="checked" name="payment_type">
-																	<span class="form-check-label text-gray-600 fw-semibold">All</span>
+															<!--begin::Input-->
+															<input type="text" class="form-control form-control-solid" placeholder="" name="description">
+															<!--end::Input-->
+														</div>
+														<!--end::Input group-->
+														<!--begin::Billing toggle-->
+														<div class="fw-bold fs-3 rotate collapsible mb-7" data-bs-toggle="collapse" href="#kt_modal_add_customer_billing_info" role="button" aria-expanded="false" aria-controls="kt_customer_view_details">Shipping Information
+															<span class="ms-2 rotate-180">
+																<!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+																<span class="svg-icon svg-icon-3">
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+																	</svg>
+																</span>
+																<!--end::Svg Icon-->
+															</span>
+														</div>
+														<!--end::Billing toggle-->
+														<!--begin::Billing form-->
+														<div id="kt_modal_add_customer_billing_info" class="collapse show">
+															<!--begin::Input group-->
+															<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
+																<!--begin::Label-->
+																<label class="required fs-6 fw-semibold mb-2">Address Line 1</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<input class="form-control form-control-solid" placeholder="" name="address1" value="101, Collins Street">
+																<!--end::Input-->
+																<div class="fv-plugins-message-container invalid-feedback"></div>
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="d-flex flex-column mb-7 fv-row">
+																<!--begin::Label-->
+																<label class="fs-6 fw-semibold mb-2">Address Line 2</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<input class="form-control form-control-solid" placeholder="" name="address2" value="">
+																<!--end::Input-->
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
+																<!--begin::Label-->
+																<label class="required fs-6 fw-semibold mb-2">Town</label>
+																<!--end::Label-->
+																<!--begin::Input-->
+																<input class="form-control form-control-solid" placeholder="" name="city" value="Melbourne">
+																<!--end::Input-->
+																<div class="fv-plugins-message-container invalid-feedback"></div>
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="row g-9 mb-7">
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<!--begin::Label-->
+																	<label class="required fs-6 fw-semibold mb-2">State / Province</label>
+																	<!--end::Label-->
+																	<!--begin::Input-->
+																	<input class="form-control form-control-solid" placeholder="" name="state" value="Victoria">
+																	<!--end::Input-->
+																	<div class="fv-plugins-message-container invalid-feedback"></div>
+																</div>
+																<!--end::Col-->
+																<!--begin::Col-->
+																<div class="col-md-6 fv-row fv-plugins-icon-container">
+																	<!--begin::Label-->
+																	<label class="required fs-6 fw-semibold mb-2">Post Code</label>
+																	<!--end::Label-->
+																	<!--begin::Input-->
+																	<input class="form-control form-control-solid" placeholder="" name="postcode" value="3000">
+																	<!--end::Input-->
+																	<div class="fv-plugins-message-container invalid-feedback"></div>
+																</div>
+																<!--end::Col-->
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="d-flex flex-column mb-7 fv-row fv-plugins-icon-container">
+																<!--begin::Label-->
+																<label class="fs-6 fw-semibold mb-2">
+																	<span class="required">Country</span>
+																	<i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" aria-label="Country of origination" data-bs-original-title="Country of origination" data-kt-initialized="1"></i>
 																</label>
-																<!--end::Radio button-->
-																<!--begin::Radio button-->
-																<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
-																	<input class="form-check-input" type="checkbox" value="2" checked="checked" name="payment_type">
-																	<span class="form-check-label text-gray-600 fw-semibold">Visa</span>
-																</label>
-																<!--end::Radio button-->
-																<!--begin::Radio button-->
-																<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
-																	<input class="form-check-input" type="checkbox" value="3" name="payment_type">
-																	<span class="form-check-label text-gray-600 fw-semibold">Mastercard</span>
-																</label>
-																<!--end::Radio button-->
-																<!--begin::Radio button-->
-																<label class="form-check form-check-custom form-check-sm form-check-solid">
-																	<input class="form-check-input" type="checkbox" value="4" name="payment_type">
-																	<span class="form-check-label text-gray-600 fw-semibold">American Express</span>
-																</label>
-																<!--end::Radio button-->
+																<!--end::Label-->
+																<!--begin::Input-->
+																<span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-14-qv6p" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid fw-bold" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-country-7s-container" aria-controls="select2-country-7s-container"><span class="select2-selection__rendered" id="select2-country-7s-container" role="textbox" aria-readonly="true" title="United States">United States</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+																<!--end::Input-->
+																<div class="fv-plugins-message-container invalid-feedback"></div>
+															</div>
+															<!--end::Input group-->
+															<!--begin::Input group-->
+															<div class="fv-row mb-7">
+																<!--begin::Wrapper-->
+																<div class="d-flex flex-stack">
+																	<!--begin::Label-->
+																	<div class="me-5">
+																		<!--begin::Label-->
+																		<label class="fs-6 fw-semibold">Use as a billing adderess?</label>
+																		<!--end::Label-->
+																		<!--begin::Input-->
+																		<div class="fs-7 fw-semibold text-muted">If you need more info, please check budget planning</div>
+																		<!--end::Input-->
+																	</div>
+																	<!--end::Label-->
+																	<!--begin::Switch-->
+																	<label class="form-check form-switch form-check-custom form-check-solid">
+																		<!--begin::Input-->
+																		<input class="form-check-input" name="billing" type="checkbox" value="1" id="kt_modal_add_customer_billing" checked="checked">
+																		<!--end::Input-->
+																		<!--begin::Label-->
+																		<span class="form-check-label fw-semibold text-muted" for="kt_modal_add_customer_billing">Yes</span>
+																		<!--end::Label-->
+																	</label>
+																	<!--end::Switch-->
+																</div>
+																<!--begin::Wrapper-->
 															</div>
 															<!--end::Input group-->
 														</div>
-														<!--end::Row-->
-														<!--begin::Actions-->
-														<div class="text-center">
-															<button type="reset" id="kt_customers_export_cancel" class="btn btn-light me-3">Discard</button>
-															<button type="submit" id="kt_customers_export_submit" class="btn btn-primary">
-																<span class="indicator-label">Submit</span>
-																<span class="indicator-progress">Please wait...
-																<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
-															</button>
-														</div>
-														<!--end::Actions-->
-													</form>
-													<!--end::Form-->
+														<!--end::Billing form-->
+													</div>
+													<!--end::Scroll-->
 												</div>
 												<!--end::Modal body-->
-											</div>
-											<!--end::Modal content-->
+												<!--begin::Modal footer-->
+												<div class="modal-footer flex-center">
+													<!--begin::Button-->
+													<button type="reset" id="kt_modal_add_customer_cancel" class="btn btn-light me-3">Discard</button>
+													<!--end::Button-->
+													<!--begin::Button-->
+													<button type="submit" id="kt_modal_add_customer_submit" class="btn btn-primary">
+														<span class="indicator-label">Submit</span>
+														<span class="indicator-progress">Please wait...
+															<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+													</button>
+													<!--end::Button-->
+												</div>
+												<!--end::Modal footer-->
+											</form>
+											<!--end::Form-->
 										</div>
-										<!--end::Modal dialog-->
 									</div>
-									<!--end::Modal - New Card-->
-									<!--end::Modals-->
 								</div>
-								<!--end::Content container-->
-							</div>
-							<!--end::Content-->
-						</div>
-						<!--end::Content wrapper-->
-						<!--begin::Footer-->
-						<div id="kt_app_footer" class="app-footer">
-							<!--begin::Footer container-->
-							<div class="app-container container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3">
-								<!--begin::Copyright-->
-								<div class="text-dark order-2 order-md-1">
-									<span class="text-muted fw-semibold me-1">2023©</span>
-									<a href="https://keenthemes.com" target="_blank" class="text-gray-800 text-hover-primary">Keenthemes</a>
+								<!--end::Modal - Customers - Add-->
+								<!--begin::Modal - Adjust Balance-->
+								<div class="modal fade" id="kt_customers_export_modal" tabindex="-1" aria-hidden="true">
+									<!--begin::Modal dialog-->
+									<div class="modal-dialog modal-dialog-centered mw-650px">
+										<!--begin::Modal content-->
+										<div class="modal-content">
+											<!--begin::Modal header-->
+											<div class="modal-header">
+												<!--begin::Modal title-->
+												<h2 class="fw-bold">Export Customers</h2>
+												<!--end::Modal title-->
+												<!--begin::Close-->
+												<div id="kt_customers_export_close" class="btn btn-icon btn-sm btn-active-icon-primary">
+													<!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+													<span class="svg-icon svg-icon-1">
+														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="currentColor"></rect>
+															<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="currentColor"></rect>
+														</svg>
+													</span>
+													<!--end::Svg Icon-->
+												</div>
+												<!--end::Close-->
+											</div>
+											<!--end::Modal header-->
+											<!--begin::Modal body-->
+											<div class="modal-body scroll-y mx-5 mx-xl-15 my-7">
+												<!--begin::Form-->
+												<form id="kt_customers_export_form" class="form fv-plugins-bootstrap5 fv-plugins-framework" action="#">
+													<!--begin::Input group-->
+													<div class="fv-row mb-10">
+														<!--begin::Label-->
+														<label class="fs-5 fw-semibold form-label mb-5">Select Export Format:</label>
+														<!--end::Label-->
+														<!--begin::Input-->
+														<select data-control="select2" data-placeholder="Select a format" data-hide-search="true" name="format" class="form-select form-select-solid select2-hidden-accessible" data-select2-id="select2-data-16-1ayb" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
+															<option value="excell" data-select2-id="select2-data-18-6b92">Excel</option>
+															<option value="pdf">PDF</option>
+															<option value="cvs">CVS</option>
+															<option value="zip">ZIP</option>
+														</select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-17-487v" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-solid" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-format-t6-container" aria-controls="select2-format-t6-container"><span class="select2-selection__rendered" id="select2-format-t6-container" role="textbox" aria-readonly="true" title="Excel">Excel</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+														<!--end::Input-->
+													</div>
+													<!--end::Input group-->
+													<!--begin::Input group-->
+													<div class="fv-row mb-10 fv-plugins-icon-container">
+														<!--begin::Label-->
+														<label class="fs-5 fw-semibold form-label mb-5">Select Date Range:</label>
+														<!--end::Label-->
+														<!--begin::Input-->
+														<input class="form-control form-control-solid flatpickr-input" placeholder="Pick a date" name="date" type="hidden"><input class="form-control form-control-solid form-control input" placeholder="Pick a date" tabindex="0" type="text" readonly="readonly">
+														<!--end::Input-->
+														<div class="fv-plugins-message-container invalid-feedback"></div>
+													</div>
+													<!--end::Input group-->
+													<!--begin::Row-->
+													<div class="row fv-row mb-15">
+														<!--begin::Label-->
+														<label class="fs-5 fw-semibold form-label mb-5">Payment Type:</label>
+														<!--end::Label-->
+														<!--begin::Radio group-->
+														<div class="d-flex flex-column">
+															<!--begin::Radio button-->
+															<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
+																<input class="form-check-input" type="checkbox" value="1" checked="checked" name="payment_type">
+																<span class="form-check-label text-gray-600 fw-semibold">All</span>
+															</label>
+															<!--end::Radio button-->
+															<!--begin::Radio button-->
+															<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
+																<input class="form-check-input" type="checkbox" value="2" checked="checked" name="payment_type">
+																<span class="form-check-label text-gray-600 fw-semibold">Visa</span>
+															</label>
+															<!--end::Radio button-->
+															<!--begin::Radio button-->
+															<label class="form-check form-check-custom form-check-sm form-check-solid mb-3">
+																<input class="form-check-input" type="checkbox" value="3" name="payment_type">
+																<span class="form-check-label text-gray-600 fw-semibold">Mastercard</span>
+															</label>
+															<!--end::Radio button-->
+															<!--begin::Radio button-->
+															<label class="form-check form-check-custom form-check-sm form-check-solid">
+																<input class="form-check-input" type="checkbox" value="4" name="payment_type">
+																<span class="form-check-label text-gray-600 fw-semibold">American Express</span>
+															</label>
+															<!--end::Radio button-->
+														</div>
+														<!--end::Input group-->
+													</div>
+													<!--end::Row-->
+													<!--begin::Actions-->
+													<div class="text-center">
+														<button type="reset" id="kt_customers_export_cancel" class="btn btn-light me-3">Discard</button>
+														<button type="submit" id="kt_customers_export_submit" class="btn btn-primary">
+															<span class="indicator-label">Submit</span>
+															<span class="indicator-progress">Please wait...
+																<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+														</button>
+													</div>
+													<!--end::Actions-->
+												</form>
+												<!--end::Form-->
+											</div>
+											<!--end::Modal body-->
+										</div>
+										<!--end::Modal content-->
+									</div>
+									<!--end::Modal dialog-->
 								</div>
-								<!--end::Copyright-->
-								<!--begin::Menu-->
-								<ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
-									<li class="menu-item">
-										<a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
-									</li>
-									<li class="menu-item">
-										<a href="https://devs.keenthemes.com" target="_blank" class="menu-link px-2">Support</a>
-									</li>
-									<li class="menu-item">
-										<a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
-									</li>
-								</ul>
-								<!--end::Menu-->
+								<!--end::Modal - New Card-->
+								<!--end::Modals-->
 							</div>
-							<!--end::Footer container-->
+							<!--end::Content container-->
 						</div>
-						<!--end::Footer-->
+						<!--end::Content-->
 					</div>
+					<!--end::Content wrapper-->
+					<!--begin::Footer-->
+					<div id="kt_app_footer" class="app-footer">
+						<!--begin::Footer container-->
+						<div class="app-container container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3">
+							<!--begin::Copyright-->
+							<div class="text-dark order-2 order-md-1">
+								<span class="text-muted fw-semibold me-1">2023©</span>
+								<a href="https://keenthemes.com" target="_blank" class="text-gray-800 text-hover-primary">Keenthemes</a>
+							</div>
+							<!--end::Copyright-->
+							<!--begin::Menu-->
+							<ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
+								<li class="menu-item">
+									<a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
+								</li>
+								<li class="menu-item">
+									<a href="https://devs.keenthemes.com" target="_blank" class="menu-link px-2">Support</a>
+								</li>
+								<li class="menu-item">
+									<a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
+								</li>
+							</ul>
+							<!--end::Menu-->
+						</div>
+						<!--end::Footer container-->
+					</div>
+					<!--end::Footer-->
+				</div>
 				<!--end:::Main-->
 			</div>
 			<!--end::Wrapper-->
@@ -5165,37 +5344,37 @@
 	<script src="<?php echo base_url() ?>assets/js/custom/utilities/modals/users-search.js"></script>
 	<!--end::Custom Javascript-->
 	<script>
-                $(document).ready(function() {
-                    // Time function start
-                    function t() {
-                        var current_date = new Date();
-                        document.getElementById('timeNow').innerHTML = '<b>' + current_date.getFullYear() + "-" + (((current_date.getMonth() + 1) < 10 ? '0' : '') + (current_date.getMonth() + 1)) + "-" + current_date.getDate() + " " + current_date.getHours() + ":" + ((current_date.getMinutes() < 10 ? '0' : '') + current_date.getMinutes()) + ":" + ((current_date.getSeconds() < 10 ? '0' : '') + current_date.getSeconds()) + '</b>';
-                        // document.getElementById('time').innerHTML = '<b>' + current_date.getFullYear() + "-" + (((current_date.getMonth() + 1) < 10 ? '0' : '') + (current_date.getMonth() + 1)) + "-" + current_date.getDate() + " " + current_date.getHours() + ":" + ((current_date.getMinutes() < 10 ? '0' : '') + current_date.getMinutes()) + ":" + ((current_date.getSeconds() < 10 ? '0' : '') + current_date.getSeconds()) + '</b>';
-                    }
-                    t();
-                    window.setInterval(t, 1000);
-                    // Time function end
-                    function s() {
-                        var today_date = new Date();
-                        document.getElementById('time').innerHTML = '<b>' + today_date.getFullYear() + "-" + (((today_date.getMonth() + 1) < 10 ? '0' : '') + (today_date.getMonth() + 1)) + "-" + today_date.getDate() + " " + today_date.getHours() + ":" + ((today_date.getMinutes() < 10 ? '0' : '') + today_date.getMinutes()) + ":" + ((today_date.getSeconds() < 10 ? '0' : '') + today_date.getSeconds()) + '</b>';
-                    }
-                    s();
-                    window.setInterval(s, 1000);
+		$(document).ready(function() {
+			// Time function start
+			function t() {
+				var current_date = new Date();
+				document.getElementById('timeNow').innerHTML = '<b>' + current_date.getFullYear() + "-" + (((current_date.getMonth() + 1) < 10 ? '0' : '') + (current_date.getMonth() + 1)) + "-" + current_date.getDate() + " " + current_date.getHours() + ":" + ((current_date.getMinutes() < 10 ? '0' : '') + current_date.getMinutes()) + ":" + ((current_date.getSeconds() < 10 ? '0' : '') + current_date.getSeconds()) + '</b>';
+				// document.getElementById('time').innerHTML = '<b>' + current_date.getFullYear() + "-" + (((current_date.getMonth() + 1) < 10 ? '0' : '') + (current_date.getMonth() + 1)) + "-" + current_date.getDate() + " " + current_date.getHours() + ":" + ((current_date.getMinutes() < 10 ? '0' : '') + current_date.getMinutes()) + ":" + ((current_date.getSeconds() < 10 ? '0' : '') + current_date.getSeconds()) + '</b>';
+			}
+			t();
+			window.setInterval(t, 1000);
+			// Time function end
+			function s() {
+				var today_date = new Date();
+				document.getElementById('time').innerHTML = '<b>' + today_date.getFullYear() + "-" + (((today_date.getMonth() + 1) < 10 ? '0' : '') + (today_date.getMonth() + 1)) + "-" + today_date.getDate() + " " + today_date.getHours() + ":" + ((today_date.getMinutes() < 10 ? '0' : '') + today_date.getMinutes()) + ":" + ((today_date.getSeconds() < 10 ? '0' : '') + today_date.getSeconds()) + '</b>';
+			}
+			s();
+			window.setInterval(s, 1000);
 
-                    $('#btnCheckIn').click(function() {
-                        var element = document.getElementById("btnCheckIn");
-                        element.style.display = "none";
-                        var checkOut = document.getElementById("btnCheckout");
-                        checkOut.style.display = "block";
-                    });
-                    $('#btnCheckout').click(function() {
-                        var element = document.getElementById("btnCheckIn");
-                        element.style.display = "block";
-                        var checkOut = document.getElementById("btnCheckout");
-                        checkOut.style.display = "none";
-                    });
-                });
-            </script>
+			$('#btnCheckIn').click(function() {
+				var element = document.getElementById("btnCheckIn");
+				element.style.display = "none";
+				var checkOut = document.getElementById("btnCheckout");
+				checkOut.style.display = "block";
+			});
+			$('#btnCheckout').click(function() {
+				var element = document.getElementById("btnCheckIn");
+				element.style.display = "block";
+				var checkOut = document.getElementById("btnCheckout");
+				checkOut.style.display = "none";
+			});
+		});
+	</script>
 	<!--end::Javascript-->
 </body>
 <!--end::Body-->

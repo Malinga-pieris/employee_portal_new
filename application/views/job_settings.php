@@ -4,7 +4,7 @@
 
 <head>
 	<base href="../" />
-	<title>Onboarding - Employee Portal</title>
+	<title>Settings - Employee Portal</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="The most advanced Bootstrap 5 Admin Theme with 40 unique prebuilt layouts on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel versions. Grab your copy now and get life-time updates for free." />
 	<meta name="keywords" content="metronic, bootstrap, bootstrap 5, angular, VueJs, React, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel starter kits, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
@@ -70,7 +70,7 @@
 								<!--begin::Page title-->
 								<div class="page-title d-flex flex-column justify-content-center flex-wrap me-3">
 									<!--begin::Title-->
-									<h1 class="page-heading d-flex text-dark fw-bold fs-1 flex-column justify-content-center my-0">Onboarding</h1>
+									<h1 class="page-heading d-flex text-dark fw-bold fs-1 flex-column justify-content-center my-0">Settings</h1>
 									<!--end::Title-->
 									<!--begin::Breadcrumb-->
 									<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
@@ -85,7 +85,7 @@
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">Onboarding</li>
+										<li class="breadcrumb-item text-muted">Settings</li>
 										<!--end::Item-->
 									</ul>
 									<!--end::Breadcrumb-->
@@ -209,51 +209,24 @@
 												<li class="nav-item" role="presentation">
 													<a class="nav-link text-active-primary pb-5 active" data-bs-toggle="tab" href="#kt_ecommerce_settings_general" aria-selected="true" role="tab">
 														<!--begin::Svg Icon | path: icons/duotune/general/gen001.svg-->
-														<!--end::Svg Icon-->Basic</a>
+														<!--end::Svg Icon-->General</a>
 												</li>
 												<!--end:::Tab item-->
 												<!--begin:::Tab item-->
 												<li class="nav-item" role="presentation">
 													<a class="nav-link text-active-primary pb-5" data-bs-toggle="tab" href="#kt_ecommerce_settings_store" aria-selected="false" role="tab" tabindex="-1">
 														<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm004.svg-->
-														Compensation</a>
+														Team</a>
 												</li>
 												<!--end:::Tab item-->
 												<!--begin:::Tab item-->
 												<li class="nav-item" role="presentation">
 													<a class="nav-link text-active-primary pb-5" data-bs-toggle="tab" href="#kt_ecommerce_settings_localization" aria-selected="false" role="tab" tabindex="-1">
 														<!--begin::Svg Icon | path: icons/duotune/maps/map004.svg-->
-														Timeoff</a>
+														Profile</a>
 												</li>
 												<!--end:::Tab item-->
-												<!--begin:::Tab item-->
-												<li class="nav-item" role="presentation">
-													<a class="nav-link text-active-primary pb-5" data-bs-toggle="tab" href="#kt_ecommerce_settings_products" aria-selected="false" role="tab" tabindex="-1">
-														<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm005.svg-->
-														Custom Feilds</a>
-												</li>
-												<!--end:::Tab item-->
-												<!--begin:::Tab item-->
-												<li class="nav-item" role="presentation">
-													<a class="nav-link text-active-primary pb-5" data-bs-toggle="tab" href="#kt_ecommerce_settings_customers" aria-selected="false" role="tab" tabindex="-1">
-														<!--begin::Svg Icon | path: icons/duotune/communication/com014.svg-->
-														Documents</a>
-												</li>
-												<!--end:::Tab item-->
-												<!--begin:::Tab item-->
-												<li class="nav-item" role="presentation">
-													<a class="nav-link text-active-primary pb-5" data-bs-toggle="tab" href="#kt_ecommerce_settings_customers" aria-selected="false" role="tab" tabindex="-1">
-														<!--begin::Svg Icon | path: icons/duotune/communication/com014.svg-->
-														Approvers</a>
-												</li>
-												<!--end:::Tab item-->
-												<!--begin:::Tab item-->
-												<li class="nav-item" role="presentation">
-													<a class="nav-link text-active-primary pb-5" data-bs-toggle="tab" href="#kt_ecommerce_settings_customers" aria-selected="false" role="tab" tabindex="-1">
-														<!--begin::Svg Icon | path: icons/duotune/communication/com014.svg-->
-														Welcome Notes</a>
-												</li>
-												<!--end:::Tab item-->
+												
 											</ul>
 											<!--end:::Tabs-->
 											<!--begin:::Tab content-->
